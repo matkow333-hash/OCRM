@@ -14,7 +14,11 @@ declare global {
 
 function create(): Client {
   const url = process.env.DATABASE_URL;
-  if (!url) throw new Error("Brak DATABASE_URL w zmiennych środowiskowych.");
+  if (!url) {
+    throw new Error(
+      "Brak DATABASE_URL. Ustaw ją w Vercel → Settings → Environment Variables i wdróż ponownie.",
+    );
+  }
   const ssl = url.includes("sslmode=disable") ? false : ("require" as const);
   return postgres(url, { ssl, max: 3, idle_timeout: 20, prepare: false });
 }

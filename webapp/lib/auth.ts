@@ -11,7 +11,9 @@ const MAX_AGE = 60 * 60 * 24 * 30;
 async function hmac(value: string): Promise<string> {
   const secret = process.env.OCRM_SESSION_SECRET;
   if (!secret || secret.length < 16) {
-    throw new Error("OCRM_SESSION_SECRET musi mieć co najmniej 16 znaków.");
+    throw new Error(
+      "Brak OCRM_SESSION_SECRET (min. 16 znaków). Ustaw ją w Vercel → Settings → Environment Variables.",
+    );
   }
   const key = await crypto.subtle.importKey(
     "raw",
@@ -50,7 +52,9 @@ export async function isAuthenticated(): Promise<boolean> {
 
 export async function signIn(pin: string): Promise<boolean> {
   const expected = process.env.OCRM_PIN;
-  if (!expected) throw new Error("Brak OCRM_PIN w zmiennych środowiskowych.");
+  if (!expected) {
+    throw new Error("Brak OCRM_PIN. Ustaw go w Vercel → Settings → Environment Variables.");
+  }
   if (!timingSafeEqual(pin.trim(), expected)) return false;
   const jar = await cookies();
   jar.set(COOKIE, await sessionValue(), {

@@ -5,6 +5,7 @@
  */
 
 import { useCallback, useEffect, useState } from "react";
+import { readJson } from "@/lib/api";
 
 type Lead = {
   id: number;
@@ -41,8 +42,7 @@ export default function LeadsView() {
   const load = useCallback(async () => {
     try {
       const response = await fetch("/api/leads", { cache: "no-store" });
-      if (!response.ok) throw new Error("Nie udało się pobrać leadów.");
-      const { data } = await response.json();
+      const data = await readJson<{ items: Lead[] }>(response, "Nie udało się pobrać leadów.");
       setLeads(data.items);
       setError(null);
     } catch (problem) {
@@ -84,10 +84,7 @@ export default function LeadsView() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify(body),
       });
-      if (!response.ok) {
-        const parsed = await response.json().catch(() => ({}));
-        throw new Error(parsed.error ?? "Nie udało się zapisać.");
-      }
+      await readJson<unknown>(response, "Nie udało się zapisać.");
       await load();
     } catch (problem) {
       setError(problem instanceof Error ? problem.message : "Błąd zapisu.");

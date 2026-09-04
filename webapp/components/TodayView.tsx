@@ -7,6 +7,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { TodayItem } from "@/lib/scoring";
+import { readJson } from "@/lib/api";
 
 type Counter = { made: number; target: number; meetings: number };
 
@@ -28,8 +29,10 @@ export default function TodayView() {
   const load = useCallback(async () => {
     try {
       const response = await fetch("/api/today", { cache: "no-store" });
-      if (!response.ok) throw new Error("Nie udało się pobrać listy.");
-      const { data } = await response.json();
+      const data = await readJson<{ items: TodayItem[]; counter: Counter }>(
+        response,
+        "Nie udało się pobrać listy.",
+      );
       setItems(data.items);
       setCounter(data.counter);
       setError(null);
@@ -54,7 +57,7 @@ export default function TodayView() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ outcome, opener_used: item.opener }),
       });
-      if (!response.ok) throw new Error("Nie udało się zapisać wyniku.");
+      await readJson<unknown>(response, "Nie udało się zapisać wyniku.");
     } catch (problem) {
       setCounter((current) => ({ ...current, made: Math.max(0, current.made - 1) }));
       setDone((current) => {
