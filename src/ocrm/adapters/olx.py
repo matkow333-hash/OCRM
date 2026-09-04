@@ -1,8 +1,29 @@
 """Adapter OLX: wyszukiwarka mieszkań od osób prywatnych w Trójmieście.
 
-Zwraca iterator RawListing z list wyników (sprzedaż i wynajem, miasto po mieście, strona po stronie).
-Parsowanie idzie najpierw po stanie JSON osadzonym w stronie, a gdy go nie ma - po strukturze DOM.
+Zwraca iterator RawListing z list wyników (sprzedaż i wynajem, miasto po mieście, partia po partii).
+Dane idą z publicznego API OLX /api/v1/offers/, pobieranego przeglądarką przez BrowserFetcher.
 Numer telefonu odsłania Playwright, opcjonalnie, wyłącznie na stronie oferty.
+
+DLACZEGO API, A NIE HTML. Zmierzone na żywym OLX 4 września 2026, po tym jak pierwsza wersja
+tego adaptera nie zwracała ani jednego ogłoszenia:
+
+- strona wyników nie niesie ogłoszeń w treści; window.__PRERENDERED_STATE__ zawiera wyłącznie
+  drzewo kategorii, window.__TAURUS__ jest pustą tablicą, a znaczników data-cy="l-card"
+  i data-testid="l-card" nie ma w dokumencie ani razu — lista dorenderowuje się po stronie
+  klienta, więc parser HTML nie miał czego parsować,
+- /robots.txt OLX-a jawnie dopuszcza /api/v1/offers/ (Disallow: /api/ z późniejszym
+  Allow: /api/v1/offers/), a więc to droga przewidziana przez serwis, nie obejście,
+- odpowiedź API niesie komplet pól, których potrzebujemy — cenę, metraż, liczbę pokoi,
+  piętro, dzielnicę, opis i flagę business — w jednym zapytaniu na partię ogłoszeń.
+  Wejście na stronę każdej oferty przestaje być potrzebne do czegokolwiek poza numerem.
+
+Funkcje parsujące HTML (parse_search_page, parse_offer_page i ich pomocnicy) zostają, bo
+z nich korzysta wzbogacanie oferty i dają awaryjne wyjście, gdyby API przestało odpowiadać.
+Nie są jednak drogą główną i nie były w stanie nią być.
+
+CO JEST ZMIERZONE, A CO ZAŁOŻONE. Identyfikatory poniżej pochodzą z odpowiedzi API, nie
+z dokumentacji — OLX żadnej nie publikuje. Sprawdzenie przy zmianie zachowania: pole
+metadata.adverts.config.targeting w odpowiedzi podaje nazwę kategorii wprost.
 """
 
 from __future__ import annotations
@@ -18,12 +39,22 @@ from ..config import SearchConfig
 from ..models import RawListing
 from ..normalize import fold
 from .base import Blocked, Fetcher
+from .browser import BrowserFetcher
 
 BASE_URL = "https://www.olx.pl"
 CATEGORY_PATH = {
     "sale": "/nieruchomosci/mieszkania/sprzedaz/",
     "rent": "/nieruchomosci/mieszkania/wynajem/",
 }
+
+API_PATH = "/api/v1/offers/"
+API_PAGE = 40
+
+CATEGORY_ID = {"sale": 14, "rent": 15}
+
+CITY_ID = {"gdansk": 5659, "gdynia": 5849, "sopot": 15983}
+
+REGION_ID_POMORSKIE = 5
 STATE_MARKERS = ("window.__PRERENDERED_STATE__=", "__PRERENDERED_STATE__ =", "__NEXT_DATA__")
 PRIVATE_LABELS = ("osoba prywatna", "prywatne", "private")
 BUSINESS_LABELS = ("firma", "business", "biuro", "deweloper")
@@ -45,13 +76,13 @@ _FLOOR_HINT = re.compile(r"piętro|parter|suterena", re.IGNORECASE)
 class OlxAdapter:
     name = "olx"
 
-    def __init__(self, fetcher: Fetcher | None = None, phone_reader=None) -> None:
+    def __init__(self, fetcher=None, phone_reader=None) -> None:
         self._fetcher = fetcher
         self._phone_reader = phone_reader
         self.pages_fetched = 0
 
     def search(self, cfg: SearchConfig) -> Iterator[RawListing]:
-        fetcher = self._fetcher or Fetcher(cfg.user_agent, cfg.delay_seconds)
+        fetcher = self._fetcher or BrowserFetcher(cfg.user_agent, cfg.delay_seconds)
         owns_fetcher = self._fetcher is None
         phone_reader = self._phone_reader
         if phone_reader is None and cfg.fetch_phones:
@@ -61,9 +92,8 @@ class OlxAdapter:
             for deal_type in cfg.deal_types:
                 for city in cfg.cities:
                     for raw in self._search_city(fetcher, cfg, deal_type, city, seen):
-                        if cfg.fetch_details:
-                            self._enrich(fetcher, raw)
-                        if cfg.fetch_phones and not raw.phone_raw and phone_reader is not None:
+                        if cfg.fetch_phones and not raw.phone_raw and raw.extra.get("has_phone") \
+                                and phone_reader is not None:
                             raw.phone_raw = phone_reader.read(raw.url)
                         yield raw
         finally:
@@ -74,17 +104,26 @@ class OlxAdapter:
 
     def _search_city(
         self,
-        fetcher: Fetcher,
+        fetcher,
         cfg: SearchConfig,
         deal_type: str,
         city: str,
         seen: set[str],
     ) -> Iterator[RawListing]:
-        for page in range(1, cfg.max_pages + 1):
-            url = build_search_url(deal_type, city, cfg, page)
-            html = fetcher.get(url)
+        """Partia po partii, aż do wyczerpania wyników albo limitu z konfiguracji.
+        Limit liczony jest w partiach po API_PAGE ogłoszeń, a nie w stronach portalu —
+        max_pages_per_source znaczy więc tyle samo co wcześniej: ile razy sięgamy do źródła.
+
+        Koniec danych poznajemy po liczniku z odpowiedzi, a nie po długości partii.
+        Zmierzone: przy limit=40 API oddaje 51 ogłoszeń, bo dokłada promowane ponad limit —
+        warunek "krótsza partia znaczy koniec" kończyłby zbieranie na pierwszej partii
+        albo nie kończył go wcale."""
+        for page in range(cfg.max_pages):
+            offset = page * API_PAGE
+            path = build_api_path(deal_type, city, cfg, offset=offset)
+            payload = fetcher.get_json(path)
             self.pages_fetched += 1
-            listings = parse_search_page(html, deal_type)
+            listings = parse_api_payload(payload, deal_type)
             if not listings:
                 return
             for raw in listings:
@@ -92,19 +131,8 @@ class OlxAdapter:
                     continue
                 seen.add(raw.source_id)
                 yield raw
-
-    def _enrich(self, fetcher: Fetcher, raw: RawListing) -> None:
-        try:
-            html = fetcher.get(raw.url)
-        except Blocked:
-            raise
-        detail = parse_offer_page(html)
-        raw.description = detail.get("description") or raw.description
-        raw.seller_label = detail.get("seller_label") or raw.seller_label
-        raw.phone_raw = detail.get("phone_raw") or raw.phone_raw
-        raw.area_raw = raw.area_raw or detail.get("area_raw")
-        raw.rooms_raw = raw.rooms_raw or detail.get("rooms_raw")
-        raw.floor_raw = raw.floor_raw or detail.get("floor_raw")
+            if offset + API_PAGE >= _total_count(payload):
+                return
 
 
 def build_search_url(deal_type: str, city: str, cfg: SearchConfig, page: int = 1) -> str:
@@ -123,6 +151,56 @@ def build_search_url(deal_type: str, city: str, cfg: SearchConfig, page: int = 1
         params["page"] = page
     path = f"{CATEGORY_PATH[deal_type]}{fold(city)}/"
     return f"{urljoin(BASE_URL, path)}?{urlencode(params)}"
+
+
+def city_id_for(city: str) -> int | None:
+    return CITY_ID.get(fold(city))
+
+
+def build_api_path(deal_type: str, city: str, cfg: SearchConfig, offset: int = 0) -> str:
+    """Adres partii ogłoszeń. Bez filtra prywatnych: API odrzuca go dla kategorii 14
+    ("Dynamic filters not applicable"), a i tak każda oferta niesie flagę business,
+    po której klasyfikacja robi swoje lepiej niż filtr portalu."""
+    if deal_type not in CATEGORY_ID:
+        raise ValueError(f"Nieznany deal_type: {deal_type}")
+    city_id = city_id_for(city)
+    if city_id is None:
+        raise ValueError(f"Nieznane miasto: {city}. Znane: {', '.join(sorted(CITY_ID))}")
+    limits = cfg.filter_for(deal_type)
+    params = {
+        "offset": offset,
+        "limit": API_PAGE,
+        "category_id": CATEGORY_ID[deal_type],
+        "city_id": city_id,
+        "sort_by": "created_at:desc",
+        "filter_float_price:from": limits.price_min,
+        "filter_float_price:to": limits.price_max,
+        "filter_float_m:from": int(limits.area_min),
+        "filter_float_m:to": int(limits.area_max),
+    }
+    return f"{API_PATH}?{urlencode(params)}"
+
+
+def _total_count(payload: Any) -> int:
+    """Ile ogłoszeń pasuje do zapytania. Brak licznika traktujemy jak nieskończoność,
+    żeby nie urwać zbierania po pierwszej partii, gdy API zmieni kształt odpowiedzi."""
+    if not isinstance(payload, dict):
+        return 1 << 30
+    metadata = payload.get("metadata")
+    if not isinstance(metadata, dict):
+        return 1 << 30
+    total = metadata.get("visible_total_count")
+    return total if isinstance(total, int) else 1 << 30
+
+
+def parse_api_payload(payload: Any, deal_type: str) -> list[RawListing]:
+    if not isinstance(payload, dict):
+        return []
+    ads = payload.get("data")
+    if not isinstance(ads, list):
+        return []
+    listings = [ad_to_raw(ad, deal_type) for ad in ads if isinstance(ad, dict)]
+    return [item for item in listings if item is not None]
 
 
 def parse_search_page(html: str, deal_type: str) -> list[RawListing]:
@@ -220,11 +298,31 @@ def ad_to_raw(ad: dict, deal_type: str) -> RawListing | None:
         rooms_raw=params.get("rooms"),
         floor_raw=params.get("floor_select") or params.get("floor"),
         location_raw=_location_from(location),
-        phone_raw=contact.get("phone") if isinstance(contact, dict) else None,
+        phone_raw=_phone_from_contact(contact),
         seller_label=_seller_label_from(ad),
         posted_at_raw=ad.get("created_time") or ad.get("last_refresh_time"),
     )
+    raw.extra["has_phone"] = _has_phone(contact)
     return raw
+
+
+def _phone_from_contact(contact: Any) -> str | None:
+    """W API OLX contact.phone jest wartością logiczną — mówi, czy numer istnieje,
+    a nie jaki jest. Wpisanie go wprost dawało phone_raw=True i numer 'True' w bazie.
+    Numer da się zdobyć wyłącznie ze strony oferty, po kliknięciu 'Pokaż numer'."""
+    if not isinstance(contact, dict):
+        return None
+    phone = contact.get("phone")
+    if isinstance(phone, bool) or phone is None:
+        return None
+    text = str(phone).strip()
+    return text or None
+
+
+def _has_phone(contact: Any) -> bool:
+    if not isinstance(contact, dict):
+        return False
+    return bool(contact.get("phone"))
 
 
 def _id_from_url(url: str) -> str | None:

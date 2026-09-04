@@ -28,7 +28,7 @@ Do aplikacji trafia tylko to, co już przeszło klasyfikację i deduplikację.
 
 | Warstwa | Wybór | Dlaczego |
 |---|---|---|
-| Skaner | Python 3.11, Playwright, SQLite | zostaje na laptopie, ma dysk i przeglądarkę |
+| Skaner | Python 3.11, Playwright, SQLite | zostaje na laptopie, ma dysk i przeglądarkę — bez przeglądarki OLX odpowiada 403 |
 | Aplikacja | Next.js 16 (App Router), React 19, TypeScript | PWA instalowana na ekranie głównym, bez App Store |
 | Baza aplikacji | Postgres (Neon albo Vercel Postgres) | serverless nie utrzyma pliku SQLite |
 | Transport | `POST /api/ingest`, token Bearer | skaner nie potrzebuje dostępu do bazy |
@@ -39,13 +39,14 @@ Do aplikacji trafia tylko to, co już przeszło klasyfikację i deduplikację.
 | Milestone | Stan |
 |---|---|
 | M0 — szkielet, config, baza, normalizacja | ✔ gotowe |
-| M1a — adapter OLX | ⚠ kod gotowy, **selektory niezweryfikowane na żywym OLX** |
+| M1a — adapter OLX | ✔ zweryfikowany na żywym OLX, chodzi na publicznym API portalu |
 | M1b — klasyfikacja i deduplikacja | ✔ gotowe |
 | M3a — leady i ranking porannej listy | ✔ gotowe |
 | M3b — API i UI na telefon | ✔ gotowe |
 | M4 — otwarcia A/B/C, debrief | ✔ gotowe |
 | M1c — Otodom, Gratka, Morizon | ✘ nie zaczęte |
 | M-notify — wiadomość o 8:00 | ✘ nie zaczęte (brak dostawcy e-mail) |
+| **Numery telefonu** | ⛔ **zablokowane przez OLX — patrz niżej, wymaga decyzji** |
 | M2 — radar popytu | ✘ faza 2 |
 
 ## Uruchomienie skanera (laptop)
@@ -152,30 +153,62 @@ Próg ≤ 3 jest więc trafiony. Na krótkich opisach (< 200 znaków) ten sam po
 czyli reguła i tak by nie zadziałała, a ryzykowałaby sklejeniem różnych mieszkań — dlatego
 krótkie opisy w ogóle nie dostają odcisku i zostają przy regułach 1 i 2.
 
-## Adapter OLX — co jest zgadywane
+## Adapter OLX — co zostało zmierzone
 
-Struktura HTML OLX nie jest kontraktem. Poniższe miejsca powstały na podstawie znanych
-wzorców serwisu i **wymagają weryfikacji na żywym OLX**. Każde ma fallback.
+Weryfikacja na żywym OLX, 4 września 2026. Pierwsza wersja adaptera **nie zwracała ani jednego
+ogłoszenia** i nie mogła: parsowała HTML, którego OLX nie oddaje.
 
-| # | Miejsce | Co zgadnięte | Fallback |
-|---|---|---|---|
-| 1 | Ścieżka kategorii | `/nieruchomosci/mieszkania/sprzedaz/{miasto}/`, `.../wynajem/{miasto}/` | brak — sprawdź jako pierwsze |
-| 2 | Slug miasta | `gdansk`, `sopot`, `gdynia` | brak |
-| 3 | Filtr osób prywatnych | `search[filter_enum_private_business][0]=private` | flaga sprzedawcy z treści oferty |
-| 4 | Filtry zakresów | `search[filter_float_price:from\|to]`, `search[filter_float_m:from\|to]` | filtrowanie po stronie bazy |
-| 5 | Sortowanie od najnowszych | `search[order]=created_at:desc` | kolejność domyślna |
-| 6 | Paginacja | `page=N` | stop na pierwszej pustej stronie |
-| 7 | Stan strony w JS | `window.__PRERENDERED_STATE__` lub `__NEXT_DATA__` | parser DOM |
-| 8 | Miejsce listy w JSON | heurystyka: najdłuższa lista słowników z `id`, `url`, `title` | parser DOM |
-| 9 | Nazwy pól | `params[].key`: `price`, `m`, `rooms`, `floor_select`; `location.*.name`; `business`; `contact.phone` | pole pomijane |
-| 10 | Karta na liście (DOM) | `div[data-cy="l-card"]`, `h4`, `[data-testid="ad-price"]`, `[data-testid="location-date"]` | `div[data-testid="l-card"]`, `h6` |
-| 11 | ID oferty z URL | wzorzec `-ID<alfanumeryczny>.html` | `id` ze stanu JSON |
-| 12 | Strona oferty | `[data-cy="ad_description"]`, `[data-testid="trader-title"]`, `[data-testid="ad-parameters-container"]` | szukanie fraz „osoba prywatna” / „firma” |
-| 13 | Odsłonięcie numeru | `[data-testid="show-phone"]` / „Pokaż numer”, numer w `a[href^="tel:"]` | brak numeru → `phone_e164 = NULL` |
+**Transportem musi być przeglądarka.** OLX stoi za CloudFrontem odrzucającym klientów HTTP.
+`httpx` i `curl` dostają 403 „Request blocked" nawet na `/robots.txt`, z pełnym zestawem
+nagłówków przeglądarki włącznie. To odcisk połączenia, nie nagłówki — nie da się tego obejść
+po stronie klienta HTTP. Chromium sterowany Playwrightem dostaje 200 z tego samego łącza.
 
-Weryfikacja: zapisz jedną stronę wyników i jedną ofertę do `tests/fixtures/`,
-popraw selektory, `python -m pytest tests/test_olx_adapter.py`.
-Fixture'y w repo są syntetyczne — odwzorowują założoną strukturę, nie pobrane strony.
+**Strona wyników nie niesie ogłoszeń.** `window.__PRERENDERED_STATE__` zawiera wyłącznie drzewo
+kategorii, `window.__TAURUS__` jest pustą tablicą, a `data-cy="l-card"` nie występuje
+w dokumencie ani razu. Lista dorenderowuje się po stronie klienta.
+
+**Dane idą z publicznego API portalu.** `/robots.txt` OLX-a jawnie dopuszcza `/api/v1/offers/`
+(`Disallow: /api/` z późniejszym `Allow: /api/v1/offers/`), więc to droga przewidziana przez
+serwis. Odpowiedź niesie cenę, metraż, pokoje, piętro, dzielnicę, opis i flagę `business`
+w jednym zapytaniu na partię — wejście na stronę każdej oferty przestało być potrzebne.
+
+Zmierzone identyfikatory (OLX nie publikuje dokumentacji, więc pochodzą z odpowiedzi API):
+
+| Co | Wartość | Jak sprawdzić |
+|---|---|---|
+| Mieszkania sprzedaż | `category_id=14` | `metadata.adverts.config.targeting.cat_l2` = `sprzedaz` |
+| Mieszkania wynajem | `category_id=15` | to samo pole = `wynajem` |
+| Gdańsk / Gdynia / Sopot | `city_id` 5659 / 5849 / 15983 | `location.city.id` w ofertach |
+| Pomorskie | `region_id=5` | `location.region.name` |
+
+Dwie pułapki, obie z pomiaru:
+
+- **`contact.phone` w API jest wartością logiczną**, nie numerem. Wpisany wprost dawał
+  `phone_raw = True` i numer „True" w bazie. Dziś trafia do `extra["has_phone"]`.
+- **Przy `limit=40` API oddaje 51 ogłoszeń**, bo dokłada promowane ponad limit. Warunek
+  „krótsza partia znaczy koniec" był więc błędny; koniec danych poznajemy po
+  `metadata.visible_total_count`.
+
+Filtra osób prywatnych nie da się podać w zapytaniu — API odpowiada
+`Dynamic filters not applicable for category 14: filter_enum_private_business`. Nie szkodzi:
+każda oferta niesie flagę `business`, a `classify.py` i tak liczy własny `agency_score`.
+
+Fixture'y `tests/fixtures/olx_api_*.json` to prawdziwe odpowiedzi API przycięte do dziesięciu
+ogłoszeń na miasto. Licznik `visible_total_count` zostaje w nich prawdziwy, bo to po nim
+adapter poznaje koniec danych.
+
+### Numery telefonu — blokada wymagająca decyzji
+
+**OLX nie pokazuje już numeru bez zalogowania.** Na stronie oferty nie ma przycisku
+„Pokaż numer" ani żadnego z zakładanych selektorów; są „Zapytaj o ofertę" i „Zaloguj się /
+Załóż konto". Sprawdzone po odrzuceniu banera zgody, który wcześniej zasłaniał stronę.
+
+Pozyskiwanie numeru z treści ogłoszenia **nie jest wyjściem**: na 284 pobranych ogłoszeniach
+numer w opisie ma 3, a wśród 158 ogłoszeń prywatnych — jedno.
+
+Bez numerów aplikacja ma listę mieszkań, ale nie ma do kogo dzwonić. Rozstrzygnięcie należy
+do właściciela: konto OLX i logowanie skanera, inne źródło ogłoszeń, albo kontakt czatem
+zamiast telefonem. To decyzja o regulaminie portalu i o cudzych danych, nie decyzja techniczna.
 
 ## Struktura repo
 

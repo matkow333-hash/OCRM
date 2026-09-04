@@ -1,0 +1,2808 @@
+{
+ "data": [
+  {
+   "id": 1095192245,
+   "url": "https://www.olx.pl/d/oferta/kawalerka-zaspa-pomieszczenie-12m2-z-balkonem-CID3-ID1c7jx3.html",
+   "title": "kawalerka zaspa  + pomieszczenie 12m2 z balkonem",
+   "last_refresh_time": "2026-09-02T17:51:09+02:00",
+   "created_time": "2026-08-31T17:49:10+02:00",
+   "valid_to_time": "2026-09-30T17:51:07+02:00",
+   "pushup_time": "2026-09-02T17:51:09+02:00",
+   "omnibus_pushup_time": "2026-09-02T17:51:09+02:00",
+   "description": "Gdańsk Zaspa | Kawalerka 29 m² + dodatkowe 12 m² z balkonem<br />\n<br />\nCena: 450 000 zł<br />\n<br />\nNa sprzedaż funkcjonalna kawalerka o powierzchni 29 m², położona na 9. piętrze w budynku z windą przy ul. Żwirki i Wigury na gdańskiej Zaspie.<br />\n<br />\nMieszkanie składa się z:<br />\n<br />\n• przestronnego pokoju,<br />\n• oddzielnej kuchni po remoncie,<br />\n• łazienki po remoncie,<br />\n• przedpokoju.<br />\n<br />\nW mieszkaniu została również wykonana nowa instalacja.<br />\n<br />\nDodatkowe 12 m² tuż obok mieszkania to zdecydowanie największy atut tej nieruchomości.<br />\n<br />\nBezpośrednio obok mieszkania znajduje się dodatkowe pomieszczenie o powierzchni ok. 12 m² z balkonem, obecnie wynajmowane od spółdzielni na czas nieokreślony.<br />\n<br />\nPomieszczenie może pełnić funkcję domowego biura, dużej garderoby, pracowni, pokoju hobby lub dodatkowej przestrzeni do przechowywania.<br />\n<br />\nUmowa najmu może zostać przekazana nowemu właścicielowi mieszkania, dzięki czemu poza 29 m² własnego mieszkania kupujący zyskuje możliwość dalszego korzystania z dodatkowych 12 m².<br />\n<br />\nTo ogromna przewaga szczególnie dla osoby pracującej z domu – zamiast organizować biuro w jedynym pokoju, można całkowicie przenieść miejsce do pracy do osobnego pomieszczenia.<br />\n<br />\nŚwietna lokalizacja – Zaspa<br />\n<br />\nMieszkanie znajduje się przy ul. Żwirki i Wigury, w bardzo dobrze skomunikowanej części Gdańska.<br />\n<br />\nW bezpośrednim sąsiedztwie znajduje się mnóstwo sklepów, apteka oraz liczne punkty usługowe. Bardzo blisko jest również komunikacja miejska, dzięki czemu można szybko dostać się do innych części miasta.<br />\n<br />\nWszystko, czego potrzeba na co dzień, znajduje się praktycznie pod ręką.<br />\n<br />\nNajważniejsze informacje<br />\n<br />\n• 29 m² powierzchni mieszkania<br />\n• 450 000 zł<br />\n• 1 pokój + oddzielna kuchnia + łazienka<br />\n• kuchnia i łazienka po remoncie<br />\n• nowa instalacja<br />\n• dodatkowe pomieszczenie ok. 12 m² z balkonem<br />\n• możliwość przekazania umowy najmu dodatkowego pomieszczenia nowemu właścicielowi<br />\n• 9. piętro<br />\n• winda<br />\n• czynsz ok. 800 zł<br />\n• ul. Żwirki i Wigury, Gdańsk Zaspa<br />\n• świetna komunikacja i pełna infrastruktura w najbliższym otoczeniu<br />\n<br />\nMieszkanie sprawdzi się zarówno na własne potrzeby, jak i jako inwestycja pod wynajem.<br />\n<br />\nKawalerka z możliwością korzystania z dodatkowego 12-metrowego pomieszczenia z balkonem to rzadko spotykana oferta – szczególnie w tej lokalizacji.",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [
+     "bundle_optimum"
+    ],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "15517.24",
+      "label": "15517.24 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_9",
+      "label": "9"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 450000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "450 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "29",
+      "label": "29 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "one",
+      "label": "1 pokój"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 24223113,
+    "created": "2014-07-31T11:35:19+02:00",
+    "other_ads_enabled": true,
+    "name": "Wioletta",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-31T17:51:06+02:00",
+    "seller_type": null,
+    "uuid": "c670b159-ab08-49c1-9322-ed362131766d"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Wioletta",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.39195351,
+    "lon": 18.60930971,
+    "radius": 13,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "district": {
+     "id": 121,
+     "name": "Zaspa Młyniec"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11410629760,
+     "filename": "dilnqtmfwr2e3-PL",
+     "rotation": 0,
+     "width": 1536,
+     "height": 2048,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/dilnqtmfwr2e3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629761,
+     "filename": "a4uq49fqw3wb2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 1600,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/a4uq49fqw3wb2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629762,
+     "filename": "nrnv3dmml8ik-PL",
+     "rotation": 0,
+     "width": 1536,
+     "height": 2048,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/nrnv3dmml8ik-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629763,
+     "filename": "lhgix9t8nluv3-PL",
+     "rotation": 0,
+     "width": 1536,
+     "height": 2048,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lhgix9t8nluv3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629764,
+     "filename": "uomgs122ztgt1-PL",
+     "rotation": 0,
+     "width": 1536,
+     "height": 2048,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uomgs122ztgt1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629765,
+     "filename": "zvu7y7adwn1j3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 1600,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zvu7y7adwn1j3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629766,
+     "filename": "rxlbc3yfurfm-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 1600,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/rxlbc3yfurfm-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11410629767,
+     "filename": "urdhx1h0utuc3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 1600,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/urdhx1h0utuc3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": false
+  },
+  {
+   "id": 1048099335,
+   "url": "https://www.olx.pl/d/oferta/nowe-umeblowane-mieszkanie-41-m-2-pokoje-wysoki-standard-CID3-ID18WIwZ.html",
+   "title": "NOWE umeblowane mieszkanie, 41 m² 2 POKOJE, WYSOKI STANDARD",
+   "last_refresh_time": "2026-09-03T17:20:00+02:00",
+   "created_time": "2026-01-07T15:56:32+01:00",
+   "valid_to_time": "2026-09-22T10:22:31+02:00",
+   "pushup_time": "2026-09-03T17:20:00+02:00",
+   "omnibus_pushup_time": "2026-09-03T17:20:00+02:00",
+   "description": "<p>NOWE MIESZKANIE - LOKAL USŁUGOWY | 41 m² | 2 POKOJE | WYSOKI STANDARD | GDAŃSK – ŻURAWIE</p><p>Na sprzedaż nowy, w pełni wykończone i umeblowane mieszkanie (lokal usługowy) o powierzchni 41 m², położony w prestiżowej inwestycji Żurawie, przy ul. ks. Jerzego Popiełuszki 2A w Gdańsku.</p><p>Lokal został zaprojektowany i wykończony we współpracy z projektantem wnętrz – z dbałością o funkcjonalność, estetykę i trwałość zastosowanych materiałów. Jest gotowy do natychmiastowego użytkowania lub wynajmu, bez żadnych dodatkowych nakładów.</p><p></p><p>NIE WSPÓŁPRACUJĘ Z POŚREDNIKAMI</p><p></p><p>UKŁAD I STANDARD</p><ul><li>powierzchnia: 41 m²</li><li>funkcjonalny układ 2-pokojowy:</li><li>osobna sypialnia,</li><li>salon z aneksem kuchennym,</li><li>łazienka z prysznicem,</li><li>pełne umeblowanie i wyposażenie w cenie.</li></ul><p>Wnętrze zostało zaprojektowane tak, aby maksymalnie wykorzystać przestrzeń i zapewnić komfort użytkowania – idealne jako gotowiec inwestycyjny, lokal pod najem firmowy lub apartament służbowy.</p><p>LOKALIZACJA – MŁODE MIASTO / ŚRÓDMIEŚCIE</p><p>Inwestycja Żurawie to jedna z najbardziej rozpoznawalnych lokalizacji w Gdańsku:</p><ul><li>bezpośrednie sąsiedztwo Stoczni Gdańskiej i Europejskiego Centrum Solidarności,</li><li>szybki dostęp do Śródmieścia, Wrzeszcza i głównych arterii komunikacyjnych,</li><li>dynamicznie rozwijająca się dzielnica biznesowo-mieszkaniowa.</li></ul><p>INFORMACJE FORMALNE</p><ul><li>lokal usługowy (status w księdze wieczystej),</li><li>sprzedaż z VAT 23%,</li><li>idealny dla:</li><li>inwestora,</li><li>firmy,</li><li>nabywcy będącego podatnikiem VAT.</li></ul><p>DLACZEGO WARTO</p><ul><li>nowy lokal w topowej lokalizacji,</li><li>wysoki standard wykończenia + projektant,</li><li>pełne wyposażenie – brak dodatkowych kosztów,</li><li>funkcjonalny układ 2-pokojowy,</li><li>produkt inwestycyjny \"ready to use\".</li></ul><p>Na dachu jest taras widokowy z leżakami i miejscem do grillowania z którego można korzystać.</p><p>W budynku jest garaż podziemny bez przypisanych miejsc z możliwością korzystania przez najemców za dodatkową opłatą.</p><p>W inwestycji funkcjonuje firma, która może zarządzać Ci najmem i ma recepcję w budynku do przyjmowania gości.</p><p></p><p>Zapraszam do kontaktu po więcej informacji oraz na prezentację lokalu.</p><p>To oferta dla osób, które szukają jakościowego, gotowego produktu, a nie projektu do dalszych prac.</p>",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "23632.33",
+      "label": "23632.33 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 959000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "959 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "40.58",
+      "label": "40,58 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Daniel Grzejdziak",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Daniel Grzejdziak",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 16,
+    "lat": 54.36263791,
+    "lon": 18.65007021,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11401467124,
+     "filename": "lnac0y7g952u1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lnac0y7g952u1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467126,
+     "filename": "341ikocwjwam3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/341ikocwjwam3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467127,
+     "filename": "tge3dkr5niby2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/tge3dkr5niby2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467128,
+     "filename": "ztdb5gj9v5v1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ztdb5gj9v5v1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467129,
+     "filename": "br6lo8xzyaxl2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/br6lo8xzyaxl2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467130,
+     "filename": "1ym7x4e36lbh2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/1ym7x4e36lbh2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467131,
+     "filename": "paet4e3kq6tj2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/paet4e3kq6tj2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467132,
+     "filename": "wjddf87groqs3-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/wjddf87groqs3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467133,
+     "filename": "6ayt0fsp5s2f2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/6ayt0fsp5s2f2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467134,
+     "filename": "54bjl13tp0sf3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/54bjl13tp0sf3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467135,
+     "filename": "20fhmbax7gjm2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/20fhmbax7gjm2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467136,
+     "filename": "2vnlvtuinr0y1-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/2vnlvtuinr0y1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467137,
+     "filename": "11bzylniwcp3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/11bzylniwcp3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467138,
+     "filename": "uqi733kk01211-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uqi733kk01211-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467139,
+     "filename": "gz04cubwtk112-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/gz04cubwtk112-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467140,
+     "filename": "ciln8xp12ihm1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ciln8xp12ihm1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467141,
+     "filename": "jh0ehn3u8d362-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jh0ehn3u8d362-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467142,
+     "filename": "7v7sc0hcxlxy2-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7v7sc0hcxlxy2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11401467143,
+     "filename": "bcsrfbexk9ye2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/bcsrfbexk9ye2-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/nowe-umeblowane-mieszkanie-41-m-2-pokoje-wysoki-standard-ID4zADQ",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer",
+   "protect_phone": true
+  },
+  {
+   "id": 1090745843,
+   "url": "https://www.olx.pl/d/oferta/sloneczne-3-pok-obok-lasu-hala-garazowa-i-komorka-lok-10min-centrum-CID3-ID1bOEOT.html",
+   "title": "Słoneczne 3 pok obok LASU + Hala Garażowa i Komórka lok. 10min Centrum",
+   "last_refresh_time": "2026-09-02T14:52:49+02:00",
+   "created_time": "2026-08-12T14:27:42+02:00",
+   "valid_to_time": "2026-09-11T14:27:37+02:00",
+   "pushup_time": "2026-09-02T14:52:49+02:00",
+   "omnibus_pushup_time": "2026-09-02T14:52:49+02:00",
+   "description": "<p><strong>ZAKUP BEZPOŚREDNIO OD DEWELOPERA - Zapraszamy na prezentację</strong></p><br />\n<p>NOWE MIESZKANIA W GDAŃSKU! Bez prowizji • 0% PCC -<strong> Zobacz przykładowe mieszkania na żywo!</strong><br />\n<br />\nNie współpracujemy z pośrednikami<br />\n<br />\nSpotkania możliwe 6 dni w tygodniu !</p><br />\n<p><strong>Własność gruntu | Niski czynsz |Możliwy zakup na kredyt</strong><br />\n<br />\nDostępna: Hala Garażowa i Komórka Lokatorska</p><br />\n<p><strong>Świetna lokalizacja</strong><br />\n<br />\n- 10 minut do Centrum (5 km)<br />\n<br />\n- Blisko las, sklepy, szkoły, przedszkola<br />\n<br />\n- Spacerem do <strong>planowanej stacji Pomorskiej Kolei Metropolitalnej</strong></p><br />\n<p><strong> Ostatnie mieszkania w ramach 3go etapu inwestycji + wybierz najlepszy lokal jako jeden z pierwszych kupujących na nowym etapie </strong><br />\n<br />\n- Rabaty na mieszkania<br />\n<br />\n- Możliwe Oględziny na żywo</p><br />\n<p><strong> Nowoczesne osiedle</strong><br />\n<br />\n- Stylowa architektura<br />\n<br />\n- Garaże, windy, monitoring<br />\n<br />\n- Zielone tereny i ogródki<br />\n<br />\n- Energooszczędne rozwiązania</p><br />\n<p>Pomożemy w kredycie! Współpracujemy z doświadczonymi doradcami finansowymi - bezpłatna pomoc na każdym etapie zakupu!<br />\n<br />\nZadzwoń i umów się – zobacz to na własne oczy!</p>",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "11283.02",
+      "label": "11283.02 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_2",
+      "label": "2"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 598000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "598 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "53",
+      "label": "53 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.320191,
+    "lon": 18.593691,
+    "radius": 1,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11353014268,
+     "filename": "fl4af29aqs91-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/fl4af29aqs91-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11353014269,
+     "filename": "wo8m4y497wod2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/wo8m4y497wod2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11353014270,
+     "filename": "h1x2yr5bm2uk3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/h1x2yr5bm2uk3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11353014271,
+     "filename": "uecy9cd79mae3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uecy9cd79mae3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11353014272,
+     "filename": "4y601co23shr3-PL",
+     "rotation": 0,
+     "width": 892,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4y601co23shr3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11353014273,
+     "filename": "zygfe3l766q02-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zygfe3l766q02-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/sloneczne-3-pok-obok-lasu-hala-garazowa-i-komorka-lok-10min-centrum-ID4CBL2",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1072382048,
+   "url": "https://www.olx.pl/d/oferta/2-pok-z-osoba-kuchnia-niedaleko-morza-CID3-ID1azByE.html",
+   "title": "2 pok. z osobą kuchnią niedaleko morza",
+   "last_refresh_time": "2026-09-04T14:28:25+02:00",
+   "created_time": "2026-05-10T17:29:16+02:00",
+   "valid_to_time": "2026-10-04T14:28:21+02:00",
+   "pushup_time": null,
+   "description": "NA SPRZEDAŻ 2-POKOJOWE MIESZKANIE Z ODDZIELNĄ KUCHNIĄ ORAZ PIWNICĄ- GDAŃSK STOGI!<br />\nIDEALNE MIESZKANIE INWESTYCYJNE<br />\n<br />\n<strong>LOKALIZACJA</strong>:<br />\nNieruchomość zlokalizowana w dzielnicy Stogi -&nbsp;<strong>bliskość morza</strong>&nbsp;- plaża oddalona o około 15 minut spacerem. <br />\nPrzystanek autobusowy/tramwajowy niedaleko budynku, zapewnia wygodne połączenie z innymi dzielnicami miasta. <br />\nW najbliższym otoczeniu dostępna pełna infrastruktura handlowo-usługowa: sklepy, punkty usługowe, pływalnia oraz tereny rekreacyjne.<br />\n<br />\n<strong> BUDYNEK</strong>:<br />\nCzteropiętrowy blok mieszkalny. Mieszkanie znajduje się na 4 piętrze (brak windy). Wejście do klatki zabezpieczone domofonem.<br />\n<br />\n<strong> MIESZKANIE</strong>:<br />\nLokal o powierzchni 36,2 m², o funkcjonalnym układzie pomieszczeń:<br />\n<ul><li>pokój dzienny (przechodni)</li><li>niezależny pokój</li><li>oddzielna kuchnia</li><li>łazienka z prysznicem</li><li>korytarz</li></ul>Mieszkanie jest jasne i dobrze doświetlone. <br />\nStan lokalu - do remontu, co daje możliwość aranżacji według własnych potrzeb.&nbsp;<br />\n<br />\n<strong> DODATKOWE INFORMACJE:<br />\n</strong><ul><li>do mieszkania przynależy <strong>piwnica</strong></li><li>pełne wyposażenie</li><li><strong>ekspozycja południowa&nbsp;</strong></li><li>wydanie mieszkania <strong>od zaraz</strong></li></ul><br />\n<strong> ATUTY NIERUCHOMOŚCI:<br />\n</strong><ul><li>bliskość morza (ok. 20 minut pieszo)</li><li>bardzo dobra komunikacja miejska</li><li>rozwijająca się dzielnica</li><li>odpowiednie zarówno do zamieszkania, jak i pod wynajem</li></ul><br />\n<br />\n<strong>ZAPRASZAM NA PREZENTACJE!</strong><br />\n<br />\nDlaczego warto wybrać właśnie nas?<br />\n<br />\n- gwarantujemy bezpieczny zakup i najlepszą cenę dzięki naszemu doświadczeniu i znajomości rynku.<br />\n<br />\n- oferujemy bezpłatną i skuteczną pomoc w uzyskaniu kredytu. <br />\n<br />\n- zapewniamy profesjonalne i rzetelne doradztwo także w zakresie inwestycji – pomożemy Ci wybrać nieruchomość, która najlepiej spełni Twoje oczekiwania i będzie bezpieczną lokatą kapitału.<br />\n<br />\nMasz pytania? Jesteśmy tu, aby na nie odpowiedzieć i wesprzeć Cię na każdym etapie zakupu. Skontaktuj się z nami, a nasi specjaliści zadbają o każdy szczegół transakcji, gwarantując pełne bezpieczeństwo i komfort.<br />\n<br />\nOferta wysłana z programu dla biur nieruchomości ASARI CRM ()",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12430.94",
+      "label": "12430.94 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_4",
+      "label": "4"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 450000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "450 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "36.2",
+      "label": "36,20 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Jacek Gryś",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Jacek Gryś",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.3616167,
+    "lon": 18.7091843,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427068140,
+     "filename": "fiesl2ceapwk1-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/fiesl2ceapwk1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068141,
+     "filename": "4eswkz42msof3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4eswkz42msof3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068142,
+     "filename": "jxxlrwsba7232-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jxxlrwsba7232-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068143,
+     "filename": "oieqohdgow1m2-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/oieqohdgow1m2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068144,
+     "filename": "svppi9ref7iz1-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/svppi9ref7iz1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068145,
+     "filename": "blm6o8wjksik3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/blm6o8wjksik3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068146,
+     "filename": "qxwtiy8vk1ak1-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qxwtiy8vk1ak1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068147,
+     "filename": "zeihwujmad9n-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zeihwujmad9n-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068148,
+     "filename": "jyxg1iazi0xc3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jyxg1iazi0xc3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068149,
+     "filename": "tqtk8a2ik3b92-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/tqtk8a2ik3b92-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427068150,
+     "filename": "zx45xqhrp3y4-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zx45xqhrp3y4-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/2-pok-z-osoba-kuchnia-niedaleko-morza-ID4BdEU",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096103148,
+   "url": "https://www.olx.pl/d/oferta/kawalerka-z-oddzielna-kuchnia-gdansk-lostowice-CID3-ID1cb8w2.html",
+   "title": "Kawalerka z oddzielną kuchnią Gdańsk Łostowice",
+   "last_refresh_time": "2026-09-04T14:27:11+02:00",
+   "created_time": "2026-09-04T14:27:11+02:00",
+   "valid_to_time": "2026-10-04T14:27:07+02:00",
+   "pushup_time": null,
+   "description": "<strong>LOKALIZACJA:</strong><br />\nMieszkanie zlokalizowane w jednej z najszybciej rozwijających się dzielnic Gdańska Południe - Łostowicach przy ul. Srebrnej. W sąsiedztwie pełna infrastruktura handlowo - usługowa. Miejsce dobrze skomunikowane z Gdańskiem i bardzo dobrym dojazdem do trasy S6 i S7. Dla najmłodszych znajdziemy żłobek, przedszkole i szkołę podstawową. <br />\n<br />\n<strong>MIESZKANIE:</strong><br />\nUsytuowane na 3 piętrze budynku z 2008 roku. Dostęp do zadbanej i szerokiej klatki schodowej zabezpieczone jest domofonem. Powierzchnia użytkowa lokalu to <strong>31,20 m2 </strong>na którą składa się duży pokój z wydzielonym miejscem na duże łóżko, oddzielna kuchnia, korytarz z szafą w zabudowie i łazienka z wanną i toaletą.<br />\n<br />\nMieszkanie jest idealną propozycją dla singla, pary lub zakup inwestycyjny do dalszego wynajmu. <br />\n<br />\n<strong>Niewątpliwym atutem sprzedawanej nieruchomości są przynależące do nieruchomości 3 piwnice o powierzchniach: 2,6 m2, 2,6 m2 i 2,1 m2 </strong><br />\n<br />\n<strong>DODATKOWE INFORMACJE: </strong><br />\n- niski czynsz 645 zł na miesiąc<br />\n- termin wydania do uzgodnienia <br />\n- mieszkanie do odświeżenia<br />\n- liczne, ogólnodostępne miejsca postojowe <br />\n<br />\n<strong>ZAPRASZAM NA PREZENTACJĘ !</strong><br />\n<br />\nDlaczego warto wybrać właśnie nas?<br />\n<br />\n- gwarantujemy bezpieczny zakup i najlepszą cenę dzięki naszemu doświadczeniu i znajomości rynku.<br />\n<br />\n- oferujemy bezpłatną i skuteczną pomoc w uzyskaniu kredytu. <br />\n<br />\n- zapewniamy profesjonalne i rzetelne doradztwo także w zakresie inwestycji – pomożemy Ci wybrać nieruchomość, która najlepiej spełni Twoje oczekiwania i będzie bezpieczną lokatą kapitału.<br />\n<br />\nMasz pytania? Jesteśmy tu, aby na nie odpowiedzieć i wesprzeć Cię na każdym etapie zakupu. Skontaktuj się z nami, a nasi specjaliści zadbają o każdy szczegół transakcji, gwarantując pełne bezpieczeństwo i komfort.<br />\n<br />\nOferta wysłana z programu dla biur nieruchomości ASARI CRM ()",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12147.44",
+      "label": "12147.44 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_3",
+      "label": "3"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 379000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "379 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "31.2",
+      "label": "31,20 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "one",
+      "label": "1 pokój"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Jacek Gryś",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Jacek Gryś",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.3154105,
+    "lon": 18.6036415,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427063165,
+     "filename": "oye83devft512-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/oye83devft512-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063166,
+     "filename": "zv81n3s201hi-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zv81n3s201hi-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063167,
+     "filename": "uckg0l3fgk5j3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uckg0l3fgk5j3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063168,
+     "filename": "i3jrl5lc9x7i3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/i3jrl5lc9x7i3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063169,
+     "filename": "6mcxgxbgas33-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/6mcxgxbgas33-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063170,
+     "filename": "t3y7mb3xol9z1-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/t3y7mb3xol9z1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063171,
+     "filename": "glhkx0i977y23-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/glhkx0i977y23-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063172,
+     "filename": "kftwl0507ug3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/kftwl0507ug3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063173,
+     "filename": "4p4ec63txlu81-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 683,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4p4ec63txlu81-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063174,
+     "filename": "57wch4anszlm3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 674,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/57wch4anszlm3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063175,
+     "filename": "k0z2yd86j9m83-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/k0z2yd86j9m83-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063176,
+     "filename": "arvz09h0u1pt-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/arvz09h0u1pt-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427063177,
+     "filename": "2cu7w1msfj222-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 682,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/2cu7w1msfj222-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/kawalerka-z-oddzielna-kuchnia-gdansk-lostowice-ID4Cqxs",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096100751,
+   "url": "https://www.olx.pl/d/oferta/jasne-3-pokoje-z-2-balkonami-tuz-przy-starowce-CID3-ID1cb7Sn.html",
+   "title": "Jasne 3 pokoje z 2 balkonami tuż przy Starówce!",
+   "last_refresh_time": "2026-09-04T14:18:37+02:00",
+   "created_time": "2026-09-04T14:18:37+02:00",
+   "valid_to_time": "2026-10-04T14:18:31+02:00",
+   "pushup_time": null,
+   "description": "Oferta, którą oglądasz jest dostępna <strong>TYLKO W NASZYM BIURZE</strong> i została dokładnie sprawdzona pod względem formalno-prawnym.<br />\n<br />\nNa sprzedaż przestronne i bardzo jasne, 3-pokojowe mieszkanie o powierzchni 65,09 m², położone przy ul. Długiej Grobli w Gdańsku. Nieruchomość znajduje się na 1. piętrze nowoczesnego budynku z 2018 roku, na zamkniętym i zadbanym osiedlu.<br />\nTo propozycja dla osób, które cenią dużą ilość naturalnego światła, przestrzeń, dwa balkony oraz bliskość gdańskiej Starówki.<br />\n<br />\n<strong>Atuty:</strong><br />\n<br />\n<ul><br />\n<br />\n<li>bardzo jasne i dobrze doświetlone wnętrza</li><br />\n<br />\n<li>dwa balkony - dodatkowa przestrzeń do wypoczynku</li><br />\n<br />\n<li>1. piętro w budynku z windą</li><br />\n<br />\n<li>zamknięte osiedle</li><br />\n<br />\n<li>świetna lokalizacja - blisko Starego Miasta</li><br />\n<br />\n<li>doskonała propozycja zarówno do zamieszkania, jak i inwestycyjnie</li><br />\n<br />\n</ul><br />\n<br />\n<strong>Opis Nieruchomości:</strong><br />\nMieszkanie o powierzchni 65,09 m² jest wyjątkowo jasne i przestronne. Duża ilość naturalnego światła sprawia, że wnętrze jest przyjemne i komfortowe o każdej porze dnia.<br />\nFunkcjonalny układ obejmuje:<br />\n<br />\n<li>salon z aneksem kuchennym - przestronna część dzienna,</li><br />\n<br />\n<li>dwie niezależne sypialnie,</li><br />\n<br />\n<li>łazienkę,</li><br />\n<br />\n<li>przedpokój z miejscem do przechowywania. </li><br />\n<br />\n<li>Dużym atutem mieszkania są dwa balkony, które stanowią naturalne przedłużenie przestrzeni mieszkalnej i pozwalają stworzyć przyjemną strefę relaksu na świeżym powietrzu.</li><br />\n<br />\n<strong>Dodatkowe informacje:<br />\n</strong>miejsce postojowe w hali garażowej - 50 000 zł<br />\nkomórka lokatorska - 20 000 zł<br />\n<strong><br />\nBudynek:</strong><br />\nBudynek został wybudowany w 2018 roku i wyposażony jest w windę. Osiedle jest zamknięte i zadbane, co zapewnia mieszkańcom komfort oraz poczucie bezpieczeństwa.<br />\n<br />\n<strong>Lokalizacja:</strong><br />\nUl. Długa Grobla to doskonała lokalizacja dla osób, które chcą korzystać z uroków Gdańska, a jednocześnie mieszkać w nowoczesnym budynku.<br />\nJednym z największych atutów jest bliskość Starego Miasta. W zasięgu spaceru znajdują się liczne restauracje, kawiarnie, sklepy oraz najważniejsze atrakcje turystyczne Gdańska.<br />\nLokalizacja sprawdzi się również bardzo dobrze pod kątem inwestycyjnym - nieruchomość może być atrakcyjna zarówno dla najemców długoterminowych, jak i osób poszukujących lokalu w pobliżu historycznego centrum miasta.<br />\n<br />\n<strong>Opłaty:</strong><br />\n<br />\nMiesięczne opłaty administracyjne stale wynoszą około 560 zł, <br />\nDodatkowo płatne są media według zużycia.<br />\n<br />\nTo nieruchomość, która łączy komfort codziennego życia z atrakcyjną lokalizacją i dużym potencjałem inwestycyjnym. Zapraszam na prezentacje.<br />\n<br />\n<strong>Chcesz poznać więcej szczegółów tej oferty? A może chcesz negocjować cenę?</strong><br />\n<strong>Skontaktuj się z nami.</strong>",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "21493.32",
+      "label": "21493.32 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1399000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 399 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "apartamentowiec",
+      "label": "Apartamentowiec"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "65.09",
+      "label": "65,09 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Agata Ziółkowska",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Agata Ziółkowska",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.3495643,
+    "lon": 18.6675187,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "district": {
+     "id": 135,
+     "name": "Śródmieście"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427027803,
+     "filename": "q55jqa8u5f8a3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/q55jqa8u5f8a3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027804,
+     "filename": "pu7wnflzn9iq1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/pu7wnflzn9iq1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027805,
+     "filename": "6nowri7ppqhm1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/6nowri7ppqhm1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027806,
+     "filename": "w2lybokf8mf31-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/w2lybokf8mf31-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027807,
+     "filename": "6u1rdv1b824p2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/6u1rdv1b824p2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027808,
+     "filename": "weuwo7bbofx23-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/weuwo7bbofx23-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027809,
+     "filename": "dnjjm1adxpnt2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/dnjjm1adxpnt2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027810,
+     "filename": "c7x5i3fb9lfo2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/c7x5i3fb9lfo2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027811,
+     "filename": "cfbogaf4346m-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/cfbogaf4346m-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027812,
+     "filename": "kbcnl2h8o8cv2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/kbcnl2h8o8cv2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027813,
+     "filename": "4j6mxusdv5vt2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4j6mxusdv5vt2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027814,
+     "filename": "qm4o8vsm26so3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qm4o8vsm26so3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027816,
+     "filename": "qdr3tg0615na2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qdr3tg0615na2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027817,
+     "filename": "hz538jv043w22-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/hz538jv043w22-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027818,
+     "filename": "3zbbxi3y1blj3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3zbbxi3y1blj3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027819,
+     "filename": "j7308c1z31d13-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/j7308c1z31d13-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027820,
+     "filename": "85rygvozdjvh3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/85rygvozdjvh3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427027821,
+     "filename": "gpmzfosfl6s93-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/gpmzfosfl6s93-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/jasne-3-pokoje-z-2-balkonami-tuz-przy-starowce-ID4CJVN",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096094557,
+   "url": "https://www.olx.pl/d/oferta/twojemiejsce-2pokoje-dlugieogrody-miejscepostojowe-CID3-ID1cb6gt.html",
+   "title": "TwojeMiejsce|2pokoje|DługieOgrody|MiejscePostojowe",
+   "last_refresh_time": "2026-09-04T13:51:13+02:00",
+   "created_time": "2026-09-04T13:51:13+02:00",
+   "valid_to_time": "2026-10-04T13:51:08+02:00",
+   "pushup_time": null,
+   "description": "4 minuty od Motławy | 32 m² | Długie Ogrody | po generalnym remoncie<br />\n<br />\nZamieszkaj w sercu Gdańska - zaledwie 4 minuty spacerem od Motławy i Wyspy Spichrzów.<br />\n<br />\nNa sprzedaż funkcjonalne mieszkanie o powierzchni 32 m², położone na wysokim parterze w jednej z najbardziej atrakcyjnych lokalizacji Gdańska - na Długich Ogrodach.<br />\n<br />\nTo propozycja dla osób, które chcą mieć miasto na wyciągnięcie ręki, a jednocześnie cenią sobie wygodny i przemyślany układ mieszkania.<br />\n<br />\nFUNKCJONALNY UKŁAD<br />\n<br />\nMieszkanie składa się z:<br />\n<br />\n<ul><br />\n<br />\n<li>salonu z aneksem kuchennym i zabudową stolarską,</li><br />\n<br />\n<li>oddzielnej sypialni,</li><br />\n<br />\n<li>garderoby,</li><br />\n<br />\n<li> łazienki,</li><br />\n<br />\n<li>piwnicy.</li><br />\n<br />\n</ul><br />\n<br />\nMieszkanie jest po generalnym remoncie, dzięki czemu stanowi dobrą bazę do zamieszkania lub dalszej personalizacji wnętrza zgodnie z własnym stylem.<br />\n<br />\nLOKALIZACJA - NAJWIĘKSZY ATUT<br />\n<br />\nDługie Ogrody to lokalizacja, która pozwala korzystać z Gdańska bez konieczności codziennego korzystania z samochodu.<br />\n<br />\nW zaledwie kilka minut spacerem dotrzesz do:<br />\n<br />\n<ul><br />\n<br />\n<li>Wyspy Spichrzów,</li><br />\n<br />\n<li>Motławy,</li><br />\n<br />\n<li>gdańskiej Starówki,</li><br />\n<br />\n<li>restauracji, kawiarni i punktów usługowych</li><br />\n<br />\n<li> terenów spacerowych i rekreacyjnych.</li><br />\n<br />\n</ul><br />\n<br />\nDODATKOWE ATUTY<br />\n<br />\n<ul><br />\n<br />\n<li>32 m² funkcjonalnie wykorzystanej przestrzeni,</li><br />\n<br />\n<li>wysoki parter,</li><br />\n<br />\n<li>piwnica,</li><br />\n<br />\n<li>miejsce postojowe za szlabanem, dostępne wyłącznie dla mieszkańców budynku,</li><br />\n<br />\n<li>atrakcyjna lokalizacja blisko Motławy,</li><br />\n<br />\n<li>mieszkanie po generalnym remoncie.</li><br />\n<br />\n</ul><br />\n<br />\nDLA KOGO?<br />\n<br />\nTo świetna propozycja dla:<br />\n• singla lub pary - jako mieszkanie w centrum miasta,<br />\n• studenta - ze względu na lokalizację i komunikację,<br />\n<br />\nDLACZEGO WARTO?<br />\n<br />\nBo tutaj lokalizacja naprawdę robi różnicę.<br />\n<br />\nRano kawa w centrum, spacer nad Motławą po pracy, restauracje i gdańska Starówka kilka minut od domu.<br />\n<br />\nJeśli szukasz niewielkiego, funkcjonalnego mieszkania w centrum Gdańska, które możesz urządzić po swojemu i jednocześnie czerpać z uroków miasta - zapraszam na prezentację.<br />\n<br />\nKREDYT | NOTARIUSZ | BEZPIECZNA TRANSAKCJA<br />\n<br />\nWspieramy Cię nie tylko w wyborze nieruchomości. Zapewniamy również dostęp do sprawdzonego doradcy kredytowego oraz preferencyjnych stawek u współpracującej kancelarii notarialnej<br />\n<br />\nNiniejsze ogłoszenie służy wyłącznie celom informacyjnym i nie stanowi oferty handlowej w rozumieniu przepisów Kodeksu Cywilnego.",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "19353.85",
+      "label": "19353.85 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 629000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "629 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "32.5",
+      "label": "32,50 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Magda Ostrowska",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Magda Ostrowska",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.3469924,
+    "lon": 18.6648706,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "district": {
+     "id": 135,
+     "name": "Śródmieście"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11426910232,
+     "filename": "kcswmdaua2cw-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/kcswmdaua2cw-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910239,
+     "filename": "bm65nzo5ztc4-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/bm65nzo5ztc4-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910251,
+     "filename": "4fo5q11oymmi3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4fo5q11oymmi3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910255,
+     "filename": "yo7zurheaf8j-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/yo7zurheaf8j-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910265,
+     "filename": "7tfrt67q63uj1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7tfrt67q63uj1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910277,
+     "filename": "824g4e8az5hv3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/824g4e8az5hv3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910290,
+     "filename": "kmlmmp41b9to1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/kmlmmp41b9to1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426910293,
+     "filename": "b8j4ugedlzmc-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 801,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/b8j4ugedlzmc-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/twojemiejsce-2pokoje-dlugieogrody-miejscepostojowe-ID4CRC4",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096091159,
+   "url": "https://www.olx.pl/d/oferta/sloneczne-3-pokoje-w-centrum-wrzeszcza-po-remoncie-CID3-ID1cb5nF.html",
+   "title": "Słoneczne 3 pokoje w centrum Wrzeszcza po remoncie",
+   "last_refresh_time": "2026-09-04T13:36:11+02:00",
+   "created_time": "2026-09-04T13:36:11+02:00",
+   "valid_to_time": "2026-10-04T13:36:07+02:00",
+   "pushup_time": null,
+   "description": "<p>Oferta bezpośrednia. Zdjęcia prezentują aktualny stan mieszkania.</p><p></p><p>Na sprzedaż 3-pokojowe mieszkanie o powierzchni 58,12 m², położone na 2. piętrze klimatycznej kamienicy w samym sercu gdańskiego Wrzeszcza przy ulicy Partyzantów.</p><p>To propozycja dla osób, które szukają mieszkania gotowego do zamieszkania od zaraz, bez konieczności ponoszenia dodatkowych nakładów na remont.</p><p></p><p>Mieszkanie przeszło kompleksowy remont, obejmujący zarówno wnętrze, jak i najważniejsze elementy techniczne.</p><p>W ramach remontu wykonano:</p><ul><li>wymianę okien i drzwi,</li><li>nową instalację elektryczną,</li><li>nową instalację wodno-kanalizacyjną,</li><li>nową instalację grzewczą opartą na piecu gazowym,</li><li>wzmocnienie podłóg,</li><li>nowe gładzie na ścianach,</li><li>nową zabudowę meblową,</li><li>kuchnię wyposażoną w nowy sprzęt AGD.</li></ul><p>Mieszkanie ma wygodny i funkcjonalny układ 3 pokoi. Jest świeżo po remoncie i gotowe do zamieszkania bez dodatkowych nakładów.</p><p></p><p>Do mieszkania przynależą dwie piwnice, zapewniające dodatkową przestrzeń do przechowywania.</p><p>Dużym atutem nieruchomości jest również ogrodzony parking przeznaczony wyłącznie dla mieszkańców.</p><p></p><p>Budynek również przeszedł szereg ważnych prac remontowych i modernizacyjnych.</p><p>Wykonano m.in.:</p><ul><li>remont dachu,</li><li>remont klatki schodowej,</li><li>wymianę instalacji elektrycznej,</li><li>wzmocnienie legarów w piwnicy.</li></ul><p>Aktualnie planowany jest również remont elewacji budynku, który dodatkowo poprawi jego wygląd i estetykę.</p><p></p><p>Mieszkanie znajduje się w świetnie skomunikowanej części Gdańska Wrzeszcza.</p><p>W bliskiej odległości znajdują się Galeria Bałtycka oraz Manhattan, a także liczne sklepy, restauracje, punkty usługowe, szkoły i cała niezbędna infrastruktura.</p><p>Jednocześnie ogromnym atutem jest bliskość lasu i terenów zielonych. To wyjątkowe połączenie – mieszkanie znajduje się w centrum miasta, a jednocześnie pozwala szybko uciec od miejskiego zgiełku.</p><p></p><p>Mieszkanie gotowe do zamieszkania od zaraz.</p><p>Zapraszam do kontaktu oraz na prezentację nieruchomości.</p><p></p><p>\"Niniejsze ogłoszenie nie stanowi oferty w rozumieniu art. 66 § 1 Kodeksu cywilnego, a przedstawione informacje mają charakter wyłącznie informacyjny.\"</p><p></p>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "16328.29",
+      "label": "16328.29 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_2",
+      "label": "2"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 949000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "949 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "kamienica",
+      "label": "Kamienica"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "58.12",
+      "label": "58,12 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Łukasz",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Łukasz",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 14,
+    "lat": 54.37924639,
+    "lon": 18.59443343,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "district": {
+     "id": 99,
+     "name": "Wrzeszcz"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11426851899,
+     "filename": "zye939rcirpy1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 720,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zye939rcirpy1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851900,
+     "filename": "q6qjgm7yonls1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 720,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/q6qjgm7yonls1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851901,
+     "filename": "s51em95vw7v8-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/s51em95vw7v8-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851902,
+     "filename": "vc611fysn1nd-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/vc611fysn1nd-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851903,
+     "filename": "nrrawdmewy7y-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 720,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/nrrawdmewy7y-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851904,
+     "filename": "lixpae5u8suu-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 720,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lixpae5u8suu-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851905,
+     "filename": "a0cjrzamip9x-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 720,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/a0cjrzamip9x-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426851906,
+     "filename": "64699sbaitzz1-PL",
+     "rotation": 0,
+     "width": 576,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/64699sbaitzz1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/sloneczne-3-pokoje-w-centrum-wrzeszcza-po-remoncie-ID4CWuT",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096091763,
+   "url": "https://www.olx.pl/d/oferta/nowe-4-pokoje-garaz-boks-10min-do-centrum-obok-las-zgarnij-bon-CID3-ID1cb5xp.html",
+   "title": "Nowe 4 pokoje + GARAŻ/BOKS + 10min do CENTRUM + OBOK LAS + ZGARNIJ BON",
+   "last_refresh_time": "2026-09-04T13:23:40+02:00",
+   "created_time": "2026-09-04T13:38:35+02:00",
+   "valid_to_time": "2026-10-04T13:38:30+02:00",
+   "pushup_time": null,
+   "description": "<p>OFERTA BEZPOŚREDNIO OD DEWELOPERA</p><p>Dlaczego to doskonała decyzja finansowa?</p><p>Wybierając tę inwestycję, zyskujesz od samego początku:</p><ul><li>0% prowizji – kupujesz bezpośrednio.</li><li>0% podatku PCC – oszczędzasz nawet kilkanaście tysięcy złotych.</li><li>Ekologiczne oszczędności – niższe koszty eksploatacji mieszkań.</li></ul><p>Standard, który robi różnicę</p><p>Projekt wyróżnia się przemyślaną architekturą i dbałością o detale, które realnie podnoszą jakość życia:</p><ul><li>Komfortowa przestrzeń – duże odległości między budynkami wynoszące ponad 30 metrów gwarantują prywatność.</li><li>Nowoczesna ekologia – panele fotowoltaiczne na dachach oraz oświetlenie LED w częściach wspólnych obniżają rachunki.</li><li>Pełne bezpieczeństwo – całodobowy zewnętrzny monitoring, nowoczesne wideodomofony oraz solidne drzwi antywłamaniowe w każdym lokalu.</li><li>Szybka sieć – gotowa instalacja światłowodowa umożliwia natychmiastowe podłączenie ultraszybkiego internetu.</li><li>Dodatkowa wygoda – mieszkania parterowe posiadają przydomowe ogródki, a lokale na piętrach przestronne balkony i komórki lokatorskie.</li></ul><p>Lokalizacja z potencjałem wzrostu wartości</p><p>Południowa część Gdańska to dynamicznie rozwijający się rejon, łączący urok zielonej okolicy z wygodnym dostępem do miejskiej infrastruktury.</p><p>Kluczowe atuty lokalizacyjne:</p><ul><li>Sprawna komunikacja – szybki i swobodny dojazd do ścisłego centrum Gdańska oraz innych dzielnic miasta.</li><li>Wygoda na miejscu – powstająca na terenie osiedla strefa handlowo-usługowa zapewni dostęp do sklepów bez konieczności dalekich podróży.</li><li>Czas na relaks – bogata strefa rekreacyjna na miejscu, obejmująca prywatną salkę fitness, nowoczesne boisko wielofunkcyjne oraz bezpieczne place zabaw.</li><li>Bliskość natury – otoczenie różnorodnej roślinności, drzew i terenów zielonych idealnych do rodzinnych spacerów lub porannego joggingu.</li></ul><p>Inwestycja została zaprojektowana z myślą o ułatwieniu codziennych obowiązków i zapewnieniu najwyższego komfortu życia.</p><p>ZAPRASZAMY DO KONTAKTU I NA PREZENTACJĘ MIESZKAŃ</p>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "11000",
+      "label": "11000 zł/m²"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 715000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "715 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "65",
+      "label": "65 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "four",
+      "label": "4 i więcej"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.32814,
+    "lon": 18.58281,
+    "radius": 1,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11426859177,
+     "filename": "e31mw9d8aur03-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 764,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/e31mw9d8aur03-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426859191,
+     "filename": "9altjk4fy3sv1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 764,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/9altjk4fy3sv1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426859215,
+     "filename": "i52ua0cuyc8c2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 750,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/i52ua0cuyc8c2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426859230,
+     "filename": "y1ym5zcqf2ns3-PL",
+     "rotation": 0,
+     "width": 1210,
+     "height": 811,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/y1ym5zcqf2ns3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/nowe-4-pokoje-garaz-boks-10min-do-centrum-obok-las-zgarnij-bon-ID4CWwH",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096085637,
+   "url": "https://www.olx.pl/d/oferta/3-pokojowe-mieszkanie-60m2-balkon-CID3-ID1cb3VB.html",
+   "title": "3-pokojowe mieszkanie 60m2 + balkon",
+   "last_refresh_time": "2026-09-04T13:09:56+02:00",
+   "created_time": "2026-09-04T13:12:55+02:00",
+   "valid_to_time": "2026-10-04T13:12:52+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>3-pokojowe mieszkanie<strong> numer 8_3_2</strong>  na 2. piętrze w budynku 8 w Inwestycji Osiedle Przyjemne Dewelopera ATAL</li><li>Wózkownia i rowerownia</li><li>Teren spacerowy przy Zbiorniku Świętokrzyska (3 minuty spacerem)</li><li>Przystanek autobusowy (4 minuty spacerem)</li><li>Biedronka (1 minuta samochodem), Lidl (2 minuty samochodem)</li><li>Centrum outletowe (4 minuty samochodem)</li><li>Wjazd na Obwodnicę Trójmiasta (6 minut samochodem)</li></ul><br />\n<strong>Osiedle Przyjemne - poznaj inwestycję</strong><br />\n<p><strong>Inwestycja</strong> <strong>Osiedle Przyjemne </strong>to inwestycja zlokalizowana w Gdańsku, w dynamicznie rozwijającej się części miasta. Okolica zapewnia zarówno<strong> bliskość naturalnych krajobrazów</strong>, jak i dobre skomunikowanie z pozostałymi częściami miasta. W pobliżu osiedla znajduje się teren spacerowy przy Zbiorniku Świętokrzyska, przystanek autobusowy, Biedronka i Lidl. Dodatkowo osiedla będzie graniczyło z projektowanym <strong>Parkiem Południowym</strong>.</p><p><strong>W pierwszy etapie</strong> powstaną dwa budynki i 72 mieszkaniao powierzchniach od 27 do 59 mkw., w układach 1-3 pokojowymi. Wnętrza będą przemyślane i funkcjonalne, dzięki czemu mieszkańcy z łatwością dopasują dostępną przestrzeń do swoich potrzeb. W ofercie są zarówno mieszkania z aneksem kuchennym, jak i osobną kuchnią.</p><p>Do mieszkań będą przynależeć <strong>duże przeszklone balkony</strong>. Niektóre z budynków będą usytuowane w linii z widokiem na zbiornik wodny.</p><p>Do dyspozycji mieszkańców będą:</p><ul><li>34 miejsca postojowe naziemne,</li><li>52 miejsca postojowe podziemne,</li><li>72 komórki lokatorskie.</li></ul><p><strong>W drugim etapie</strong> powstanątrzy budynki, w których znajdzie się107 mieszkań o powierzchniach od 27,85 do 63,24 mkw. i układach 1-, 2- i 3-pokojowych. Do każdego mieszkania będzie przynależeć <strong>przeszklony balkon lub ogródek</strong>.</p><p>Do dyspozycji mieszkańców będzie:</p><ul><li>38 miejsc postojowych naziemnych,&nbsp;</li><li><strong>87 miejsc postojowych podziemnych</strong>,</li><li>107 komórek lokatorskich.</li></ul><p><strong>W trzecim etapie</strong> zaprojektowane zostały dwa budynki z 79 mieszkaniami o powierzchniach od 27,92 do 63,10 mkw. i układach od 1 do 3 pokoi. Mieszkania są wyposażone w balkon lub ogródek. Teren inwestycji zaoferuje mieszkańcom liczne udogodnienia, takie jak <strong>plac zabaw dla najmłodszych</strong>, ścieżki spacerowe oraz bliskość ośrodków edukacyjnych i punktów usługowych.</p><p>Ponadto, na terenie inwestycji znajdzie się:</p><ul><li>50 miejsc postojowych naziemnych,</li><li>45 miejsc postojowych podziemnych,</li><li>79 komórek lokatorskich.</li></ul><p>Ostatni, <strong>czwarty etap inwestycji </strong>obejmie 2 budynki, w których zaplanowano 111 mieszkań o układach od 1 do 4 pokoi.&nbsp;</p><p>Dodatkowymi udogodnieniami&nbsp;będą:</p><ul><li>62 miejsc postojowych naziemnych,</li><li>72 miejsca postojowe podziemne,</li><li>111 komórek lokatorskich.</li></ul><p>Na terenie inwestycji uwzględniono również wózkownię i rowerownię.</p><strong>Osiedle Przyjemne - lokalizacja</strong><br />\n<br />\nJasień, ul. Flisykowskiego<br />\n<ul><li>6,8 km do centrum</li><li>5 min. spacerem do przystanku autobusowego</li><li>9 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 19 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Restauracja (165 m, 3 minuty spacerem)</li><li>Przedszkole (247 m, 4 minuty spacerem)</li><li>Przystanek autobusowy (275 m, 5 minut spacerem)</li><li>Żłobek (648 m, 9 minut spacerem)</li><li>Lekarz (591 m, 10 minut spacerem)</li><li>Sklep: Lidl (851 m, 13 minut spacerem)</li><li>Siłownia (883 m, 14 minut spacerem)</li><li>Szkoła Podstawowa (991 m, 15 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "10259.88",
+      "label": "10259.88 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_2",
+      "label": "2"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 616824,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "616 824 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "60.12",
+      "label": "60,12 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://osiedleprzyjemne.pl",
+      "label": "https://osiedleprzyjemne.pl "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Kinga Zielińska",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:29:05+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Kinga Zielińska",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.32126803,
+    "lon": 18.56289691,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5659,
+     "name": "Gdańsk",
+     "normalized_name": "gdansk"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11426751738,
+     "filename": "3euwfhyy85tw-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 865,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3euwfhyy85tw-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751746,
+     "filename": "el7bc9x82vlr3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/el7bc9x82vlr3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751759,
+     "filename": "vlv8tu4k9q253-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/vlv8tu4k9q253-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751772,
+     "filename": "ol0cet5ztpr02-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 865,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ol0cet5ztpr02-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751790,
+     "filename": "71cud8o3ezyh2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 865,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/71cud8o3ezyh2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751793,
+     "filename": "jjojsrjj3twr1-PL",
+     "rotation": 0,
+     "width": 912,
+     "height": 912,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jjojsrjj3twr1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751797,
+     "filename": "kqzjj75i3l9g3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 865,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/kqzjj75i3l9g3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426751799,
+     "filename": "i26ld4eobmcz2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 865,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/i26ld4eobmcz2-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-60m2-balkon-ID4ujgn",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  }
+ ],
+ "metadata": {
+  "total_elements": 886,
+  "visible_total_count": 886,
+  "promoted": [
+   0,
+   1,
+   2,
+   13,
+   14,
+   15,
+   26,
+   27,
+   28,
+   39,
+   40,
+   41
+  ],
+  "search_id": "F4370141CFBB6A48F23EC5824988D19D",
+  "adverts": {
+   "places": null,
+   "config": {
+    "targeting": {
+     "env": "production",
+     "lang": "pl",
+     "account": "",
+     "segment": [],
+     "user_status": "0",
+     "cat_l0_id": "3",
+     "cat_l1_id": "1307",
+     "cat_l2_id": "14",
+     "cat_l0": "nieruchomosci",
+     "cat_l0_path": "nieruchomosci",
+     "cat_l1": "mieszkania",
+     "cat_l1_path": "mieszkania",
+     "cat_l2": "sprzedaz",
+     "cat_l2_path": "sprzedaz",
+     "cat_l0_name": "Mieszkania",
+     "cat_l1_name": "Nieruchomości",
+     "cat_l2_name": "Sprzedaż",
+     "cat_id": "3|1307|14",
+     "private_business": "all",
+     "offer_seek": "all",
+     "view": "list",
+     "region_id": "5",
+     "region": "pomorskie",
+     "subregion": "gdansk",
+     "city_id": "5659",
+     "city": "gdansk",
+     "search_engine_input": "",
+     "page": "1",
+     "app_version": "",
+     "price": [
+      "250000-499999",
+      "500000-749999",
+      "750000-999999",
+      "1000000-2999999"
+     ],
+     "m": [
+      "0-24",
+      "25-39",
+      "40-49",
+      "50-59",
+      "60-69",
+      "70-79",
+      "80-99",
+      "100-119",
+      "120-149"
+     ]
+    }
+   }
+  },
+  "source": {
+   "promoted": [
+    0,
+    1,
+    2,
+    13,
+    14,
+    15,
+    26,
+    27,
+    28,
+    39,
+    40,
+    41
+   ],
+   "organic": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ]
+  }
+ },
+ "links": {
+  "self": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=5659&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "next": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=39&limit=40&category_id=14&city_id=5659&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "first": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=5659&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  }
+ }
+}

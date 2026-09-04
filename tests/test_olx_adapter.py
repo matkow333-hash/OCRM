@@ -4,6 +4,8 @@ Zwraca zielone, gdy zmiana struktury strony jest wyłapana lokalnie, zanim skane
 Test pełnego przebiegu podmienia Fetcher na atrapę czytającą pliki z dysku.
 """
 
+import json
+import re
 from dataclasses import replace
 from pathlib import Path
 
@@ -11,7 +13,9 @@ import pytest
 
 from ocrm import db, pipeline
 from ocrm.adapters.olx import (
+    CITY_ID,
     OlxAdapter,
+    build_api_path,
     build_search_url,
     parse_offer_page,
     parse_search_dom,
@@ -48,19 +52,43 @@ CONFIG_DATA = {
 
 
 class FakeFetcher:
-    def __init__(self, pages: list[str], offer: str | None = None):
-        self.pages = list(pages)
-        self.offer = offer
-        self.urls: list[str] = []
+    """Atrapa transportu przeglądarkowego: oddaje zapisane odpowiedzi API po city_id.
 
-    def get(self, url: str) -> str:
-        self.urls.append(url)
-        if "/d/oferta/" in url:
-            return self.offer or ""
-        return self.pages.pop(0) if self.pages else ""
+    Fixture'y pochodzą z żywego OLX-a (4 września 2026), przycięte do dziesięciu ogłoszeń
+    na miasto. Licznik visible_total_count zostaje prawdziwy, bo to po nim adapter poznaje
+    koniec danych - podmiana na dziesiątkę ukryłaby błąd w warunku stopu.
+    """
+
+    def __init__(self, payloads: dict[int, dict] | None = None, repeat: bool = False):
+        self.payloads = payloads or {}
+        self.repeat = repeat
+        self.paths: list[str] = []
+
+    def get_json(self, path: str) -> dict:
+        self.paths.append(path)
+        city_id = int(re.search(r"city_id=(\d+)", path).group(1))
+        offset = int(re.search(r"offset=(\d+)", path).group(1))
+        payload = self.payloads.get(city_id)
+        if payload is None:
+            return {"data": [], "metadata": {"visible_total_count": 0}}
+        if offset and not self.repeat:
+            return {"data": [], "metadata": {"visible_total_count": 0}}
+        return payload
 
     def close(self) -> None:
         pass
+
+
+def api_fixture(city: str) -> dict:
+    return json.loads((FIXTURES / f"olx_api_{city}.json").read_text(encoding="utf-8"))
+
+
+def tricity_payloads() -> dict[int, dict]:
+    return {
+        CITY_ID["gdansk"]: api_fixture("gdansk"),
+        CITY_ID["sopot"]: api_fixture("sopot"),
+        CITY_ID["gdynia"]: api_fixture("gdynia"),
+    }
 
 
 def fixture(name: str) -> str:
@@ -145,31 +173,66 @@ def test_parse_offer_page():
 
 def test_adapter_search_yields_listings_without_network():
     cfg = make_config().search_config()
-    adapter = OlxAdapter(fetcher=FakeFetcher([fixture("olx_search_state.html")]))
+    adapter = OlxAdapter(fetcher=FakeFetcher(tricity_payloads()))
     cfg_one_city = replace(cfg, cities=["Gdańsk"])
 
     listings = list(adapter.search(cfg_one_city))
-    assert len(listings) == 12
+    assert len(listings) == 10
+    assert {item.source for item in listings} == {"olx"}
+    assert all(item.url.startswith("https://www.olx.pl/") for item in listings)
 
 
-def test_adapter_search_deduplicates_ids_across_pages():
+def test_adapter_search_deduplicates_ids_across_batches():
     cfg = make_config(max_pages_per_source=2).search_config()
-    page = fixture("olx_search_state.html")
-    adapter = OlxAdapter(fetcher=FakeFetcher([page, page]))
+    adapter = OlxAdapter(fetcher=FakeFetcher(tricity_payloads(), repeat=True))
     cfg_one_city = replace(cfg, cities=["Gdańsk"])
 
-    assert len(list(adapter.search(cfg_one_city))) == 12
+    assert len(list(adapter.search(cfg_one_city))) == 10
 
 
-def test_adapter_enriches_from_offer_page_when_enabled():
-    cfg = make_config(fetch_details=True).search_config()
-    fetcher = FakeFetcher([fixture("olx_search_state.html")], offer=fixture("olx_offer.html"))
+def test_api_payload_carries_detail_fields_without_visiting_offer_page():
+    """Powód, dla którego adapter nie wchodzi już na stronę każdej oferty:
+    partia z API niesie opis, metraż, pokoje i etykietę sprzedawcy od razu."""
+    cfg = make_config().search_config()
+    fetcher = FakeFetcher(tricity_payloads())
     adapter = OlxAdapter(fetcher=fetcher)
-    cfg_one_city = replace(cfg, cities=["Gdańsk"])
 
-    listings = list(adapter.search(cfg_one_city))
-    assert listings[0].phone_raw == "+48501234567"
-    assert listings[0].seller_label == "Osoba prywatna"
+    listings = list(adapter.search(replace(cfg, cities=["Gdańsk"])))
+
+    assert all(item.description for item in listings)
+    assert all(item.area_raw for item in listings)
+    assert all(item.seller_label in ("firma", "osoba prywatna") for item in listings)
+    assert len(fetcher.paths) == 1
+
+
+def test_api_phone_flag_is_not_mistaken_for_a_number():
+    """contact.phone w API jest wartością logiczną. Wpisany wprost dawał numer 'True'."""
+    cfg = make_config().search_config()
+    adapter = OlxAdapter(fetcher=FakeFetcher(tricity_payloads()))
+
+    listings = list(adapter.search(replace(cfg, cities=["Gdańsk"])))
+
+    assert all(item.phone_raw is None for item in listings)
+    assert any(item.extra.get("has_phone") for item in listings)
+
+
+def test_api_path_carries_category_city_and_ranges():
+    cfg = make_config().search_config()
+
+    path = build_api_path("sale", "Gdańsk", cfg, offset=40)
+
+    assert "category_id=14" in path
+    assert f"city_id={CITY_ID['gdansk']}" in path
+    assert "offset=40" in path
+    assert "filter_float_price%3Afrom=250000" in path
+    assert "filter_float_m%3Ato=140" in path
+
+
+def test_api_path_refuses_city_outside_the_measured_map():
+    cfg = make_config().search_config()
+
+    with pytest.raises(ValueError, match="Nieznane miasto"):
+        build_api_path("sale", "Kraków", cfg)
 
 
 @pytest.fixture()
@@ -182,38 +245,36 @@ def conn(tmp_path):
 
 def test_scan_source_stores_only_tricity_and_is_idempotent(conn, monkeypatch):
     cfg = make_config()
-    page = fixture("olx_search_state.html")
 
     def adapter_factory(_name):
-        return OlxAdapter(fetcher=FakeFetcher([page]))
+        return OlxAdapter(fetcher=FakeFetcher(tricity_payloads()))
 
     monkeypatch.setattr(pipeline, "get_adapter", adapter_factory)
 
     first = pipeline.scan_source(conn, cfg, "olx")
     assert first.status == "ok"
-    assert first.found == 12
-    assert first.new == 11
+    assert first.found == 30
 
-    rows = conn.execute("SELECT city, seller_type FROM listings ORDER BY source_id").fetchall()
+    rows = conn.execute("SELECT city, seller_type FROM listings").fetchall()
     assert {row["city"] for row in rows} == {"Gdańsk", "Sopot", "Gdynia"}
-    assert [row["seller_type"] for row in rows].count("agency") == 1
+    assert first.new == len(rows)
 
     second = pipeline.scan_source(conn, cfg, "olx")
     assert second.new == 0
-    assert conn.execute("SELECT COUNT(*) AS n FROM listings").fetchone()["n"] == 11
+    assert conn.execute("SELECT COUNT(*) AS n FROM listings").fetchone()["n"] == len(rows)
 
 
 def test_scan_source_logs_block_and_then_cools_down(conn, monkeypatch):
     cfg = make_config()
 
     class BlockingFetcher(FakeFetcher):
-        def get(self, url: str) -> str:
+        def get_json(self, path: str) -> dict:
             from ocrm.adapters.base import Blocked
 
-            raise Blocked("status 429 przy " + url)
+            raise Blocked("status 429 przy " + path)
 
     monkeypatch.setattr(
-        pipeline, "get_adapter", lambda _name: OlxAdapter(fetcher=BlockingFetcher([]))
+        pipeline, "get_adapter", lambda _name: OlxAdapter(fetcher=BlockingFetcher())
     )
 
     result = pipeline.scan_source(conn, cfg, "olx")

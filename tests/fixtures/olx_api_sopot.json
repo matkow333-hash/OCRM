@@ -1,0 +1,2632 @@
+{
+ "data": [
+  {
+   "id": 1092313394,
+   "url": "https://www.olx.pl/d/oferta/47-m-2-pokoje-z-mozliwoscia-wydzielenia-3-pokoju-duzy-balkon-CID3-ID1bWeBY.html",
+   "title": "47 m² | 2 pokoje z możliwością wydzielenia 3. pokoju | duży balkon",
+   "last_refresh_time": "2026-08-19T12:18:26+02:00",
+   "created_time": "2026-08-19T12:18:26+02:00",
+   "valid_to_time": "2026-09-18T12:18:21+02:00",
+   "pushup_time": null,
+   "description": "<p>Na sprzedaż mieszkanie o powierzchni <strong>47 m2</strong>, położone w jednej z najbardziej cenionych lokalizacji Sopotu, przy ul. <strong>23 Marca</strong>.</p><p>To propozycja zarówno dla osób szukających mieszkania do własnej aranżacji, jak i dla inwestorów poszukujących nieruchomości o wysokim potencjale wynajmu.</p><p><br />\n</p><p>Lokal znajduje się w spokojnej, zielonej części miasta, z dala od turystycznego zgiełku, a jednocześnie w miejscu zapewniającym wygodny dostęp do pełnej infrastruktury oraz świetną komunikację z całym Trójmiastem.</p><p><br />\n</p><p><strong><em>Atuty nieruchomości</em></strong></p><p>• powierzchnia 47 m2</p><p>• 2 ustawne pokoje</p><p>• możliwość wydzielenia 3 niezależnych pokoi</p><p>• osobna, jasna kuchnia z oknem</p><p>• duży balkon wykonany w ramach niedawnej modernizacji budynku</p><p>• ogrzewanie miejskie</p><p>• mieszkanie o dużym potencjale aranżacyjnym</p><p>• spółdzielczo-własnościowe prawo do lokalu</p><p><br />\n</p><p><strong><em>Budynek po termomodernizacji</em></strong></p><p>Dużym atutem nieruchomości jest przeprowadzona w ostatnim czasie kompleksowa modernizacja budynku, obejmująca m.in.:</p><p>• termomodernizację elewacji</p><p>• wymianę pionów kanalizacyjnych</p><p>• wymianę pionów oraz instalacji centralnego ogrzewania</p><p>• wykonanie nowych, przestronnych balkonów</p><p>Dzięki temu przyszły właściciel nie będzie musiał martwić się kosztownymi pracami dotyczącymi części wspólnych budynku.</p><p><br />\n</p><p><strong><em>Lokalizacja</em></strong></p><p>Ul. 23 Marca to jedna z najchętniej wybieranych części Sopotu. Mieszkanie położone jest w otoczeniu zieleni i terenów spacerowych, w bezpośrednim sąsiedztwie Trójmiejskiego Parku Krajobrazowego.</p><p><br />\n</p><p>Na miejscu dostępne są wszystkie udogodnienia potrzebne w codziennym życiu:</p><p>• przychodnia zdrowia</p><p>• apteka</p><p>• sklepy spożywcze i osiedlowy warzywniak</p><p>• Żabka</p><p>• paczkomaty</p><p>• przystanki komunikacji miejskiej</p><p>• szkoły i przedszkola</p><p><br />\n</p><p>Lokalizacja zapewnia szybki dojazd do centrum Sopotu, stacji SKM oraz uczelni wyższych, w tym Uniwersytetu Gdańskiego. To również doskonała baza do codziennego funkcjonowania bez konieczności korzystania z samochodu.</p><p><br />\n</p><p><strong><em>Potencjał inwestycyjny</em></strong></p><p>Funkcjonalny układ mieszkania daje możliwość wydzielenia <strong>trzech niezależnych pokoi</strong>, co znacząco zwiększa jego atrakcyjność na rynku najmu. Nieruchomości w tej części Sopotu od lat cieszą się dużym zainteresowaniem zarówno wśród osób poszukujących własnego mieszkania, jak i inwestorów.</p><p><br />\n</p><p><strong>Cena mieszkania: 599 000 zł</strong></p><p><br />\n</p><p>Do mieszkania przynależą dwie piwnice.</p><p><br />\n</p><p>Zapraszam do kontaktu oraz na prezentację nieruchomości. Oferta dostępna wyłącznie w naszym biurze.</p><br />\nOferta dodana z propertly.io<br />\nNr oferty w biurze: 1926-MS-EXPANDER/2/2",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": true,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12744.68",
+      "label": "12744.68 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 599000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "599 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "47",
+      "label": "47 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Dominika Dymińska",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Dominika Dymińska",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.44751628,
+    "lon": 18.54429769,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11394700087,
+     "filename": "cb2wlud8iap12-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 852,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/cb2wlud8iap12-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700088,
+     "filename": "vfnmp2a9url33-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 959,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/vfnmp2a9url33-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700089,
+     "filename": "d39nav7fdv4h3-PL",
+     "rotation": 0,
+     "width": 680,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/d39nav7fdv4h3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700090,
+     "filename": "lfbe41rfrbt5-PL",
+     "rotation": 0,
+     "width": 767,
+     "height": 1024,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lfbe41rfrbt5-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700091,
+     "filename": "64m85p14d1qt2-PL",
+     "rotation": 0,
+     "width": 680,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/64m85p14d1qt2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700092,
+     "filename": "i40nnzo6v61j3-PL",
+     "rotation": 0,
+     "width": 767,
+     "height": 1024,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/i40nnzo6v61j3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11394700093,
+     "filename": "660kp2vg5dlj1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 959,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/660kp2vg5dlj1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/47-m-2-pokoje-z-mozliwoscia-wydzielenia-3-pokoju-duzy-balkon-ID4CCS6",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer",
+   "protect_phone": true
+  },
+  {
+   "id": 1046016363,
+   "url": "https://www.olx.pl/d/oferta/mieszkanie-gorny-sopot-47m2-CID3-ID18MYDF.html",
+   "title": "Mieszkanie górny Sopot 47m2",
+   "last_refresh_time": "2026-09-03T22:18:39+02:00",
+   "created_time": "2025-12-24T21:46:19+01:00",
+   "valid_to_time": "2026-10-03T22:17:38+02:00",
+   "pushup_time": "2026-09-03T22:17:39+02:00",
+   "description": "Sprzedam mieszkanie w wieżowcu na parterze z piwnicą. Blok Posiada windę. Mieszkanie do remontu, w razie pytań proszę o kontakt telefoniczny.",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "13404.26",
+      "label": "13404.26 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 630000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "630 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "47",
+      "label": "47 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 40964713,
+    "created": "2016-04-12T10:05:19+02:00",
+    "other_ads_enabled": true,
+    "name": "Magda",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": "facebook",
+    "photo": "https://img-resizer.prd.01.eu-west-1.eu.olx.org/img-eu-olxpl-production/1087612311_1_100x100_rev001.jpg",
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-09-03T22:16:30+02:00",
+    "seller_type": null,
+    "uuid": "166738b7-220f-4c26-b464-5e411db0966e"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Magda",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.45558,
+    "lon": 18.54988,
+    "radius": 5,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "district": {
+     "id": 341,
+     "name": "Górny Sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11424795477,
+     "filename": "28b1rgvbhbvs1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/28b1rgvbhbvs1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424795478,
+     "filename": "iylnqe7cq0xu-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/iylnqe7cq0xu-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424795479,
+     "filename": "dos7tngv9lkx1-PL",
+     "rotation": 0,
+     "width": 1000,
+     "height": 750,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/dos7tngv9lkx1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424795480,
+     "filename": "lj6posv3ilnv1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lj6posv3ilnv1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424795481,
+     "filename": "3jj0sei84uxn3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3jj0sei84uxn3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424795482,
+     "filename": "469du1bdtu0k3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/469du1bdtu0k3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": true
+  },
+  {
+   "id": 1053414026,
+   "url": "https://www.olx.pl/d/oferta/2-pokojowe-mieszkanie-44m2-loggia-CID3-ID19i16O.html",
+   "title": "2-pokojowe mieszkanie 44m2 + loggia",
+   "last_refresh_time": "2026-09-03T18:26:56+02:00",
+   "created_time": "2026-02-05T09:43:07+01:00",
+   "valid_to_time": "2026-10-03T18:26:53+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>2-pokojowe mieszkanie<strong> numer A.3.3</strong>  na 3. piętrze w budynku A w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "27500",
+      "label": "27500 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_3",
+      "label": "3"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1233650,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 233 650 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "44.86",
+      "label": "44,86 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11424016874,
+     "filename": "y2guraevb5df-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/y2guraevb5df-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016875,
+     "filename": "s6qsbkgzfqfv2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/s6qsbkgzfqfv2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016876,
+     "filename": "oc3033ut768i-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/oc3033ut768i-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016877,
+     "filename": "lezxbslc1p461-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lezxbslc1p461-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016878,
+     "filename": "738117sexuhb-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/738117sexuhb-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016879,
+     "filename": "rk9be0nj2uc92-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/rk9be0nj2uc92-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424016880,
+     "filename": "huvrjo6h0w5s2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/huvrjo6h0w5s2-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-44m2-loggia-ID4zySX",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1071225865,
+   "url": "https://www.olx.pl/d/oferta/3-pokojowe-mieszkanie-56m2-loggia-bez-prowizji-CID3-ID1auKMx.html",
+   "title": "3-pokojowe mieszkanie 56m2 + loggia Bez Prowizji",
+   "last_refresh_time": "2026-09-03T14:46:29+02:00",
+   "created_time": "2026-05-05T11:13:20+02:00",
+   "valid_to_time": "2026-10-03T14:46:26+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>3-pokojowe mieszkanie<strong> numer B.2.8</strong>  na 2. piętrze w budynku B w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "25900",
+      "label": "25900 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_2",
+      "label": "2"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1456357,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 456 357 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "56.23",
+      "label": "56,23 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11424077664,
+     "filename": "f4v3rzosg1i93-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/f4v3rzosg1i93-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077665,
+     "filename": "3sy0rurwvvvr1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3sy0rurwvvvr1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077666,
+     "filename": "ilc8g3veyvz31-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ilc8g3veyvz31-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077667,
+     "filename": "y420j69q1duw1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/y420j69q1duw1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077668,
+     "filename": "98n71jnwcwem-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/98n71jnwcwem-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077669,
+     "filename": "9js9k6ou6zwq3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/9js9k6ou6zwq3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11424077670,
+     "filename": "m66hpvg91cf03-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/m66hpvg91cf03-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-loggia-bez-prowizji-ID4zyTn",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1095790237,
+   "url": "https://www.olx.pl/d/oferta/ladne-wyposazone-2-pokojowe-brodwino-CID3-ID1c9P65.html",
+   "title": "Ładne , wyposażone 2 pokojowe  Brodwino",
+   "last_refresh_time": "2026-09-03T10:08:31+02:00",
+   "created_time": "2026-09-03T10:08:31+02:00",
+   "valid_to_time": "2026-10-03T10:08:26+02:00",
+   "pushup_time": null,
+   "description": "<p>Polecam 2 pokojowe mieszkanie po remoncie w pięknej dzielnicy Sopotu , Brodwinie .</p><p>Mieszkanie usytuowane w bloku na skraju osiedla .</p><p>Mieszkanie położone na 5- tym piętrze. jest doświetlone i nasłonecznione .</p><p>Wnętrze jest przestronne, co pozwala na swobodne poruszanie się oraz umiejscowienie mebli według własnych upodobań.</p><p>W przedpokoju mamy dużą szafę na garderobę .</p><p>Kuchnia w jasnych kolorach z zabudowa szafkowa i sprzętem AGD .</p><p>Jest miejsce pod oknem na stolik i 2 krzesła .</p><p>Sypialnia z szafa na garderobę</p><p>Z salonu wyjście na balkon z pięknym widokiem na las .</p><p>Łazienka z wanna z ładnym oświetleniem w jasnych ciepłych kolorach</p><p>Opłaty wynoszą około 640 zł .</p><p>Do mieszkania przynależy piwnica .</p><p>Pod blokiem dużo miejsc parkingowych .</p><p>Wydanie od zaraz .</p><p>Okolica to prawdziwy raj dla miłośników aktywnego wypoczynku.</p><p>W bliskim otoczeniu dostępne są ścieżki spacerowe, które zachęcają do codziennych wędrówek czy joggingu.</p><p>Mieszkanie położone jest w bliskiej odległości od licznych sklepów, restauracji i punktów usługowych, co czyni codzienne życie niezwykle komfortowym.</p><p>Dodatkowym atutem jest bliskość do stacji SKM, dzięki czemu dogodnie dotrzesz do Gdańska oraz innych okolicznych miejscowości.</p><p>Niedaleko na plaże w Sopocie Kamiennym Potoku i do Aquaparku .</p><p>Zapraszam na prezentację , tel : (użyj formularza kontaktowego).</p><p><br />\n</p><p><br />\n</p><p><br />\n</p><p><br />\n</p><br />\n<p>Agencja nie pobiera prowizji od klienta kupującego.</p><br />\nOferta dodana z propertly.io<br />\nNr oferty w biurze: REMAX-23-MS-AMBER/17/12",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "15690.48",
+      "label": "15690.48 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_5",
+      "label": "5"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 659000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "659 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "42",
+      "label": "42 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Małgorzata Mazur",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Małgorzata Mazur",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.45664136,
+    "lon": 18.53664971,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11425780314,
+     "filename": "t1k2k3gzcvif2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/t1k2k3gzcvif2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780315,
+     "filename": "uedvcfi06t3y-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uedvcfi06t3y-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780316,
+     "filename": "8pckiivmvomq3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/8pckiivmvomq3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780317,
+     "filename": "v37rlwzalv4w3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/v37rlwzalv4w3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780318,
+     "filename": "eau6ccqmey6r3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/eau6ccqmey6r3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780319,
+     "filename": "ave4bf7iev0a3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ave4bf7iev0a3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780320,
+     "filename": "qsdukvttdhpl2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qsdukvttdhpl2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780321,
+     "filename": "qf7n87fbe2wu-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qf7n87fbe2wu-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780322,
+     "filename": "12wzst287tki2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/12wzst287tki2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780323,
+     "filename": "3wtjmtmwhbx7-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 960,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3wtjmtmwhbx7-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780324,
+     "filename": "yn5ie4qq7bqu2-PL",
+     "rotation": 0,
+     "width": 560,
+     "height": 450,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/yn5ie4qq7bqu2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11425780325,
+     "filename": "opb4y43bot952-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/opb4y43bot952-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/ladne-wyposazone-2-pokojowe-brodwino-ID4ChRe",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1083488798,
+   "url": "https://www.olx.pl/d/oferta/2-pokojowe-mieszkanie-40m2-balkon-bezposrednio-CID3-ID1bkcWM.html",
+   "title": "2-pokojowe mieszkanie 40m2 + balkon Bezpośrednio",
+   "last_refresh_time": "2026-09-03T09:42:00+02:00",
+   "created_time": "2026-07-04T13:11:46+02:00",
+   "valid_to_time": "2026-10-03T09:41:57+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>2-pokojowe mieszkanie<strong> numer C.0.3</strong>  na parterze w budynku C w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "25500",
+      "label": "25500 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1039890,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 039 890 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "40.78",
+      "label": "40,78 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11422194720,
+     "filename": "jytudjidl3yl-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jytudjidl3yl-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194721,
+     "filename": "lsegldzzoqjc-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lsegldzzoqjc-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194722,
+     "filename": "gfq1zt2il0ib1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/gfq1zt2il0ib1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194723,
+     "filename": "ouyjpfsbmn0k2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ouyjpfsbmn0k2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194724,
+     "filename": "ny1pwqsaox4h1-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ny1pwqsaox4h1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194725,
+     "filename": "p4siqiobmwkt3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/p4siqiobmwkt3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422194726,
+     "filename": "ocg7swo1loju1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ocg7swo1loju1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-40m2-balkon-bezposrednio-ID4zyT5",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1047733848,
+   "url": "https://www.olx.pl/d/oferta/2-pokojowe-mieszkanie-49m2-ogrodek-CID3-ID18Ubr2.html",
+   "title": "2-pokojowe mieszkanie 49m2 + ogródek",
+   "last_refresh_time": "2026-09-02T20:11:37+02:00",
+   "created_time": "2026-01-05T17:42:18+01:00",
+   "valid_to_time": "2026-10-02T20:11:30+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>2-pokojowe mieszkanie<strong> numer C.0.5</strong>  na parterze w budynku C w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "25300",
+      "label": "25300 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1240965,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 240 965 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "49.05",
+      "label": "49,05 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11423831327,
+     "filename": "mwx7bw0vcjb73-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/mwx7bw0vcjb73-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831328,
+     "filename": "cvq1s07cnobw2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/cvq1s07cnobw2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831329,
+     "filename": "0fr3goi969yj3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/0fr3goi969yj3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831330,
+     "filename": "53o9pz7lka8j3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/53o9pz7lka8j3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831331,
+     "filename": "1sz2xhemvxsx2-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/1sz2xhemvxsx2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831332,
+     "filename": "44x270b76b86-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/44x270b76b86-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11423831333,
+     "filename": "oizwvvadxkt42-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/oizwvvadxkt42-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-49m2-ogrodek-ID4zyTq",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1053464753,
+   "url": "https://www.olx.pl/d/oferta/2-pokojowe-mieszkanie-45m2-loggia-bezposrednio-CID3-ID19ieiZ.html",
+   "title": "2-pokojowe mieszkanie 45m2 + loggia Bezpośrednio",
+   "last_refresh_time": "2026-09-02T17:42:05+02:00",
+   "created_time": "2026-02-05T14:14:51+01:00",
+   "valid_to_time": "2026-10-02T17:41:58+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>2-pokojowe mieszkanie<strong> numer A.3.4</strong>  na 3. piętrze w budynku A w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "27500",
+      "label": "27500 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_3",
+      "label": "3"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1243550,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 243 550 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "45.22",
+      "label": "45,22 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11422193756,
+     "filename": "p4siu2mf90ye3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/p4siu2mf90ye3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193757,
+     "filename": "p9qy4b8ttdhi3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/p9qy4b8ttdhi3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193758,
+     "filename": "4xhozxrrq1re3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4xhozxrrq1re3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193759,
+     "filename": "52grkr8tq25w2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/52grkr8tq25w2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193760,
+     "filename": "cz0bho3vzxtx2-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/cz0bho3vzxtx2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193761,
+     "filename": "5qlpknndy90g-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/5qlpknndy90g-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193762,
+     "filename": "47ku7te86lx12-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/47ku7te86lx12-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/2-pokojowe-mieszkanie-45m2-loggia-bezposrednio-ID4zySY",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1059218715,
+   "url": "https://www.olx.pl/d/oferta/3-pokojowe-mieszkanie-56m2-loggia-bez-prowizji-CID3-ID19GnaP.html",
+   "title": "3-pokojowe mieszkanie 56m2 + loggia Bez Prowizji",
+   "last_refresh_time": "2026-09-02T14:12:11+02:00",
+   "created_time": "2026-03-07T13:40:41+01:00",
+   "valid_to_time": "2026-10-02T14:12:07+02:00",
+   "pushup_time": null,
+   "description": "<ul><li>3-pokojowe mieszkanie<strong> numer A.3.2</strong>  na 3. piętrze w budynku A w Inwestycji SPOT Apartamenty Dewelopera Moderna Holding sp. z o.o.</li><li>Plaża i morze (8 minut rowerem)</li><li>Przystanek autobusowy (1 minuta spacerem)</li><li>Stacja kolejowa (10 minut spacerem)</li><li>Lidl, Biedronka (12 minut spacerem)</li><li>ERGO ARENA (15 minut spacerem)</li><li>CH Sopot Centrum (5 minut samochodem)</li></ul><br />\n<strong>SPOT Apartamenty - poznaj inwestycję</strong><br />\n<p><strong>Tu łączy się Trójmiasto</strong></p><p>SPOT to przestrzeń, która scala dwa światy – energię metropolii i elegancję Sopotu.</p><p><strong>Punkt, który wyznacza południową bramę kurortu</strong></p><p>Granice Trójmiasta codziennie podmywają morskie fale. Przejście pomiędzy Gdańskiem a Sopotem dotychczas było rozmyte – ukryte pomiędzy morenowymi wzgórzami pokrytymi gęstym płaszczem zieleni. Pomiędzy dwoma światami to, co niewyraźne, nabiera funkcjonalnej formy. Pomiędzy dwoma światami, to co niewyraźne, nabiera funkcjonalnej formy. To miejsce to SPOT. Punkt, który wyznacza południową bramę kurortu.</p><p>SPOT wydobywa ukryty potencjał tego fragmentu Sopotu i nadaje mu zupełnie nową rangę. Przy Alei Niepodległości 635/637 powstaje osiedle mieszkaniowe, które wprowadza nową jakość starannie zaprojektowanej przestrzeni.</p><p><strong>Początek codzienności</strong></p><p>To miejsce, w którym z łatwością dotrzesz tam, gdzie chcesz być. Do centrum Gdańska i Wrzeszcza w kilka minut – dzięki pobliskiej stacji SKM Sopot Wyścigi. Do Oliwy, Przymorza czy Żabianki – jedną linią trolejbusową. Do serca Sopotu – na spacer przez Hipodrom i Monciak. Z tego adresu codzienność staje się płynna i wygodna.</p><p>W najbliższym otoczeniu znajdziesz wszystko, czego potrzebujesz na co dzień: sklepy, piekarnie, apteki i usługi, zarówno po stronie Sopotu, jak i Gdańska. Tuż za granicą miasta – nowoczesne centra handlowe, markety, siłownie, biurowce i kampus Uniwersytetu Gdańskiego. Wszystko w zasięgu krótkiego spaceru, kilku minut autem lub jednej stacji SKM.</p><p><strong>Sopot najlepiej odkrywa się w ruchu – w rytmie spokojnego spaceru</strong></p><p>Alejki prowadzą wśród drzew, obok drewnianych werand i historycznych willi, gdzie architektura od zawsze współistnieje z naturą. To tutaj każdy detal staje się częścią większej opowieści – o lekkości kurortu, harmonii codzienności i elegancji, która nie przemija.</p><p><strong>Modernistyczne, niskie apartamentowce zakotwiczone są w lokalnym kontekście urbanistyczno-historycznym Sopotu, ale także Gdańska</strong></p><p>Znajdziemy tutaj jasną klinkierowaną cegłę o szaro-beżowym zabarwieniu, duże portfenetry w ciemnej oprawie stolarki okiennej, uporządkowaną, wyważoną tektonikę, rytmicznie rozmieszczone loggia i balkony, co składa się na dyskretną, minimalistyczną całość. U szczytu, bliżej koron drzew, linię odcięcia tworzą stalowe balustrady oraz lukarny z przestronnymi oknami, a także charakterystyczne mansardowe dachy. To przykład nowoczesnej interpretacji modernistycznej idei skupionej wokół funkcjonalności, czystych linii oraz integracji pomiędzy przestrzeniami wewnętrznymi i zewnętrznymi.</p><p><strong>Przekroczenie progu własnego apartamentu jest punktem zwrotnym dnia. Wnętrza części wspólnych emanują wyważoną elegancją</strong></p><p>Zmysłowa gra różnych faktur oraz naturalnych materiałów składa się na kompozycję pełną architektonicznej głębi. Ciepła tonacja skontrastowana z surowością kamienia i drewna, wzbogacona kolorem o żywym, intensywnym odcieniu, wprowadza do przestrzeni wspólnej ożywczą szlachetność. Wyrafinowanie nie wynika tutaj z dosłowności, lecz z dyskretnego perfekcjonizmu dobranych elementów. Każdy detal o unikatowej wartości estetycznej stanowi znaczący moment przejścia do swojego mieszkania.</p><p><strong>Sopot to północna enklawa wytchnienia. Od dekad rozfalowane miasto przyciąga do siebie nowe pokolenia kuracjuszy, którzy poszukują głębokiego odpoczynku od zgiełku dnia codziennego</strong></p><p>Przestrzeń SPOTu czerpie z tych potrzeb i proponuje nową relację z miejscem. Przestronne i wysokie apartamenty (150 o różnym metrażu zlokalizowanych w czterech budynkach) poprzez duże przeszklenia otwierają się na otaczające inwestycję tereny zielone, jak pobliski Trójmiejski Park Krajobrazowy. Komfort wytworzony poprzez przenikanie się wnętrza z tym, co na zewnątrz, gwarantuje poczucie przynależności do wyższego porządku naturalnego.</p><strong>SPOT Apartamenty - lokalizacja</strong><br />\n<br />\n81-855 Sopot, Aleja Niepodległości 635/637<br />\n<ul><li>2,1 km do centrum</li><li>2 min. spacerem do przystanku autobusowego</li><li>12 min. spacerem do stacji SKM</li><li>7 min. samochodem do przystanku tramwajowego</li><li>dojazd do centrum: 12 min samochodem</li></ul>Istotne punkty w okolicy inwestycji<ul><li>Przystanek autobusowy (99 m, 2 minuty spacerem)</li><li>Stacja SKM (810 m, 12 minut spacerem)</li></ul>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "27000",
+      "label": "27000 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_3",
+      "label": "3"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1533330,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 533 330 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "pozostale",
+      "label": "Pozostałe"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "56.79",
+      "label": "56,79 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    },
+    {
+     "key": "developer_url",
+     "name": "Strona dewelopera",
+     "type": "input",
+     "value": {
+      "key": "https://moderna.pl/spot/#investments",
+      "label": "https://moderna.pl/spot/#investments "
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Biuro Sprzedaży",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Biuro Sprzedaży",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4250117,
+    "lon": 18.5640707,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11422193238,
+     "filename": "7r8uv0gijq2o1-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7r8uv0gijq2o1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193239,
+     "filename": "csyaog9svja81-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 905,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/csyaog9svja81-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193240,
+     "filename": "ok8k5bhvqswk2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ok8k5bhvqswk2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193241,
+     "filename": "owghaoz3gezu2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/owghaoz3gezu2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193242,
+     "filename": "5k44qi19g9ol2-PL",
+     "rotation": 0,
+     "width": 921,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/5k44qi19g9ol2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193243,
+     "filename": "b1pay2kz9n431-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/b1pay2kz9n431-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11422193244,
+     "filename": "30i3hxhwmfxd3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/30i3hxhwmfxd3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/3-pokojowe-mieszkanie-56m2-loggia-bez-prowizji-ID4zyTf",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1095573062,
+   "url": "https://www.olx.pl/d/oferta/sloneczne-2-pokoje-ul-krola-jana-kazimierza-CID3-ID1c8UBg.html",
+   "title": "Słoneczne 2 pokoje, Ul. Króla Jana Kazimierza",
+   "last_refresh_time": "2026-09-02T11:52:04+02:00",
+   "created_time": "2026-09-02T11:52:04+02:00",
+   "valid_to_time": "2026-10-02T11:52:02+02:00",
+   "pushup_time": null,
+   "description": "Oferta, którą oglądasz jest aktualna i sprawdzona pod względem formalno-prawnym.<br />\n<br />\nSŁONECZNE, 2. POKOJOWE MIESZKANIE W ZIELONYM CENTRUM SOPOTU<br />\n<br />\nMieszkanie o powierzchni <strong>50,50m2</strong> położone jest w Sopocie przy ulicy Króla Jana Kazimierza, zaledwie <strong>10 minut spacerem od plaży i ul. Monte Cassino.</strong> Usytuowane na I piętrze kameralnego 3 piętrowego bloku <strong>otoczonego ze wszystkich stron zielenią.</strong> Na terenie ogrodzonej posesji liczne miejsca parkingowe. <strong>Idealny \"drugi dom\" nad morzem, bądź jako inwestycja.</strong><em><br />\n</em><br />\n<br />\n<strong>ATUTY MIESZKANIA:</strong><br />\n<br />\n<ul><br />\n<br />\n<li><strong>Doskonała lokalizacja:</strong> Spacerem do plaży ok 10 minut, ścisłe centrum Sopotu, jednocześnie bujna zieleń, przestrzeń, spokój i kameralność, jaką daje ogrodzone osiedle poza główną arterią miasta. Bliskość SKM, PKP, autobusu, szkół i zaplecza usługowo-handlowego.</li><br />\n<br />\n<li><strong>Rozkład pomieszczeń: </strong>Oddzielna kuchnia z oknem daje możliwość wydzielenia dodatkowej sypialni.</li><br />\n<br />\n<li><strong>Nasłonecznienie:</strong> Doświetlenie dwustronne, PŁD / ZACH, widok na zieleń i wolną przestrzeń. </li><br />\n<br />\n<li><strong>Osiedle:</strong> Ogrodzone, zabezpieczone bramą na pilota, z prywatnym, zielonym terenem do użytku wspólnoty. Przestrzeń na grilla i wypoczynek od strony PŁN oraz słoneczne ogródki od strony PŁD.</li><br />\n<br />\n<li><strong>Parking i garaż:</strong> Na terenie posesji znajdują się ogólnodostępne miejsca parkingowe przeznaczone wyłącznie dla mieszkańców wspólnoty oraz kilka prywatnych garaży. Właściciel umożliwia zakup jednego z garaży o powierzchni 13,83 m² w cenie 150 000 PLN.</li><br />\n<br />\n<li><strong>Miejsce do przechowywania: </strong>Obszerna piwnica, o powierzchni ok. 15 m², wliczona w cenę mieszkania.</li><br />\n<br />\n<li><strong>Bezpieczeństwo:</strong> W piwnicy znajduje się żelbetowy schron z wyjściem zewnętrznym na posesję. Klatki schodowe zabezpieczone domofonem.</li><br />\n<br />\n</ul><br />\n<br />\n<strong>MIESZKANIE:</strong><br />\n<br />\n<li>Pokój dzienny z wyjściem na balkon 18,60 m²</li><br />\n<br />\n<li>Sypialnia 13,35 m²</li><br />\n<br />\n<li>Kuchnia 7,57 m²</li><br />\n<br />\n<li>Przedpokój 7,44 m²</li><br />\n<br />\n<li>Łazienka 3,54 m²</li><br />\n<br />\n<li>Piwnica ok. 15 m²</li><br />\n<br />\n<strong>BUDYNEK:</strong><br />\nBudynek kameralny, zaledwie 3 piętra i dwie klatki schodowe, wybudowany w 1958 roku. <br />\n<br />\n<strong>LOKALIZACJA:</strong><br />\nNieruchomość położona jest w samym centrum Sopotu, przy ulicy Króla Jana Kazimierza, tuż obok Skweru Andrzeja Grubby.<br />\n<br />\n<strong>OPŁATY:</strong><br />\nCzynsz około 800 PLN miesięcznie.<br />\nOgrzewanie centralne, zasilane z lokalnej kotłowni w budynku, ciepła woda z piecyka gazowego.<br />\n<br />\n<p><strong>Chcesz poznać więcej szczegółów tej oferty? A może chcesz negocjować cenę?</strong><br />\n<strong>Skontaktuj się z nami.</strong></p>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "21782.18",
+      "label": "21782.18 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1100000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 100 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "50.5",
+      "label": "50,50 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Małgorzata Bąk",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Małgorzata Bąk",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.4346692,
+    "lon": 18.5674105,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 15983,
+     "name": "Sopot",
+     "normalized_name": "sopot"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11417899480,
+     "filename": "73rvx2kedeh9-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 675,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/73rvx2kedeh9-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899481,
+     "filename": "rmy6cs68ifdt1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 806,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/rmy6cs68ifdt1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899482,
+     "filename": "ntkt6eucqllr2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 686,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ntkt6eucqllr2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899483,
+     "filename": "717c8mi2z9df1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 779,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/717c8mi2z9df1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899484,
+     "filename": "ypf5164ukbss2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 826,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ypf5164ukbss2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899485,
+     "filename": "albwrf4lfagt-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 786,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/albwrf4lfagt-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899486,
+     "filename": "3kg3e39uvpz22-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 808,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/3kg3e39uvpz22-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899487,
+     "filename": "5w5fi85lbk571-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 798,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/5w5fi85lbk571-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899488,
+     "filename": "o48i8ztq8d7l2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 762,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/o48i8ztq8d7l2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899489,
+     "filename": "35l81gcxhnnm-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 687,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/35l81gcxhnnm-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899490,
+     "filename": "lkupynp0z8vn2-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 716,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/lkupynp0z8vn2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11417899491,
+     "filename": "7kh2rpturiwy1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 838,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7kh2rpturiwy1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/sloneczne-2-pokoje-ul-krola-jana-kazimierza-ID4CSXJ",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  }
+ ],
+ "metadata": {
+  "total_elements": 58,
+  "visible_total_count": 58,
+  "promoted": [
+   0
+  ],
+  "search_id": "74E73EBB4C9DFCC263C127C830DEA22D",
+  "adverts": {
+   "places": null,
+   "config": {
+    "targeting": {
+     "env": "production",
+     "lang": "pl",
+     "account": "",
+     "segment": [],
+     "user_status": "0",
+     "cat_l0_id": "3",
+     "cat_l1_id": "1307",
+     "cat_l2_id": "14",
+     "cat_l0": "nieruchomosci",
+     "cat_l0_path": "nieruchomosci",
+     "cat_l1": "mieszkania",
+     "cat_l1_path": "mieszkania",
+     "cat_l2": "sprzedaz",
+     "cat_l2_path": "sprzedaz",
+     "cat_l0_name": "Mieszkania",
+     "cat_l1_name": "Nieruchomości",
+     "cat_l2_name": "Sprzedaż",
+     "cat_id": "3|1307|14",
+     "private_business": "all",
+     "offer_seek": "all",
+     "view": "list",
+     "region_id": "5",
+     "region": "pomorskie",
+     "subregion": "sopot",
+     "city_id": "15983",
+     "city": "sopot",
+     "search_engine_input": "",
+     "page": "1",
+     "app_version": "",
+     "price": [
+      "250000-499999",
+      "500000-749999",
+      "750000-999999",
+      "1000000-2999999"
+     ],
+     "m": [
+      "0-24",
+      "25-39",
+      "40-49",
+      "50-59",
+      "60-69",
+      "70-79",
+      "80-99",
+      "100-119",
+      "120-149"
+     ]
+    }
+   }
+  },
+  "source": {
+   "promoted": [
+    0
+   ],
+   "organic": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ]
+  }
+ },
+ "links": {
+  "self": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=15983&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "next": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=40&limit=40&category_id=14&city_id=15983&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "first": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=15983&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  }
+ }
+}

@@ -1,0 +1,2742 @@
+{
+ "data": [
+  {
+   "id": 1094893507,
+   "url": "https://www.olx.pl/d/oferta/mieszkanie-ul-australijska-CID3-ID1c63OH.html",
+   "title": "Mieszkanie, ul. Australijska",
+   "last_refresh_time": "2026-08-30T13:38:53+02:00",
+   "created_time": "2026-08-30T13:25:35+02:00",
+   "valid_to_time": "2026-09-29T13:36:02+02:00",
+   "pushup_time": null,
+   "description": "MIESZKANIE BEZ PROWIZJI DLA BIURA<br />\n<br />\nNa sprzedaż funkcjonalne dwupokojowe mieszkanie z widokiem na przylegający las znajdujące się na zamkniętym, monitorowanym osiedlu otoczonym zielenią. Mieszkanie położone jest na 1 piętrze nowoczesnego dwupiętrowego budynku z windą. Na terenie osiedla zorganizowano dużą ilość ogólnodostępnych miejsc parkingowych stwarzających komfort dla domowników i gości. Dopełnieniem terenu osiedla jest plac zabaw dla dzieci oraz miejsca przeznaczone do odpoczynku. Ciekawy pagórkowaty, funkcjonalnie zagospodarowany teren.<br />\n<br />\nLokalizacja mieszkania zapewnia szybki dostęp do znajdującej się w zasięgu ręki infrastruktury: komunikacji miejskiej (linie 109,152,282,209,309), sklepów (biedronka, lidl, delikatesy abc), przychodni, poczty, placówek edukacyjnych, punktów usługowych, gastronomicznych i sportowych. W pobliżu znajduje się również Park Leśny oraz Bulwar Oksywski (20 min piechotą) jak również znana gdyńska plaża Babie Doły. Dojazd samochodem do centrum Gdyni zajmuje około 15 minut.<br />\n<br />\nMieszkanie ma powierzchnię 50,07 m2. Składa się z salonu (18.15 m2) z wyjściem na balkon (3.90 m2), oddzielnej kuchni o powierzchni 6.79 m2, pokoju sypialnego (12.73 m2) oraz łazienki (5.69 m2) i korytarza (6.75 m2. Dodatkowym atutem mieszkania jest możliwość wygospodarowania 3 pokoju poprzez stworzenie salonu z aneksem kuchennym.<br />\nDo mieszkania przynależy miejsce parkingowe w hali garażowej (zakup obligatoryjny dodatkowo płatny 45 tys. zł)<br />\n<br />\nOferta idealna dla rodzin stanowiąca połączenie wygody w postaci możliwości szybkiego i praktycznego załatwiania codziennych potrzeb z wypoczynkiem, który to gwarantuje spokojna okolica, bliskość przyrody, a także nieduża odległość spacerowa od morza. Samodzielna kuchnia stwarza dodatkowo duże możliwości zakupu inwestycyjnego pod wynajem np. dla studentów.<br />\nPowyższy opis ma on charakter informacyjny i nie stanowi oferty w rozumieniu przepisów Kodeksu Cywilnego.<br />\nPośrednikiem odpowiedzialnym za wykonanie umowy pośrednictwa jest Paweł Warszawski (licencja państwowa pośrednika nr 7688).<br />\n<br />\nDodatkowe informacje:<br />\n<br />\nForma własności: własność<br />\n<br />\nCharakterystyka mieszkania: 50,07 m², 2 pokoje; stan: bardzo dobry<br />\n instalacje: nowe / wymienione; okna: nowe / wymienione, plastikowe<br />\n<br />\nBudynek: blok mieszkalny; rok budowy: 2018<br />\ntechnika budowy: nowa technologia,<br />\nwinda, dostosowany do osób niepełnosprawnych<br />\n<br />\nRozkład mieszkania: piętro 1/2, jednostronne, jednopoziomowe<br />\nPowierzchnia dodatkowa: balkon (3,50 m²)<br />\n<br />\nKuchnia: oddzielna<br />\n<br />\nMedia: ogrzewanie: miejskie<br />\n opomiarowanie wody, opomiarowanie ciepła<br />\n Internet, telewizja kablowa<br />\n<br />\nBezpieczeństwo: monitoring/kamery, teren ogrodzony<br />\n<br />\nMiejsce parkingowe: w garażu podziemnym (1 miejsce parkingowe)",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": true,
+    "premium_ad_page": true
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "15877.77",
+      "label": "15877.77 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 795000,
+      "type": "arranged",
+      "arranged": true,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": true,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "795 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "50.07",
+      "label": "50,07 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 831630584,
+    "created": "2021-05-09T16:08:49+02:00",
+    "other_ads_enabled": true,
+    "name": "Dominik Wekwejt",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-30T14:00:13+02:00",
+    "seller_type": null,
+    "uuid": "36a8b742-b779-4dff-ae1a-2fe2c8bec6b4"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Dominik Wekwejt",
+    "phone": true,
+    "chat": true,
+    "negotiation": true,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.54925,
+    "lon": 18.53604,
+    "radius": 6,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 145,
+     "name": "Oksywie"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11405641906,
+     "filename": "48fjczmq98yn-PL",
+     "rotation": 0,
+     "width": 854,
+     "height": 600,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/48fjczmq98yn-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641907,
+     "filename": "fv851d8g68a81-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/fv851d8g68a81-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641908,
+     "filename": "sboxovk4tbyo3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/sboxovk4tbyo3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641909,
+     "filename": "j71qct63ws3y-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/j71qct63ws3y-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641910,
+     "filename": "xjvnbaxllzu81-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/xjvnbaxllzu81-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641911,
+     "filename": "dqysxygdrqji1-PL",
+     "rotation": 0,
+     "width": 860,
+     "height": 590,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/dqysxygdrqji1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641912,
+     "filename": "5gzpdmud2o6x1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/5gzpdmud2o6x1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641913,
+     "filename": "7v0g7z5wnmbt3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7v0g7z5wnmbt3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641914,
+     "filename": "4n2jwlxdssd92-PL",
+     "rotation": 0,
+     "width": 844,
+     "height": 597,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4n2jwlxdssd92-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641915,
+     "filename": "rjmlpmrp9hsu1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/rjmlpmrp9hsu1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641916,
+     "filename": "apgisp41hqfr2-PL",
+     "rotation": 0,
+     "width": 952,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/apgisp41hqfr2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641917,
+     "filename": "cg9ql82l31k3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/cg9ql82l31k3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641918,
+     "filename": "komgk2u3mxhl2-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/komgk2u3mxhl2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641919,
+     "filename": "l75x62almpih1-PL",
+     "rotation": 0,
+     "width": 1000,
+     "height": 708,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/l75x62almpih1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11405641920,
+     "filename": "mq1ngxgmnyfj-PL",
+     "rotation": 0,
+     "width": 1000,
+     "height": 708,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/mq1ngxgmnyfj-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": false
+  },
+  {
+   "id": 1080802981,
+   "url": "https://www.olx.pl/d/oferta/3-pok-przestronne-wysoki-standard-ogrodek-bezposrednio-CID3-ID1b8Ve9.html",
+   "title": "3 pok.|Przestronne |Wysoki standard|Ogródek |Bezpośrednio",
+   "last_refresh_time": "2026-09-04T14:28:50+02:00",
+   "created_time": "2026-06-19T16:28:58+02:00",
+   "valid_to_time": "2026-10-04T14:28:48+02:00",
+   "pushup_time": "2026-09-04T14:28:50+02:00",
+   "omnibus_pushup_time": "2026-09-04T14:28:50+02:00",
+   "description": "Na sprzedaż nowoczesne i przestronne 3-pokojowe mieszkanie, zlokalizowane w Pogórzu przy ul. Tadeusza Kościuszki.<br />\n<br />\nOferta bezpośrednio od właściciela.<br />\n<br />\nCHARAKTERYSTYKA NIERUCHOMOŚCI:<br />\n- kompletnie umeblowany i wyposażony aneks kuchenny (zmywarka, piekarnik, płyta indukcyjna, mikrofalówka), <br />\n- łazienka z wanną,<br />\n- osobne wc z pralnią,<br />\n- przestronny salon,<br />\n- dwie oddzielne sypialnie,<br />\n- komórka lokatorska o pow. 2,67 m2,<br />\n- ogródek o pow. ok 65 m2,<br />\n- rolety antywłamaniowe automatyczne.<br />\n<br />\nNiewątpliwym atutem mieszkania jest prywatny, zadbany ogródek pełen zieleni, który stanowi idealne miejsce do wypoczynku, spotkań z rodziną i przyjaciółmi oraz zabawy dla dzieci. Dzięki nasadzeniom i otaczającej zieleni zapewnia przyjemną atmosferę, poczucie prywatności oraz możliwość relaksu na świeżym powietrzu bez wychodzenia z domu.<br />\n<br />\nZ MIESZKANIA BLISKO DO:<br />\n- PLAŻY W MECHELINKACH I REWIE,<br />\n- FESTIWALU OPENE'R,<br />\n- LICZNYCH ŚCIEŻEK ROWEROWYCH.<br />\n<br />\nBUDYNEK:<br />\n- budynek oddany do użytku w 2010 r.,<br />\n- 4 piętrowy,<br />\n- przed budynkiem liczne miejsca parkingowe – 85 ogólnodostępnych miejsc <br />\npostojowych – brak problemów z parkowaniem,<br />\n- wjazd zabezpieczony szlabanem.<br />\n<br />\nMieszkanie utrzymane jest w bardzo dobrym standardzie technicznym i wizualnym. Funkcjonalny układ pomieszczeń, zadbane wnętrza oraz staranne wykończenie sprawiają, że lokal jest gotowy do zamieszkania bez konieczności ponoszenia większych nakładów finansowych (generalny remont kilka lat temu). <br />\nTo doskonała propozycja zarówno dla rodzin, jak i osób poszukujących komfortowego miejsca do życia.<br />\nNISKI CZYNSZ (wspólnota mieszkaniowa).<br />\n<br />\nLOKALIZACJA:<br />\nOsiedle Morskie w Pogórzu - tuż przy granicy Gdyni i Kosakowa. W pobliżu znajduje się Galeria Szperk, publiczne przedszkole, szkoła oraz przystanek autobusowy. Zaledwie kilka minut jazdy dzieli osiedle od plaży w Mechelinkach oraz Rewy. Idealna lokalizacja dla rodzin - blisko przedszkole, szkoła podstawowa i tereny rekreacyjne.<br />\n<br />\nBardzo dobre połączenie komunikacyjne szybki dojazd do obwodnicy Trójmiasta i centrum Gdyni.<br />\n<br />\nDla miłośników sportów wodnych i idealne miejsce wypadowe do Rewy i Mechelinek.",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [
+     "bundle_premium"
+    ],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12842.86",
+      "label": "12842.86 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 899000,
+      "type": "arranged",
+      "arranged": true,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": true,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "899 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "70",
+      "label": "70 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 489736587,
+    "created": "2019-11-04T14:02:30+01:00",
+    "other_ads_enabled": true,
+    "name": "Damian",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-09-01T14:29:19+02:00",
+    "seller_type": null,
+    "uuid": "f962a3a6-125e-4d9e-9158-c68246bd9976"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Damian",
+    "phone": true,
+    "chat": true,
+    "negotiation": true,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.55886,
+    "lon": 18.48117,
+    "radius": 6,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 149,
+     "name": "Pogórze"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11413989425,
+     "filename": "b4214s4rrglp1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/b4214s4rrglp1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989426,
+     "filename": "qscjx7z3d0wj1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/qscjx7z3d0wj1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989427,
+     "filename": "01m3cni6q75n3-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/01m3cni6q75n3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989428,
+     "filename": "0sfrrxcanazo3-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/0sfrrxcanazo3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989429,
+     "filename": "zeq2v9hd7dro2-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zeq2v9hd7dro2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989430,
+     "filename": "9rwr04bewfsp1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/9rwr04bewfsp1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989431,
+     "filename": "hsphqmgbkqog2-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/hsphqmgbkqog2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11413989432,
+     "filename": "gja88m2kqqbz2-PL",
+     "rotation": 0,
+     "width": 746,
+     "height": 733,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/gja88m2kqqbz2-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": false
+  },
+  {
+   "id": 1093700314,
+   "url": "https://www.olx.pl/d/oferta/swietne-gotowe-mieszkanie-polozone-na-osiedlu-horyzonty-gdyni-CID3-ID1c13pE.html",
+   "title": "Świetne gotowe mieszkanie położone na osiedlu \" Horyzonty Gdyni \"",
+   "last_refresh_time": "2026-09-03T14:11:04+02:00",
+   "created_time": "2026-08-25T10:40:41+02:00",
+   "valid_to_time": "2026-09-24T10:39:37+02:00",
+   "pushup_time": "2026-09-03T14:11:04+02:00",
+   "omnibus_pushup_time": "2026-09-03T14:11:04+02:00",
+   "description": "<p>Świetne mieszkanie położone na osiedlu \" Horyzonty Gdyni \".</p><p></p><p>Mieszkanie składa się z : korytarza , łazienki, pokoju z aneksem , pokoju .</p><p></p><p>Atuty :</p><p></p><p>+ kompletnie umeblowane :</p><p>umeblowana kuchnia, salon, sypialnia , zabudowy ( szafy )</p><p>+ jasne mieszkanie gotowe będzie gotowe do zamieszkania</p><p>+ przestronna łazienka ( prysznic )</p><p>+ winda</p><p>+ miejsca postojowego w garażu - dodatkowo płatne 40 000,00 zł</p><p></p><p>Dlaczego warto tu zamieszkać ?</p><p></p><p>Wystarczy jedna wizyta u zbiegu ulic Sambora i Dembińskiego, aby zrozumieć na czym polega wyjątkowy charakter miejsca, gdzie powstają Horyzonty Gdyni.</p><p></p><p>Komunikacja</p><p></p><p>Samochodem dojazd do centrum Gdyni zajmuje kilka minut, nawet w godzinach szczytu. Wyjazd na trójmiejską obwodnicę przez Estakadę Kwiatkowskiego znajduje się około kilometra od osiedla. To umożliwia szybkie poruszanie się po całej aglomeracji i komfortowy wyjazd na autostradę A1.</p><p>Bardzo szybko do centrum można dostać się także autobusami i trolejbusami, które co kilka minut zatrzymują się na przystanku przy ulicy Morskiej oddalonej od osiedla o 700 m. Tuż obok osiedla jest także przystanek autobusu linii 110, która bieg kończy na Placu Kaszubskim.</p><p></p><p>Otoczenie i widoki</p><p></p><p>Budynki osiedla Horyzonty Gdyni powstają dosłownie na skraju Trójmiejskiego Parku Krajobrazowego, który pełen jest dostępnych przez cały rok szlaków pieszych i rowerowych. Taka bliskość lasu daje możliwość obserwowania na co dzień przemian w naturze i czerpania z jej spokoju.</p><p>Położone najbliżej lasu części Gdyni Grabówka to okolica niezwykle spokojna, wyłączona z intensywnego ruchu kołowego i szumu komunikacyjnego, to obszar w którym czas płynie wolniej.</p><p>Ważnym elementem lokalizacji są także niezwykłe widoki rozciągające się z najwyższych pięter budynków. Widać stąd centrum Gdyni, port i Zatokę Gdańską. Trudno o lokalizację w której tak intensywnie można poczuć klimat nadmorskiego miasta.</p><p></p><p>Infrastruktura</p><p></p><p>Jednocześnie nie brakuje tu elementów niezbędnych do komfortowego życia w miejskim rytmie. Do najbliższego sklepu spożywczego jest zaledwie kilkaset metrów, a przy ulicy Morskiej znajdują się markety średniopowierzchniowe , przychodnia zdrowia, prywatne gabinety lekarskie, poczta oraz przedszkola i szkoła.</p><p></p><p>proszę o kontakt w razie zainteresowania</p><p></p><p>Prezentowana oferta ma charakter informacyjny, nie stanowi oferty handlowej w rozumieniu Art. 66 par. 1 Kodeksu Cywilnego.</p>",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "14823.83",
+      "label": "14823.83 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_4",
+      "label": "4"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 607777,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "607 777 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "41",
+      "label": "41 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Angelika",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Angelika",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 16,
+    "lat": 54.5267974,
+    "lon": 18.493519,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11426991413,
+     "filename": "uqq0dgcgk7vv3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/uqq0dgcgk7vv3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991416,
+     "filename": "h6f336pmkgs71-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/h6f336pmkgs71-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991418,
+     "filename": "yi6f0w8wsnjr-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/yi6f0w8wsnjr-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991419,
+     "filename": "dhnhrgsrd7ak1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/dhnhrgsrd7ak1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991420,
+     "filename": "yy9g9xv71vaa-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/yy9g9xv71vaa-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991421,
+     "filename": "xpqmk7nih5rn2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/xpqmk7nih5rn2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991422,
+     "filename": "blwco2tqjakp2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/blwco2tqjakp2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991423,
+     "filename": "j4ld22t6tdrw1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/j4ld22t6tdrw1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991424,
+     "filename": "38qyh0hyuy153-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/38qyh0hyuy153-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991425,
+     "filename": "38elg7pdgjjz2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/38elg7pdgjjz2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991426,
+     "filename": "whzge7cascka2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/whzge7cascka2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991427,
+     "filename": "1lu8zq2yy9562-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/1lu8zq2yy9562-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991428,
+     "filename": "wmngab245ti02-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/wmngab245ti02-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991429,
+     "filename": "ma0ns24ejqky2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ma0ns24ejqky2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11426991430,
+     "filename": "xt6vavmrmiin-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 853,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/xt6vavmrmiin-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/swietne-gotowe-mieszkanie-polozone-na-osiedlu-horyzonty-gdyni-ID4rfeA",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer",
+   "protect_phone": true
+  },
+  {
+   "id": 1096116038,
+   "url": "https://www.olx.pl/d/oferta/bezposrednio-kawalerka-gdynia-witomino-CID3-ID1cbbQV.html",
+   "title": "Bezpośrednio - Kawalerka - Gdynia Witomino",
+   "last_refresh_time": "2026-09-04T15:12:50+02:00",
+   "created_time": "2026-09-04T15:12:50+02:00",
+   "valid_to_time": "2026-11-03T15:12:47+01:00",
+   "pushup_time": null,
+   "description": "<p>Kawalerka 26 m² | Gdynia Witomino | 4. piętro | Piwnica</p><p>Na sprzedaż funkcjonalna kawalerka o powierzchni 26 m², położona na 4. piętrze w spokojnej i dobrze skomunikowanej części Gdyni – Witomino.</p><p>Mieszkanie stanowi świetną propozycję zarówno dla singla lub pary, jak i jako inwestycja pod wynajem.</p><p>Najważniejsze informacje:</p><ul><li>powierzchnia: 26 m²</li><li>1 pokój</li><li>piętro: 4</li><li>lokalizacja: Gdynia, Witomino</li><li>do mieszkania przynależy piwnica</li><li>funkcjonalny układ mieszkania</li><li>spokojna okolica z dobrą dostępnością komunikacji miejskiej</li></ul><p>Witomino to dzielnica ceniona za połączenie spokojnego, zielonego otoczenia z szybkim dostępem do centrum Gdyni. W pobliżu znajdują się sklepy, punkty usługowe, szkoły, tereny rekreacyjne oraz przystanki komunikacji miejskiej.</p><p>Mieszkanie idealne dla osób szukających kompaktowego lokum w Gdyni lub inwestorów poszukujących nieruchomości z potencjałem na wynajem.</p><p>Zapraszam do kontaktu i umówienia się na prezentację mieszkania.</p><p></p><p>*Pośredniku, jeśli masz klienta na powyższe mieszkanie to zapraszam do kontaktu, dogadamy się! W innym przypadku dziękuję :)</p>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12115.38",
+      "label": "12115.38 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_4",
+      "label": "4"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 315000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "315 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "26",
+      "label": "26 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "one",
+      "label": "1 pokój"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Bartłomiej Krzemiński",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Bartłomiej Krzemiński",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 14,
+    "lat": 54.498735,
+    "lon": 18.5173273,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427299365,
+     "filename": "waa5t02z0mmx-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/waa5t02z0mmx-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299366,
+     "filename": "v52zq6gf33es2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/v52zq6gf33es2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299367,
+     "filename": "2fp01qpwc5u92-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/2fp01qpwc5u92-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299368,
+     "filename": "jsb5emdrpfgb1-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jsb5emdrpfgb1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299369,
+     "filename": "jbsp4n684p7o-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jbsp4n684p7o-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299370,
+     "filename": "t94h2mrhyscz2-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 854,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/t94h2mrhyscz2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427299371,
+     "filename": "1lh3hspi9rh3-PL",
+     "rotation": 0,
+     "width": 1280,
+     "height": 1016,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/1lh3hspi9rh3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/bezposrednio-kawalerka-gdynia-witomino-ID4CWFz",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1089472286,
+   "url": "https://www.olx.pl/d/oferta/przestronne-3-pokojowe-mieszkanie-z-oddzielna-kuchnia-na-redlowie-CID3-ID1bJjwE.html",
+   "title": "Przestronne 3 pokojowe mieszkanie z oddzielną kuchnią na Redłowie.",
+   "last_refresh_time": "2026-09-04T15:00:47+02:00",
+   "created_time": "2026-08-05T12:46:08+02:00",
+   "valid_to_time": "2026-10-04T15:00:43+02:00",
+   "pushup_time": null,
+   "description": "<p>Inwestycja, która zarabia od 1 dnia. Mieszkanie gotowe pod wynajem lub do zamieszkania przez rodzinę.</p><p>Oferujemy do zamieszkania 3-pokojowe mieszkanie na wysokim parterze w Gdyni z zamykanymi pokojami na klucz. W mieszkaniu została wymieniona cała elektryka i hydraulika. </p><p>Mieszkanie ma powierzchnię 46,22 m² i znajduje się w bloku z 1970 roku. Dodatkowo z miejscem do przechowywania w piwnicy o powierzchni 2,54 m².</p><ul><li>Wyposażone w pralkę, zmywarkę, lodówkę, kuchenkę i meble.</li><li>Posiada oddzielną kuchnię oraz piwnicę.</li><li>Ogrzewanie miejskie zapewnia komfort przez cały rok.</li><li>Zabezpieczenia w postaci domofonu/wideofonu zwiększają bezpieczeństwo.</li><li>Opłaty lato 650 zł, zima 950 zł</li></ul><p>Lokalizacja w dzielnicy Redłowo zapewnia dostęp do licznych szkół, przedszkoli oraz łatwy dojazd do uczelni wyższych. Dzielnica jest bezpieczna i cicha.</p><p>W pobliżu znajdują się sklepy tj. Biedronka, Rossmann, Auchan, Żabka , restauracje i punkty usługowe.</p><ul><li>Bliskość lasów i terenów zielonych sprzyja aktywnemu wypoczynkowi- rezerwat przyrody Kępa Redłowska, Polanka Redłowska z miejscem do grillowania, bulwar nadmorski, plaża.</li><li>Dobrze rozwinięta komunikacja miejska, blisko do stacji SKM Gdynia Redłowo.</li></ul><p>Zainteresowany? Umów się na oglądanie i przekonaj się, czy to miejsce jest dla Ciebie.</p><p>Sprzedaż bezpośrednia od osoby prywatnej.</p><p>Nie jestem zainteresowana ofertami od firm pośredniczących.</p>",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "15772.39",
+      "label": "15772.39 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 729000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "729 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "46.22",
+      "label": "46,22 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "Ewelina Markowska",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Ewelina Markowska",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 14,
+    "lat": 54.493712,
+    "lon": 18.5473057,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 165,
+     "name": "Redłowo"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427217626,
+     "filename": "ab0lx7359s362-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ab0lx7359s362-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217627,
+     "filename": "7w0d67at7qm21-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/7w0d67at7qm21-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217629,
+     "filename": "sstvmyaintyk2-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/sstvmyaintyk2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217630,
+     "filename": "2sohzcjhgprv3-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/2sohzcjhgprv3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217631,
+     "filename": "q4hskalxmme8-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/q4hskalxmme8-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217633,
+     "filename": "r2dkybpq24ik-PL",
+     "rotation": 0,
+     "width": 1024,
+     "height": 768,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/r2dkybpq24ik-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427217635,
+     "filename": "fdi4z77mt3313-PL",
+     "rotation": 0,
+     "width": 771,
+     "height": 1024,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/fdi4z77mt3313-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/przestronne-3-pokojowe-mieszkanie-z-oddzielna-kuchnia-na-redlowie-ID4CwJa",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1079330906,
+   "url": "https://www.olx.pl/d/oferta/3-pok-przytulne-mieszkanie-generalny-remont-bezposrednio-CID3-ID1b2Lh0.html",
+   "title": "3 pok.| Przytulne mieszkanie| Generalny remont | Bezpośrednio",
+   "last_refresh_time": "2026-09-04T14:35:02+02:00",
+   "created_time": "2026-06-12T18:06:39+02:00",
+   "valid_to_time": "2026-09-13T15:21:13+02:00",
+   "pushup_time": "2026-09-04T14:35:02+02:00",
+   "omnibus_pushup_time": "2026-09-04T14:35:02+02:00",
+   "description": "Na sprzedaż piękne 3-pokojowe mieszkanie zlokalizowane przy ul. Chylońskiej w dzielnicy Chylonia.<br />\n<br />\nBLISKO DO SKM GDYNIA LESZCZYNKI I PARKU KILOŃSKIEGO.<br />\n<br />\nIDEALNE MIESZKANIE DLA RODZINY/NA START.<br />\n<br />\nSprzedaż bezpośrednio od właściciela. Bez prowizji.<br />\n<br />\nTELEFON: 50*******51<br />\n<br />\nATUTY NIERUCHOMOŚCI:<br />\n- blisko SKM,<br />\n- blisko Obwodnicy Trójmiasta,<br />\n- IV piętro, <br />\n- mieszkanie po generalnym remoncie, wykończone na wysokim poziomie, gotowe do wprowadzenia,<br />\n- mieszkanie ciepłe, bardzo słoneczne,<br />\n- winda,<br />\n- świetna lokalizacja względem usług, szkół i komunikacji publicznej.<br />\n<br />\nPONADTO BLISKO DO:<br />\n- LASU (Trójmiejski Park Krajobrazowy),<br />\n- STACJI SKM LESZCZYNKI,<br />\n- PARKU KILOŃSKIEGO,<br />\n- ESTAKADY KWIATKOWSKIEGO,<br />\n- OBWODNICY TRÓJMIASTA.<br />\n<br />\nCHARAKTERYSTYKA:<br />\nMieszkanie o pow. 53 m2 składa się z trzech pokoi – salonu oraz dwóch sypialni, łazienki z wc oraz kuchni. Do mieszkania przynależy piwnica i balkon.<br />\n<br />\nNISKI CZYNSZ: lato ok 500 / zima ok 850<br />\n<br />\nW mieszkaniu:<br />\n- nowa zabudowa kuchni wraz ze sprzętem AGD – piekarnik, płyta elektryczna, okap, lodówka,<br />\n- nowa instalacja elektryczna,<br />\n- nowa instalacja hydrauliczna,<br />\n- nowe drzwi wewnętrzne i wejściowe,<br />\n- w przedpokoju i kuchni położony gres, <br />\n- ściany i sufity tynkowane i malowane farbą,<br />\n- na podłogach w pokojach panele (AC4, V – fuga) wraz z listwami przypodłogowymi,<br />\n<br />\noraz wiele innych.<br />\n<br />\nLOKALIZACJA:<br />\nNieruchomość położona jest w dzielnicy Chylonia. Mieszkańcy tej części Gdyni mają szybki dojazd do Estakady Kwiatkowskiego, a dzięki temu do Obwodnicy Trójmiasta, Śródmieścia Gdyni, Rumii i okolicznych miejscowości w obrębie Kaszub. Dla miłośników sportów wodnych i plażowania idealne miejsce wypadowe do Rewy i na Półwysep Helski.<br />\n<br />\nW okolicy przedszkole, szkoła podstawowa, boiska szkolne, liceum, Akademia Morska, osiedlowe sklepy, centrum handlowe i cała infrastruktura handlowo-usługowa, a także przychodnia z opieką nocną i świąteczną. W pobliżu ogródki działkowe, ścieżki rowerowe i liczne tereny rekreacyjne.",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [
+     "bundle_premium"
+    ],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "12056.6",
+      "label": "12056.6 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_4",
+      "label": "4"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 639000,
+      "type": "arranged",
+      "arranged": true,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": true,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "639 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "53",
+      "label": "53 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 1078432875,
+    "created": "2021-12-20T18:39:51+01:00",
+    "other_ads_enabled": true,
+    "name": "Kamil",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-26T15:14:02+02:00",
+    "seller_type": null,
+    "uuid": "4bd79909-8d73-4e39-afad-30a6e94ebca5"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Kamil",
+    "phone": true,
+    "chat": true,
+    "negotiation": true,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.54324,
+    "lon": 18.4665,
+    "radius": 6,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 139,
+     "name": "Chylonia"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11390650355,
+     "filename": "43cj8z0ibcrc-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/43cj8z0ibcrc-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650356,
+     "filename": "obtpqwjgn6rg3-PL",
+     "rotation": 0,
+     "width": 2820,
+     "height": 3760,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/obtpqwjgn6rg3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650357,
+     "filename": "s2fk07h3l2m73-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/s2fk07h3l2m73-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650358,
+     "filename": "hbpr5yxbaxb52-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/hbpr5yxbaxb52-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650359,
+     "filename": "xfao0rpstgni1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/xfao0rpstgni1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650360,
+     "filename": "sf22emcyprig1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/sf22emcyprig1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650361,
+     "filename": "22b7nkm7aeq13-PL",
+     "rotation": 0,
+     "width": 4032,
+     "height": 3024,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/22b7nkm7aeq13-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11390650362,
+     "filename": "r2zyzwcvnyrs1-PL",
+     "rotation": 0,
+     "width": 4488,
+     "height": 3172,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/r2zyzwcvnyrs1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": false
+  },
+  {
+   "id": 1061990465,
+   "url": "https://www.olx.pl/d/oferta/3-pok-przestronne-generalny-remont-sprzedam-CID3-ID19S0et.html",
+   "title": "3 pok.| Przestronne | Generalny remont | Sprzedam",
+   "last_refresh_time": "2026-09-04T14:34:02+02:00",
+   "created_time": "2026-03-20T12:15:10+01:00",
+   "valid_to_time": "2026-09-13T15:23:11+02:00",
+   "pushup_time": "2026-09-04T14:34:02+02:00",
+   "omnibus_pushup_time": "2026-09-04T14:34:02+02:00",
+   "description": "Na sprzedaż przestronne 3-pokojowe mieszkanie zlokalizowane w dzielnicy Obłuże przy ul. Unruga 51.<br />\n<br />\nSprzedaż bezpośrednio od właściciela. Bez prowizji.<br />\n<br />\nWysoki standard wykończenia.<br />\n<br />\nW obrębie 100 m publiczne przedszkole i szkoła podstawowa z basenem.<br />\n<br />\nTELEFON: 50*******51<br />\n<br />\nW skład mieszkania wchodzi:<br />\n- salon,<br />\n- dwie sypialnie,<br />\n- łazienka,<br />\n- wc,<br />\n- przedpokój,<br />\n- piwnica.<br />\n<br />\nATUTY NIERUCHOMOŚCI:<br />\n- w obrębie 100 m publiczne przedszkole i szkoła podstawowa z basenem,<br />\n- zabudowa kuchenna z nowym sprzętem AGD,<br />\n- trzy niezależne pokoje: salon oraz dwie sypialnie,<br />\n- niskie opłaty,<br />\n- oddzielna kuchnia,<br />\n- do mieszkania przynależy piwnica,<br />\n- mieszkanie ciepłe, bardzo słoneczne,<br />\n- świetna lokalizacja względem usług, szkół i komunikacji publicznej.<br />\n<br />\nZ MIESZKANIA BLISKO DO:<br />\n- PLAŻY GDYNIA BABIE DOŁY (TORPEDOWNIA),<br />\n- ŚCIEŻKI ROWEROWEJ OKSYWIE – BIABIE DOŁY,<br />\n- MECHELINEK I REWY,<br />\n- FESTIWALU OPENE'R,<br />\n- OGRÓDKÓW DZIAŁKOWYCH,<br />\n- BULWARU NA OKSYWIU.<br />\n<br />\nCZYNSZ:<br />\n- LATO OK 500 / ZIMA OK 900<br />\n<br />\nCHARAKTERYSTYKA:<br />\nMieszkanie znajduję się na parterze składa się z trzech pokoi – salonu oraz dwóch sypialni, kuchni, łazienki, wc oraz przedpokoju. Do mieszkania przynależy piwnica.<br />\n<br />\nWyposażenie w cenie.<br />\n<br />\nW mieszkaniu przeprowadzono generalny remont, który obejmował:<br />\n- nowa zabudowa kuchni wraz ze sprzętem AGD – piekarnik, zmywarka, płyta elektryczna, okap, lodówka (na gwarancji),<br />\n- nowa instalacja elektryczna,<br />\n- nowa instalacja hydrauliczna,<br />\n- nowe drzwi wewnętrzne i wejściowe,<br />\n- w przedpokoju i kuchni gres,<br />\n- nowa terakota i gres w łazience i wc,<br />\n- ściany i sufity tynkowane i gładzone,<br />\n- na podłogach w pokojach ułożono panele (AC4, V – fuga) wraz z listwami przypodłogowymi oraz wiele innych.<br />\n<br />\nLOKALIZACJA:<br />\nNieruchomość położona jest w dzielnicy Gdyni - Obłuże. Mieszkańcy tej części Gdyni mają szybki dojazd plaży Oksywie oraz Babie Doły, a także do Estakady Kwiatkowskiego, a dzięki temu do Obwodnicy Trójmiasta, Śródmieścia Gdyni, Rewy, Mechelinek oraz innych nadmorskich miejscowości.<br />\n<br />\nDla miłośników plażowania idealne miejsce wypadowe na plaże Oksywie i Babie Doły, a dla miłośników sportów wodnych i idealne miejsce wypadowe do Rewy i Mechelinek.<br />\n<br />\nW okolicy przedszkole, szkoła podstawowa, boiska szkolne, liceum, Akademia Marynarki Wojennej, osiedlowe sklepy, centrum handlowe Szperk i cała infrastruktura handlowo-usługowa, a także przychodnia z opieką nocną i świąteczną. W pobliżu ogródki działkowe, ścieżki rowerowe i liczne tereny rekreacyjne.",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [
+     "bundle_premium"
+    ],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "11301.89",
+      "label": "11301.89 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 599000,
+      "type": "arranged",
+      "arranged": true,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": true,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "599 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "53",
+      "label": "53 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "three",
+      "label": "3 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 1078432875,
+    "created": "2021-12-20T18:39:51+01:00",
+    "other_ads_enabled": true,
+    "name": "Kamil",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-26T15:14:02+02:00",
+    "seller_type": null,
+    "uuid": "4bd79909-8d73-4e39-afad-30a6e94ebca5"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Kamil",
+    "phone": true,
+    "chat": true,
+    "negotiation": true,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.55252,
+    "lon": 18.51255,
+    "radius": 3,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 151,
+     "name": "Obłuże"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 10731528241,
+     "filename": "mhputyvinc892-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/mhputyvinc892-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528243,
+     "filename": "k18oxiidwqpo2-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/k18oxiidwqpo2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528244,
+     "filename": "n1korblxjk0s2-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/n1korblxjk0s2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528245,
+     "filename": "2xsiukhynu2q1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/2xsiukhynu2q1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528246,
+     "filename": "w712zwj5t0we2-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/w712zwj5t0we2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528247,
+     "filename": "bn0h6025vch1-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 2667,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/bn0h6025vch1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731528248,
+     "filename": "ncojgj6tcmho3-PL",
+     "rotation": 0,
+     "width": 2000,
+     "height": 1500,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/ncojgj6tcmho3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 10731568468,
+     "filename": "38fatmv3okk33-PL",
+     "rotation": 0,
+     "width": 1152,
+     "height": 793,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/38fatmv3okk33-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1096102267,
+   "url": "https://www.olx.pl/d/oferta/4-pokoje-balkon-blisko-skm-hala-garazowa-w-cenie-CID3-ID1cb8gP.html",
+   "title": "4 pokoje|balkon| blisko SKM|hala garażowa w cenie!",
+   "last_refresh_time": "2026-09-04T14:24:12+02:00",
+   "created_time": "2026-09-04T14:24:12+02:00",
+   "valid_to_time": "2026-10-04T14:24:06+02:00",
+   "pushup_time": null,
+   "description": "<strong>4 pokoje | 68,2 m² | balkon | kameralna inwestycja | blisko SKM</strong><br />\n<br />\n<strong>HALA GARAŻOWA W CENIE!</strong><br />\n<br />\nNowe, funkcjonalne mieszkanie w kameralnym budynku z windą - dla osób, które chcą mieszkać spokojnie, ale z szybkim dojazdem do Gdyni i Gdańska.<br />\n<br />\n<strong>Najważniejsze atuty:</strong><br />\n<br />\n<ul><br />\n<br />\n<li>4 pokoje i funkcjonalny układ</li><br />\n<br />\n<li>balkon</li><br />\n<br />\n<li>wschodnio- zachodnia ekspozycja - słońce o każdej porze dnia</li><br />\n<br />\n<li>kameralna inwestycja: tylko 13 mieszkań</li><br />\n<br />\n<li>cichobieżna winda</li><br />\n<br />\n<li>11 minut pieszo do SKM</li><br />\n<br />\n<li>stan deweloperski - wykończysz według własnego stylu</li><br />\n<br />\n</ul><br />\n<br />\n<strong>Układ mieszkania - 68,2 m²:</strong><br />\n<br />\n<ul><br />\n<br />\n<li>salon z aneksem kuchennym - 20,82 m²</li><br />\n<br />\n<li>3 pokoje- 10,01 m², 9,9 m², 8,1 m²</li><br />\n<br />\n<li>łazienka - 3,57 m² + osobne WC - 1,4 m²</li><br />\n<br />\n</ul><br />\n<br />\nDodatkową przestrzeń tworzy  balkon o powierzchni 2,04 m² <br />\n<br />\n<strong>Kameralna inwestycja</strong><br />\nM3 Projekt to niewielki budynek składający się z zaledwie 13 mieszkań na 3 kondygnacjach.<br />\n<br />\n<ul><br />\n<br />\n<li>mniej sąsiadów</li><br />\n<br />\n<li>więcej prywatności</li><br />\n<br />\n<li>spokojniejsza atmosfera niż na dużych osiedlach</li><br />\n<br />\n</ul><br />\n<br />\n<strong>Lokalizacja i komunikacja:</strong><br />\n<br />\n<ul><br />\n<br />\n<li>SKM - ok. 11 minut pieszo</li><br />\n<br />\n<li>Biedronka - ok. 6 minut pieszo</li><br />\n<br />\n<li>szybki wyjazd na Obwodnicę Trójmiasta</li><br />\n<br />\n<li>spokojna, cicha ulica bez dużego ruchu</li><br />\n<br />\n</ul><br />\n<br />\n<strong>Miejsca postojowe:</strong><br />\n<br />\n<ul><br />\n<br />\n<li>miejsce w hali garażowej - 40 000 zł</li><br />\n<br />\n<li>miejsce na zewnątrz budynku- 20 000 zł</li><br />\n<br />\n</ul><br />\n<br />\nTo mieszkanie łączy dwie rzeczy, które trudno znaleźć jednocześnie: spokojną, kameralną atmosferę i wygodny dostęp do całego Trójmiasta.<br />\n<br />\n Dostępne mieszkania<br />\n<br />\n<strong>Kawalerki (1 pokój)</strong><br />\n• M1 - 25,51 m² | 1 piętro<br />\n• M5 - 25,31 m² | 2 piętro REZERWACJA<br />\n• M9 - 25,13 m² | 3 piętro<br />\n• M12 - 29,63 m² | 3 piętro<br />\nIdealne dla singla lub pod inwestycję (wynajem)<br />\n_<br />\n<strong>Mieszkania 2-pokojowe</strong><br />\n• M13 - 37,53 m² | 3 piętro<br />\n• M11 - 43,75 m² | 3 piętro<br />\nKompaktowe i funkcjonalne dla pary<br />\n_<br />\n<strong>Mieszkania 3-pokojowe</strong><br />\n• M3 - 53,46 m² | 1 piętro<br />\n• M4 - 55,73 m² | 1 piętro<br />\n• M7 - 53,18 m² | 2 piętro<br />\n• M8 - 55,54 m² | 2 piętro<br />\nDobry wybór dla rodzin lub osób potrzebujących dodatkowego pokoju<br />\n_<br />\n<strong>Mieszkania 4-pokojowe</strong><br />\n• M2 - 68,20 m² | 1 piętro<br />\n• M6 - 67,94 m² | 2 piętro<br />\n• M10 - 67,66 m² | 3 piętro<br />\nPrzestronne mieszkania dla większych rodzin",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "10982.4",
+      "label": "10982.4 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_1",
+      "label": "1"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "primary",
+      "label": "Pierwotny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 749000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "749 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "68.2",
+      "label": "68,20 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "four",
+      "label": "4 i więcej"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": true,
+   "user": {
+    "id": 21117567,
+    "created": "2014-05-23T01:05:01+02:00",
+    "other_ads_enabled": true,
+    "name": "ELŻBIETA RODAK",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": true,
+    "last_seen": "2026-09-04T15:33:26+02:00",
+    "seller_type": null,
+    "uuid": "ffce0e06-25f9-4d4f-9a59-ae1477b57dce"
+   },
+   "status": "active",
+   "contact": {
+    "name": "ELŻBIETA RODAK",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 12,
+    "lat": 54.5508027,
+    "lon": 18.4362022,
+    "radius": 0,
+    "show_detailed": true
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 141,
+     "name": "Cisowa"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11427050701,
+     "filename": "21z8unxrdlft1-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/21z8unxrdlft1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050702,
+     "filename": "4meyzvfls4y83-PL",
+     "rotation": 0,
+     "width": 768,
+     "height": 1024,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4meyzvfls4y83-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050703,
+     "filename": "g44ur5nmuucj-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/g44ur5nmuucj-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050704,
+     "filename": "n7mzbg7rqwp3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/n7mzbg7rqwp3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050705,
+     "filename": "q3s43esc8q5g-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/q3s43esc8q5g-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050706,
+     "filename": "gp6k2hiaaics3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 879,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/gp6k2hiaaics3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050707,
+     "filename": "g0cyiv10gz0u3-PL",
+     "rotation": 0,
+     "width": 1200,
+     "height": 800,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/g0cyiv10gz0u3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050708,
+     "filename": "jympduqn6fxx1-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jympduqn6fxx1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050709,
+     "filename": "8kqhv52z2cac-PL",
+     "rotation": 0,
+     "width": 682,
+     "height": 1023,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/8kqhv52z2cac-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11427050710,
+     "filename": "jrr8yiltxcq33-PL",
+     "rotation": 0,
+     "width": 638,
+     "height": 900,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jrr8yiltxcq33-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": {
+    "code": "otodom_pl"
+   },
+   "external_url": "https://www.otodom.pl/pl/oferta/4-pokoje-balkon-blisko-skm-hala-garazowa-w-cenie-ID4Axhy",
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": false,
+   "offer_type": "offer"
+  },
+  {
+   "id": 1060707689,
+   "url": "https://www.olx.pl/d/oferta/mieszkanie-2-pokojowe-CID3-ID19MCvx.html",
+   "title": "Mieszkanie 2-pokojowe",
+   "last_refresh_time": "2026-09-04T13:52:54+02:00",
+   "created_time": "2026-03-14T12:55:13+01:00",
+   "valid_to_time": "2026-09-28T13:52:49+02:00",
+   "pushup_time": "2026-09-04T13:52:54+02:00",
+   "omnibus_pushup_time": "2026-09-04T13:52:54+02:00",
+   "description": "2-pokojowe mieszkanie z balkonem i piwnicą– Gdynia Chylonia, ul. Zamenhofa 1<br />\n<br />\nNa sprzedaż mieszkanie o powierzchni 44m² położone w Gdyni w dzielnicy Chylonia, przy ul. Zamenhofa 1.<br />\n<br />\nLokal znajduje się na parterze w budynku z wielkiej płyty. Mieszkanie posiada balkon oraz piwnicę. Przed budynkiem dostępne są ogólnodostępne miejsca parkingowe.<br />\n<br />\nUkład mieszkania<br />\n\t•\tsalon z wyjściem na balkon<br />\n\t•\tsypialnia<br />\n\t•\toddzielna kuchnia<br />\n\t•\tłazienka<br />\n\t•\tprzedpokój<br />\n<br />\nMieszkanie do własnej aranżacji, co daje możliwość dostosowania układu i standardu do własnych potrzeb. Funkcjonalny rozkład pomieszczeń sprawia, że lokal dobrze sprawdzi się zarówno jako mieszkanie dla pary lub rodziny, jak i inwestycja pod wynajem.<br />\n<br />\nLokalizacja<br />\n<br />\nDzielnica Chylonia zapewnia bardzo dobrą komunikację z centrum Gdyni oraz Trójmiastem. W pobliżu znajdują się:<br />\n\t•\tprzystanki autobusowe i SKM<br />\n\t•\tsklepy i punkty usługowe<br />\n\t•\tszkoły i przedszkola<br />\n\t•\ttereny zielone<br />\nAGENCJOM NIERUCHOMOŚCI DZIĘKUJĘ",
+   "promotion": {
+    "highlighted": true,
+    "urgent": false,
+    "top_ad": true,
+    "options": [
+     "bundle_optimum"
+    ],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "9444.44",
+      "label": "9444.44 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_0",
+      "label": "Parter"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "no",
+      "label": "Nie"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 425000,
+      "type": "price",
+      "arranged": false,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": false,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "425 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "blok",
+      "label": "Blok"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "45",
+      "label": "45 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "two",
+      "label": "2 pokoje"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 672868629,
+    "created": "2020-08-29T15:18:10+02:00",
+    "other_ads_enabled": true,
+    "name": "zofia",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-17T12:49:47+02:00",
+    "seller_type": null,
+    "uuid": "4ac2c5ac-a2a9-4bb4-ab4c-ec44d98989c0"
+   },
+   "status": "active",
+   "contact": {
+    "name": "zofia",
+    "phone": true,
+    "chat": true,
+    "negotiation": false,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.53185,
+    "lon": 18.48744,
+    "radius": 6,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 153,
+     "name": "Leszczynki"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11352845842,
+     "filename": "9a8eubjuszk91-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/9a8eubjuszk91-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845843,
+     "filename": "621670pv7qv61-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/621670pv7qv61-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845844,
+     "filename": "znpkt0p0ncdc2-PL",
+     "rotation": 0,
+     "width": 1000,
+     "height": 750,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/znpkt0p0ncdc2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845845,
+     "filename": "r1vxf75ubqrz1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/r1vxf75ubqrz1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845846,
+     "filename": "zxu58tycnieq1-PL",
+     "rotation": 0,
+     "width": 1000,
+     "height": 750,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zxu58tycnieq1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845847,
+     "filename": "l4fn57rhta6n1-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/l4fn57rhta6n1-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11352845848,
+     "filename": "1rc2svpjhric3-PL",
+     "rotation": 0,
+     "width": 750,
+     "height": 1000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/1rc2svpjhric3-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": false
+  },
+  {
+   "id": 1080999707,
+   "url": "https://www.olx.pl/d/oferta/mieszkanie-dwupoziomowe-4-pokoje-gdynia-fort-forest-CID3-ID1b9Lp9.html",
+   "title": "Mieszkanie dwupoziomowe 4 pokoje | Gdynia Fort Forest",
+   "last_refresh_time": "2026-09-04T13:36:41+02:00",
+   "created_time": "2026-06-20T19:22:05+02:00",
+   "valid_to_time": "2026-10-20T13:36:38+02:00",
+   "pushup_time": "2026-09-04T13:36:41+02:00",
+   "omnibus_pushup_time": "2026-09-04T13:36:41+02:00",
+   "description": "Mieszkanie dwupoziomowe 4 pokoje | Fort Forest<br />\n<br />\nLOKALIZACJA<br />\nMieszkanie na prestiżowym osiedlu Fort Forest w Chwarznie przy głównej bramie osiedla.<br />\nDo 5 minut dojścia pieszego do przystanków autobusowych Sokoła lub Chwarzno-Polanki.<br />\nDo obwodnicy około 5 minut jazdy samochodem.<br />\nOsiedle zamknięte, całodobowy monitoring i ochrona<br />\n<br />\nMIESZKANIE<br />\nNieruchomość znajduje się na 3. piętrze budynku z windą. Jego powierzchnia użytkowa to 72 m2. Mieszkanie jest ciepłe nawet zimą, wystawa okien na południe, nie jest to mieszkanie skrajne. Wejście do klatki schodowej znajduje się około 30 metrów od bramy głównej osiedla.<br />\nMieszkanie jest dwupoziomowe. Na poziomie dolnym znajduje się 1 pokój dzienny, salon z aneksem kuchennym, łazienka i balkon.<br />\nNa poziomie górnym znajdują się dwa mniejsze pokoje, łazienka oraz duży taras o powierzchni około 15 m2.<br />\nWyposażenie łazienek, meble w zabudowie, pełne wyposażenie kuchni wchodzą w skład oferty.<br />\nPozostałe meble widoczne na zdjęciach nie są przedmiotem sprzedaży. Pokoje w tym momencie są puste.<br />\n<br />\nDo mieszkania przynależą <br />\n- pełnowymiarowe miejsce parkingowe w hali garażowej z możliwością wjazdu z obu stron;<br />\n- wysoka (około 3,5 m) komórka lokatorska o powierzchni ok. 6 m2;<br />\n- udział w działce gruntowej<br />\n- udział w drodze osiedlowej <br />\nZakup tychże jest do rozliczenia dodatkowo.<br />\n<br />\nKoszty utrzymania wynoszą około 1000 zł miesięcznie.<br />\n<br />\nNieruchomość nie jest objęta hipoteką.",
+   "promotion": {
+    "highlighted": false,
+    "urgent": false,
+    "top_ad": false,
+    "options": [],
+    "b2c_ad_page": false,
+    "premium_ad_page": false
+   },
+   "params": [
+    {
+     "key": "price_per_m",
+     "name": "Cena za m²",
+     "type": "input",
+     "value": {
+      "key": "15263.89",
+      "label": "15263.89 zł/m²"
+     }
+    },
+    {
+     "key": "floor_select",
+     "name": "Poziom",
+     "type": "select",
+     "value": {
+      "key": "floor_3",
+      "label": "3"
+     }
+    },
+    {
+     "key": "furniture",
+     "name": "Umeblowane",
+     "type": "select",
+     "value": {
+      "key": "yes",
+      "label": "Tak"
+     }
+    },
+    {
+     "key": "market",
+     "name": "Rynek",
+     "type": "select",
+     "value": {
+      "key": "secondary",
+      "label": "Wtórny"
+     }
+    },
+    {
+     "key": "price",
+     "name": "Cena",
+     "type": "price",
+     "value": {
+      "value": 1099000,
+      "type": "arranged",
+      "arranged": true,
+      "budget": false,
+      "currency": "PLN",
+      "negotiable": true,
+      "converted_value": null,
+      "previous_value": null,
+      "converted_previous_value": null,
+      "converted_currency": null,
+      "label": "1 099 000 zł",
+      "previous_label": null
+     }
+    },
+    {
+     "key": "builttype",
+     "name": "Rodzaj zabudowy",
+     "type": "select",
+     "value": {
+      "key": "apartamentowiec",
+      "label": "Apartamentowiec"
+     }
+    },
+    {
+     "key": "m",
+     "name": "Powierzchnia",
+     "type": "input",
+     "value": {
+      "key": "72",
+      "label": "72 m²"
+     }
+    },
+    {
+     "key": "rooms",
+     "name": "Liczba pokoi",
+     "type": "select",
+     "value": {
+      "key": "four",
+      "label": "4 i więcej"
+     }
+    }
+   ],
+   "key_params": [
+    "price_per_m",
+    "m"
+   ],
+   "business": false,
+   "user": {
+    "id": 14152645,
+    "created": "2013-06-22T21:08:51+02:00",
+    "other_ads_enabled": true,
+    "name": "Tomasz",
+    "logo": null,
+    "logo_ad_page": null,
+    "social_network_account_type": null,
+    "photo": null,
+    "banner_mobile": "",
+    "banner_desktop": "",
+    "company_name": "",
+    "about": "",
+    "b2c_business_page": false,
+    "is_online": false,
+    "last_seen": "2026-08-22T16:26:43+02:00",
+    "seller_type": null,
+    "uuid": "6692098e-a09b-465b-8e46-954ee10b319b"
+   },
+   "status": "active",
+   "contact": {
+    "name": "Tomasz",
+    "phone": true,
+    "chat": true,
+    "negotiation": true,
+    "courier": false
+   },
+   "map": {
+    "zoom": 13,
+    "lat": 54.49272,
+    "lon": 18.44478,
+    "radius": 6,
+    "show_detailed": false
+   },
+   "location": {
+    "city": {
+     "id": 5849,
+     "name": "Gdynia",
+     "normalized_name": "gdynia"
+    },
+    "district": {
+     "id": 147,
+     "name": "Chwarzno-Wiczlino"
+    },
+    "region": {
+     "id": 5,
+     "name": "Pomorskie",
+     "normalized_name": "pomorskie"
+    }
+   },
+   "photos": [
+    {
+     "id": 11232451799,
+     "filename": "4q7h5mwiaedy-PL",
+     "rotation": 0,
+     "width": 4000,
+     "height": 3000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/4q7h5mwiaedy-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451800,
+     "filename": "mqgwcc0qsgmm-PL",
+     "rotation": 0,
+     "width": 4000,
+     "height": 3000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/mqgwcc0qsgmm-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451801,
+     "filename": "jydl0bir63ne2-PL",
+     "rotation": 0,
+     "width": 4000,
+     "height": 2951,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/jydl0bir63ne2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451802,
+     "filename": "hamdivwv45c02-PL",
+     "rotation": 0,
+     "width": 3000,
+     "height": 4000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/hamdivwv45c02-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451803,
+     "filename": "tblme18mozij2-PL",
+     "rotation": 0,
+     "width": 3000,
+     "height": 4000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/tblme18mozij2-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451804,
+     "filename": "mgr4pq1avdiw-PL",
+     "rotation": 0,
+     "width": 3000,
+     "height": 4000,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/mgr4pq1avdiw-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451806,
+     "filename": "sjjepywtyeqh3-PL",
+     "rotation": 0,
+     "width": 3000,
+     "height": 3660,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/sjjepywtyeqh3-PL/image;s={width}x{height}"
+    },
+    {
+     "id": 11232451809,
+     "filename": "w44q1nl4c4so1-PL",
+     "rotation": 0,
+     "width": 3903,
+     "height": 2146,
+     "link": "https://ireland.apollo.olxcdn.com:443/v1/files/w44q1nl4c4so1-PL/image;s={width}x{height}"
+    }
+   ],
+   "partner": null,
+   "category": {
+    "id": 14,
+    "type": "real_estate"
+   },
+   "delivery": {
+    "rock": {
+     "offer_id": null,
+     "active": false,
+     "mode": "NotEligible"
+    }
+   },
+   "safedeal": {
+    "weight": 0,
+    "weight_grams": 0,
+    "status": "unactive",
+    "safedeal_blocked": false,
+    "allowed_quantity": []
+   },
+   "shop": {
+    "subdomain": null
+   },
+   "isGpsrAvailable": true,
+   "offer_type": "offer",
+   "protect_phone": true
+  }
+ ],
+ "metadata": {
+  "total_elements": 378,
+  "visible_total_count": 378,
+  "promoted": [
+   0,
+   1,
+   2,
+   12,
+   13,
+   14,
+   25,
+   26,
+   27,
+   38,
+   39,
+   40
+  ],
+  "search_id": "83D27E649DAA3C05779D9E711F831418",
+  "adverts": {
+   "places": null,
+   "config": {
+    "targeting": {
+     "env": "production",
+     "lang": "pl",
+     "account": "",
+     "segment": [],
+     "user_status": "0",
+     "cat_l0_id": "3",
+     "cat_l1_id": "1307",
+     "cat_l2_id": "14",
+     "cat_l0": "nieruchomosci",
+     "cat_l0_path": "nieruchomosci",
+     "cat_l1": "mieszkania",
+     "cat_l1_path": "mieszkania",
+     "cat_l2": "sprzedaz",
+     "cat_l2_path": "sprzedaz",
+     "cat_l0_name": "Mieszkania",
+     "cat_l1_name": "Nieruchomości",
+     "cat_l2_name": "Sprzedaż",
+     "cat_id": "3|1307|14",
+     "private_business": "all",
+     "offer_seek": "all",
+     "view": "list",
+     "region_id": "5",
+     "region": "pomorskie",
+     "subregion": "gdynia",
+     "city_id": "5849",
+     "city": "gdynia",
+     "search_engine_input": "",
+     "page": "1",
+     "app_version": "",
+     "price": [
+      "250000-499999",
+      "500000-749999",
+      "750000-999999",
+      "1000000-2999999"
+     ],
+     "m": [
+      "0-24",
+      "25-39",
+      "40-49",
+      "50-59",
+      "60-69",
+      "70-79",
+      "80-99",
+      "100-119",
+      "120-149"
+     ]
+    }
+   }
+  },
+  "source": {
+   "promoted": [
+    0,
+    1,
+    2,
+    12,
+    13,
+    14,
+    25,
+    26,
+    27,
+    38,
+    39,
+    40
+   ],
+   "organic": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ]
+  }
+ },
+ "links": {
+  "self": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=5849&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "next": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=39&limit=40&category_id=14&city_id=5849&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  },
+  "first": {
+   "href": "https://www.olx.pl/api/v1/offers?offset=0&limit=40&category_id=14&city_id=5849&sort_by=created_at%3Adesc&filter_float_price%3Afrom=250000&filter_float_price%3Ato=1800000&filter_float_m%3Afrom=20&filter_float_m%3Ato=140"
+  }
+ }
+}
