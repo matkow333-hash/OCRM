@@ -113,9 +113,22 @@ export default function TodayView() {
             {item.overdue && <span className="tag late">zaległy follow-up</span>}
           </div>
 
-          <a className="call" href={`tel:${item.phone}`}>
-            Dzwoń · {item.phone}
-          </a>
+          <div className="actions">
+            <a className="call" href={`tel:${item.phone}`}>
+              Dzwoń · {item.phone}
+            </a>
+            {item.url && (
+              <a
+                className="offer"
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Otwórz ogłoszenie w przeglądarce"
+              >
+                Oferta ↗
+              </a>
+            )}
+          </div>
 
           <div className="outcomes">
             {OUTCOMES.map((outcome) => (

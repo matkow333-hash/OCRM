@@ -19,6 +19,7 @@ type Lead = {
   district: string | null;
   price: number | null;
   area_m2: number | null;
+  url: string | null;
 };
 
 const STATUS_LABEL: Record<string, string> = {
@@ -104,8 +105,10 @@ export default function LeadsView() {
           <h2>{lead.name}</h2>
           <p className="meta">
             {[lead.district, lead.city].filter(Boolean).join(", ") || "brak lokalizacji"}
-            {lead.area_m2 && <span className="dot">{lead.area_m2} m²</span>}
-            {lead.price && <span className="dot">{lead.price.toLocaleString("pl-PL")} zł</span>}
+            {lead.area_m2 && <span className="dot">{Number(lead.area_m2)} m²</span>}
+            {lead.price && (
+              <span className="dot">{Number(lead.price).toLocaleString("pl-PL")} zł</span>
+            )}
           </p>
           <div className="tags">
             <span className="tag">{STATUS_LABEL[lead.status] ?? lead.status}</span>
@@ -116,14 +119,27 @@ export default function LeadsView() {
               </span>
             )}
           </div>
-          <a className="call" href={`tel:${lead.phone}`}>
-            Dzwoń · {lead.phone}
-          </a>
+          <div className="actions">
+            <a className="call" href={`tel:${lead.phone}`}>
+              Dzwoń · {lead.phone}
+            </a>
+            {lead.url && (
+              <a
+                className="offer"
+                href={lead.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Otwórz ogłoszenie w przeglądarce"
+              >
+                Oferta ↗
+              </a>
+            )}
+          </div>
           <div className="outcomes">
             <button onClick={() => schedule(lead)}>termin</button>
             <button onClick={() => lose(lead)}>stracony</button>
             <button onClick={() => block(lead)}>nie dzwonić</button>
-            <a className="call" style={{ height: "auto" }} href={`sms:${lead.phone}`}>
+            <a className="secondary" href={`sms:${lead.phone}`}>
               SMS
             </a>
           </div>

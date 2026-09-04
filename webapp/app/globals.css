@@ -150,8 +150,15 @@ a {
   color: var(--warn);
 }
 
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
 .call {
   display: flex;
+  flex: 1;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -159,9 +166,35 @@ a {
   border-radius: 12px;
   background: var(--accent);
   color: var(--accent-ink);
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 700;
-  margin-bottom: 9px;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.offer,
+.secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--tap);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface-high);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.offer {
+  flex: 0 0 92px;
+}
+
+.offer:active,
+.secondary:active {
+  transform: scale(0.97);
 }
 
 .outcomes {
