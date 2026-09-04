@@ -59,12 +59,38 @@ class ScanSettings:
     )
 
 
+DEFAULT_CLASSIFY_WEIGHTS = {
+    "portal_flag_agency": 0.55,
+    "portal_flag_private": -0.45,
+    "keyword_hit": 0.15,
+    "keyword_hit_max": 0.45,
+    "keyword_private_hit": -0.2,
+    "keyword_private_max": -0.4,
+    "phone_many_listings": 0.5,
+    "phone_many_districts": 0.3,
+    "long_description": 0.15,
+}
+
+DEFAULT_KEYWORDS_PRIVATE = [
+    "bezpośrednio",
+    "bez pośredników",
+    "bez prowizji",
+    "od właściciela",
+    "prywatnie",
+]
+
+
 @dataclass(frozen=True)
 class ClassifySettings:
     agency_threshold: float
     private_threshold: float
     phone_listings_agency_cutoff: int
     keywords_agency: list[str]
+    keywords_private: list[str] = field(default_factory=lambda: list(DEFAULT_KEYWORDS_PRIVATE))
+    phone_districts_agency_cutoff: int = 2
+    long_description_chars: int = 1500
+    base_score: float = 0.35
+    weights: dict[str, float] = field(default_factory=lambda: dict(DEFAULT_CLASSIFY_WEIGHTS))
 
 
 @dataclass(frozen=True)
@@ -270,11 +296,41 @@ def _parse_classify(raw: dict) -> ClassifySettings:
     keywords = raw.get("keywords_agency") or []
     if not isinstance(keywords, list):
         raise ConfigError("classify.keywords_agency musi być listą.")
+    keywords_private = raw.get("keywords_private")
+    if keywords_private is None:
+        keywords_private = list(DEFAULT_KEYWORDS_PRIVATE)
+    if not isinstance(keywords_private, list):
+        raise ConfigError("classify.keywords_private musi być listą.")
+    weights = dict(DEFAULT_CLASSIFY_WEIGHTS)
+    raw_weights = raw.get("weights") or {}
+    if not isinstance(raw_weights, dict):
+        raise ConfigError("classify.weights musi być mapą nazwa: waga.")
+    unknown = set(raw_weights) - set(DEFAULT_CLASSIFY_WEIGHTS)
+    if unknown:
+        raise ConfigError(f"classify.weights: nieznane wagi {sorted(unknown)}.")
+    for key, value in raw_weights.items():
+        if not isinstance(value, (int, float)) or isinstance(value, bool):
+            raise ConfigError(f"classify.weights.{key} musi być liczbą.")
+        weights[key] = float(value)
+    base = raw.get("base_score", 0.35)
+    if not isinstance(base, (int, float)) or not 0.0 <= float(base) <= 1.0:
+        raise ConfigError("classify.base_score musi mieścić się w 0.0..1.0.")
+    districts_cutoff = raw.get("phone_districts_agency_cutoff", 2)
+    if not isinstance(districts_cutoff, int) or districts_cutoff < 1:
+        raise ConfigError("classify.phone_districts_agency_cutoff musi być liczbą całkowitą >= 1.")
+    long_chars = raw.get("long_description_chars", 1500)
+    if not isinstance(long_chars, int) or long_chars < 200:
+        raise ConfigError("classify.long_description_chars musi być liczbą całkowitą >= 200.")
     return ClassifySettings(
         agency_threshold=float(agency),
         private_threshold=float(private),
         phone_listings_agency_cutoff=cutoff,
         keywords_agency=[str(k).lower() for k in keywords],
+        keywords_private=[str(k).lower() for k in keywords_private],
+        phone_districts_agency_cutoff=districts_cutoff,
+        long_description_chars=long_chars,
+        base_score=float(base),
+        weights=weights,
     )
 
 

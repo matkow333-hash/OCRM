@@ -113,6 +113,9 @@ _UPDATABLE = (
     "description",
     "content_hash",
     "phone_e164",
+    "seller_type",
+    "agency_score",
+    "dedup_group",
 )
 
 
@@ -179,9 +182,6 @@ def upsert_listing(conn: sqlite3.Connection, listing: Listing) -> tuple[int, boo
         value = getattr(listing, column)
         if value is not None and value != existing[column]:
             updates[column] = value
-    if listing.seller_type != "unknown" and listing.seller_type != existing["seller_type"]:
-        updates["seller_type"] = listing.seller_type
-        updates["agency_score"] = listing.agency_score
     assignment = ", ".join(f"{key} = ?" for key in updates)
     conn.execute(
         f"UPDATE listings SET {assignment} WHERE id = ?",

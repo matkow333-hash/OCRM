@@ -1,7 +1,7 @@
-"""Przebieg skanera: adapter -> normalize -> zapis do SQLite, z logiem w scan_log.
+"""Przebieg skanera: adapter -> normalize -> classify -> dedup -> zapis do SQLite.
 
-Zwraca ScanResult (znalezione / nowe / strony / status). Klasyfikacja i deduplikacja
-dochodzą w M1b - tutaj seller_type bierze się wyłącznie z flagi portalu.
+Zwraca ScanResult (znalezione / nowe / strony / status) i zapisuje przebieg w scan_log.
+Flaga sprzedawcy z portalu wchodzi do classify jako jeden z sygnałów, nie jako werdykt.
 """
 
 from __future__ import annotations
@@ -9,7 +9,7 @@ from __future__ import annotations
 import sqlite3
 from dataclasses import dataclass
 
-from . import db
+from . import classify, db, dedup
 from .adapters import get_adapter
 from .adapters.base import Blocked
 from .config import Config
@@ -100,6 +100,10 @@ def _store(conn: sqlite3.Connection, cfg: Config, raw: RawListing, stamp: str) -
     if not in_scope(listing.city, listing.district, cfg):
         return False
     listing.seller_type, listing.agency_score = seller_type_from_label(raw.seller_label)
+    listing.content_hash = dedup.content_hash(listing.description)
+    context = classify.phone_context(conn, listing.phone_e164)
+    classify.classify(listing, cfg.classify, context)
+    listing.dedup_group = dedup.assign_group(conn, listing)
     _, is_new = db.upsert_listing(conn, listing)
     return is_new
 

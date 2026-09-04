@@ -1,0 +1,14 @@
+{
+  "name": "OCRM",
+  "short_name": "OCRM",
+  "description": "Poranna lista telefonów do właścicieli mieszkań",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "orientation": "portrait",
+  "lang": "pl",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
