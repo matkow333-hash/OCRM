@@ -1,0 +1,41 @@
+area:
+  cities: [Gdańsk, Sopot, Gdynia]
+  districts: []
+search:
+  deal_types: [sale, rent]
+  sale:
+    price_min: 250000
+    price_max: 1800000
+    area_min: 20
+    area_max: 140
+  rent:
+    price_min: 1500
+    price_max: 8000
+    area_min: 18
+    area_max: 120
+scan:
+  interval_minutes: 45
+  max_pages_per_source: 5
+  delay_seconds: [3, 8]
+  sources: [olx]
+  fetch_details: true
+  fetch_phones: true
+  block_cooldown_minutes: 60
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+classify:
+  agency_threshold: 0.6
+  private_threshold: 0.3
+  phone_listings_agency_cutoff: 3
+  keywords_agency:
+    - prowizja
+    - biuro nieruchomości
+    - zapraszam do współpracy
+    - pośrednictwo
+list:
+  size: 15
+  daily_call_target: 10
+notify:
+  time: "08:00"
+  channel: email
+db:
+  path: data/ocrm.db
