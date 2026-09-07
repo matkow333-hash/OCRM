@@ -2,7 +2,15 @@
 
 Zwraca iterator RawListing z list wyników (sprzedaż i wynajem, miasto po mieście, partia po partii).
 Dane idą z publicznego API OLX /api/v1/offers/, pobieranego przeglądarką przez BrowserFetcher.
-Numer telefonu odsłania Playwright, opcjonalnie, wyłącznie na stronie oferty.
+
+TEN ADAPTER NIE ZWRACA NUMERÓW TELEFONU i nie reaguje na fetch_phones. Zmierzone
+4 i 7 września 2026: na stronie oferty nie ma już przycisku „Pokaż numer" ani żadnego
+z zakładanych selektorów — są „Zapytaj o ofertę" i „Zaloguj się". OLX oddaje numer
+dopiero zalogowanemu, a w treści ogłoszenia numer ma 1 na 158 ofert prywatnych.
+Otwieranie strony każdej oferty w pogoni za czymś, czego tam nie ma, kosztowałoby jedno
+wejście na ogłoszenie i nie dałoby nic — dlatego ta ścieżka jest wyłączona, a nie
+zostawiona „na wszelki wypadek". Numery daje adapter Otodomu; OLX zostaje źródłem
+objętości ogłoszeń.
 
 DLACZEGO API, A NIE HTML. Zmierzone na żywym OLX 4 września 2026, po tym jak pierwsza wersja
 tego adaptera nie zwracała ani jednego ogłoszenia:
@@ -85,8 +93,6 @@ class OlxAdapter:
         fetcher = self._fetcher or BrowserFetcher(cfg.user_agent, cfg.delay_seconds)
         owns_fetcher = self._fetcher is None
         phone_reader = self._phone_reader
-        if phone_reader is None and cfg.fetch_phones:
-            phone_reader = PlaywrightPhoneReader(cfg.user_agent, cfg.delay_seconds)
         seen: set[str] = set()
         try:
             for deal_type in cfg.deal_types:
@@ -493,75 +499,3 @@ def _last_segment(value: str | None) -> str | None:
     if not value or " - " not in value:
         return None
     return value.split(" - ")[-1].strip()
-
-
-class PlaywrightPhoneReader:
-    """Odsłania numer na stronie oferty jednym kliknięciem w 'Pokaż numer'."""
-
-    SHOW_PHONE_SELECTORS = (
-        '[data-testid="show-phone"]',
-        'button[data-cy="ad-contact-phone"]',
-        'text="Pokaż numer"',
-    )
-    PHONE_SELECTORS = (
-        '[data-testid="contact-phone"]',
-        'a[href^="tel:"]',
-    )
-
-    def __init__(self, user_agent: str, delay_seconds: tuple[float, float]) -> None:
-        self.user_agent = user_agent
-        self.delay_seconds = delay_seconds
-        self._playwright = None
-        self._browser = None
-
-    def _ensure_browser(self):
-        if self._browser is not None:
-            return self._browser
-        from playwright.sync_api import sync_playwright
-
-        self._playwright = sync_playwright().start()
-        self._browser = self._playwright.chromium.launch(headless=True)
-        return self._browser
-
-    def read(self, url: str) -> str | None:
-        import random
-        import time
-
-        try:
-            browser = self._ensure_browser()
-        except Exception:
-            return None
-        context = browser.new_context(user_agent=self.user_agent, locale="pl-PL")
-        page = context.new_page()
-        try:
-            page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            time.sleep(random.uniform(*self.delay_seconds))
-            for selector in self.SHOW_PHONE_SELECTORS:
-                button = page.query_selector(selector)
-                if button is not None:
-                    button.click()
-                    page.wait_for_timeout(2000)
-                    break
-            for selector in self.PHONE_SELECTORS:
-                node = page.query_selector(selector)
-                if node is None:
-                    continue
-                href = node.get_attribute("href") or ""
-                if href.startswith("tel:"):
-                    return href[4:]
-                text = (node.inner_text() or "").strip()
-                if text:
-                    return text
-            return None
-        except Exception:
-            return None
-        finally:
-            context.close()
-
-    def close(self) -> None:
-        if self._browser is not None:
-            self._browser.close()
-            self._browser = None
-        if self._playwright is not None:
-            self._playwright.stop()
-            self._playwright = None

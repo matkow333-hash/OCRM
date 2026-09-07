@@ -1,14 +1,16 @@
-"""Pobieranie JSON-a z OLX przez prawdziwą przeglądarkę.
+"""Pobieranie stron i JSON-a przez prawdziwą przeglądarkę.
 
-Zwraca zdekodowany JSON albo podnosi Blocked — kontrakt identyczny jak Fetcher.get(),
-żeby pipeline nie musiał wiedzieć, którym transportem przyszły dane.
+Zwraca zdekodowany JSON (`get_json`) albo treść strony (`get_html`), a przy odmowie
+podnosi Blocked — kontrakt zgodny z Fetcher.get(), żeby pipeline nie musiał wiedzieć,
+którym transportem przyszły dane.
 
-DLACZEGO PRZEGLĄDARKA, A NIE httpx. Zmierzone 4 września 2026: OLX stoi za CloudFrontem,
-który odrzuca każdego klienta HTTP niebędącego przeglądarką. httpx i curl dostają 403
-"Request blocked" nawet na /robots.txt, z pełnym zestawem nagłówków przeglądarki włącznie.
-Chromium sterowany Playwrightem dostaje 200 na tym samym adresie i z tego samego łącza.
-To nie jest kwestia nagłówków, tylko odcisku połączenia, więc nie da się tego obejść
-po stronie klienta HTTP — transportem musi być przeglądarka.
+DLACZEGO PRZEGLĄDARKA, A NIE httpx. Zmierzone 4 i 7 września 2026: OLX i Otodom stoją
+za tym samym CloudFrontem, który odrzuca klienty HTTP po odcisku połączenia, a nie po
+nagłówkach. Dowód, że to nie nagłówki: przy Otodomie httpx dostaje 403 "Request blocked"
+(te same 919 bajtów) dla czterech różnych zestawów nagłówków — z Accept-Encoding i
+Sec-Fetch włącznie — a curl i Chromium dostają 200 na tym samym adresie i z tego samego
+łącza. Przy OLX 403 dostaje nawet /robots.txt. Skoro odcisku nie da się podrobić po
+stronie klienta HTTP, transportem musi być przeglądarka.
 
 Zapytanie idzie jako fetch() WEWNĄTRZ strony na origin olx.pl, a nie jako nawigacja.
 Nawigacja pod adres API kończy się czasem "Download is starting", bo Chromium traktuje
@@ -39,10 +41,12 @@ class BrowserFetcher:
         delay_seconds: tuple[float, float] = (3.0, 8.0),
         headless: bool = True,
         sleep=time.sleep,
+        anchor: str | None = ANCHOR,
     ) -> None:
         self.user_agent = user_agent
         self.delay_seconds = delay_seconds
         self.headless = headless
+        self.anchor = anchor
         self._sleep = sleep
         self._first_request = True
         self._playwright = None
@@ -51,6 +55,9 @@ class BrowserFetcher:
         self._page = None
 
     def _ensure_page(self):
+        """Kotwica jest potrzebna tylko pod get_json: fetch() z tej samej domeny nie jest
+        zapytaniem cross-origin. Przy get_html nie ma czego kotwiczyć, bo nawigujemy
+        wprost pod adres strony."""
         if self._page is not None:
             return self._page
         from playwright.sync_api import sync_playwright
@@ -59,10 +66,24 @@ class BrowserFetcher:
         self._browser = self._playwright.chromium.launch(headless=self.headless)
         self._context = self._browser.new_context(user_agent=self.user_agent, locale="pl-PL")
         self._page = self._context.new_page()
-        response = self._page.goto(ANCHOR, wait_until="domcontentloaded", timeout=45000)
-        if response is not None and response.status in BLOCK_STATUS:
-            raise Blocked(f"status {response.status} przy wejściu na {ORIGIN}")
+        if self.anchor:
+            response = self._page.goto(self.anchor, wait_until="domcontentloaded", timeout=45000)
+            if response is not None and response.status in BLOCK_STATUS:
+                raise Blocked(f"status {response.status} przy wejściu na {ORIGIN}")
+            self._first_request = True
         return self._page
+
+    def get_html(self, url: str) -> str:
+        page = self._ensure_page()
+        self._wait()
+        try:
+            response = page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        except Exception as exc:
+            raise Blocked(f"błąd przeglądarki przy {url}: {exc}") from exc
+        status = response.status if response is not None else 0
+        if status in BLOCK_STATUS or status >= 500:
+            raise Blocked(f"status {status} przy {url}")
+        return page.content()
 
     def get_json(self, path: str) -> dict:
         page = self._ensure_page()
