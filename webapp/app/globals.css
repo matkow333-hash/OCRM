@@ -301,3 +301,118 @@ h1 {
   font-size: 14px;
   margin-bottom: 10px;
 }
+
+/* Kalendarz: przelacznik trybow, siatka miesiaca, arkusze umawiania i zamykania.
+   Kratki maja 44 px w pionie, zeby dalo sie w nie trafic kciukiem - to samo
+   minimum, ktore obowiazuje przyciski wynikow rozmowy. */
+
+.tryby {
+  display: flex;
+  gap: 6px;
+}
+
+.tryby button {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line, #2a2f3a);
+  background: transparent;
+  color: inherit;
+  font-size: 0.85rem;
+}
+
+.tryby button.active {
+  background: var(--accent, #3d7bfd);
+  border-color: transparent;
+  color: #fff;
+}
+
+.dzien {
+  margin: 22px 0 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  opacity: 0.75;
+}
+
+.godzina {
+  display: inline-block;
+  min-width: 3.2em;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+
+.miesiac {
+  margin: 12px 0 18px;
+}
+
+.siatka {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.siatka .naglowek {
+  text-align: center;
+  font-size: 0.72rem;
+  opacity: 0.55;
+  padding-bottom: 4px;
+}
+
+.kratka {
+  position: relative;
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid var(--line, #2a2f3a);
+  background: transparent;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.kratka.pusta {
+  border: none;
+}
+
+.kratka.ma {
+  border-color: var(--accent, #3d7bfd);
+}
+
+.kratka.wybrany {
+  background: var(--accent, #3d7bfd);
+  color: #fff;
+}
+
+.kropka {
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.zamkniecie {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line, #2a2f3a);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.zamkniecie input,
+.zamkniecie textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line, #2a2f3a);
+  background: var(--card, #161a22);
+  color: inherit;
+  font: inherit;
+}
+
+.note.late {
+  color: var(--warn, #f0a24b);
+}

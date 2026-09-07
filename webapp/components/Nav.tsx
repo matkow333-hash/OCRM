@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Dolny pasek nawigacji: Dziś / Moje / Debrief.
+ * Dolny pasek nawigacji: Dziś / Kalendarz / Moje / Debrief.
  * Zwraca null na ekranie logowania.
  */
 
@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 
 const TABS = [
   { href: "/", label: "Dziś" },
+  { href: "/kalendarz", label: "Kalendarz" },
   { href: "/moje", label: "Moje" },
   { href: "/debrief", label: "Debrief" },
 ];

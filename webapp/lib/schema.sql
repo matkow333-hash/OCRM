@@ -88,6 +88,19 @@ CREATE TABLE IF NOT EXISTS scan_log (
   detail            TEXT
 );
 
+CREATE TABLE IF NOT EXISTS meetings (
+  id                BIGSERIAL PRIMARY KEY,
+  lead_id           BIGINT NOT NULL REFERENCES leads(id) ON DELETE CASCADE,
+  starts_at         TIMESTAMPTZ NOT NULL,
+  address           TEXT,
+  note              TEXT,
+  outcome           TEXT,
+  outcome_note      TEXT,
+  created_at        TIMESTAMPTZ NOT NULL DEFAULT now(),
+  updated_at        TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+
 CREATE INDEX IF NOT EXISTS idx_listings_phone ON listings (phone_e164);
 CREATE INDEX IF NOT EXISTS idx_listings_active ON listings (is_active, seller_type);
 CREATE INDEX IF NOT EXISTS idx_listings_seen ON listings (first_seen_at DESC);
@@ -95,3 +108,6 @@ CREATE INDEX IF NOT EXISTS idx_listings_dedup ON listings (dedup_group);
 CREATE INDEX IF NOT EXISTS idx_leads_next_step ON leads (next_step_at);
 CREATE INDEX IF NOT EXISTS idx_leads_status ON leads (status);
 CREATE INDEX IF NOT EXISTS idx_call_log_lead ON call_log (lead_id, called_at DESC);
+CREATE INDEX IF NOT EXISTS idx_meetings_starts ON meetings (starts_at);
+CREATE INDEX IF NOT EXISTS idx_meetings_lead ON meetings (lead_id, starts_at DESC);
+CREATE INDEX IF NOT EXISTS idx_meetings_open ON meetings (starts_at) WHERE outcome IS NULL;

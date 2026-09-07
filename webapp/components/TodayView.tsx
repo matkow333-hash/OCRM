@@ -3,6 +3,11 @@
 /**
  * Widok „Dziś": licznik wykonanych połączeń i karty do obdzwonienia.
  * Jedno tapnięcie w wynik zapisuje call_log i podbija licznik - także przy odmowie.
+ *
+ * Wyjątkiem jest „spotkanie": ono podnosi arkusz z datą, adresem i notatką, bo
+ * wcześniej umówienie spotkania kasowało termin (next_step_at ustawiane na NULL
+ * dla wszystkiego poza callbackiem) i aplikacja wiedziała, że spotkanie jest,
+ * ale nie wiedziała kiedy ani gdzie. Adres podpowiadany jest z ogłoszenia.
  */
 
 import { useCallback, useEffect, useState } from "react";
@@ -18,8 +23,24 @@ const OUTCOMES: Array<{ key: string; label: string }> = [
   { key: "meeting", label: "spotkanie" },
 ];
 
+function domyslnyTermin(): string {
+  const jutro = new Date(Date.now() + 24 * 60 * 60 * 1000);
+  jutro.setMinutes(0, 0, 0);
+  jutro.setHours(Math.min(Math.max(jutro.getHours(), 9), 17));
+  const pad = (value: number) => String(value).padStart(2, "0");
+  return `${jutro.getFullYear()}-${pad(jutro.getMonth() + 1)}-${pad(jutro.getDate())}T${pad(jutro.getHours())}:${pad(jutro.getMinutes())}`;
+}
+
+function adresZOgloszenia(item: TodayItem): string {
+  return [item.street, item.district, item.city].filter(Boolean).join(", ");
+}
+
 export default function TodayView() {
   const [items, setItems] = useState<TodayItem[]>([]);
+  const [umawiany, setUmawiany] = useState<number | null>(null);
+  const [termin, setTermin] = useState("");
+  const [adres, setAdres] = useState("");
+  const [uwaga, setUwaga] = useState("");
   const [counter, setCounter] = useState<Counter>({ made: 0, target: 10, meetings: 0 });
   const [done, setDone] = useState<Record<number, string>>({});
   const [pending, setPending] = useState<number | null>(null);
@@ -46,6 +67,45 @@ export default function TodayView() {
   useEffect(() => {
     void load();
   }, [load]);
+
+  function otworzArkusz(item: TodayItem) {
+    setUmawiany(item.leadId);
+    setTermin(domyslnyTermin());
+    setAdres(adresZOgloszenia(item));
+    setUwaga("");
+  }
+
+  async function umow(item: TodayItem) {
+    if (!termin) return;
+    setPending(item.leadId);
+    try {
+      const rozmowa = await fetch(`/api/leads/${item.leadId}/call`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ outcome: "meeting", opener_used: item.opener }),
+      });
+      await readJson(rozmowa, "Nie udało się zapisać rozmowy.");
+
+      const spotkanie = await fetch(`/api/leads/${item.leadId}/meeting`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          starts_at: new Date(termin).toISOString(),
+          address: adres.trim() || null,
+          note: uwaga.trim() || null,
+        }),
+      });
+      await readJson(spotkanie, "Nie udało się umówić spotkania.");
+
+      setDone((current) => ({ ...current, [item.leadId]: "meeting" }));
+      setUmawiany(null);
+      await load();
+    } catch (problem) {
+      setError(problem instanceof Error ? problem.message : "Błąd sieci.");
+    } finally {
+      setPending(null);
+    }
+  }
 
   async function record(item: TodayItem, outcome: string) {
     setPending(item.leadId);
@@ -139,12 +199,52 @@ export default function TodayView() {
                 key={outcome.key}
                 className={done[item.leadId] === outcome.key ? "done" : ""}
                 disabled={pending === item.leadId || Boolean(done[item.leadId])}
-                onClick={() => record(item, outcome.key)}
+                onClick={() =>
+                  outcome.key === "meeting" ? otworzArkusz(item) : record(item, outcome.key)
+                }
               >
                 {outcome.label}
               </button>
             ))}
           </div>
+
+          {umawiany === item.leadId && (
+            <div className="zamkniecie">
+              <label className="field">
+                <span>Kiedy (wymagane)</span>
+                <input
+                  type="datetime-local"
+                  value={termin}
+                  onChange={(event) => setTermin(event.target.value)}
+                />
+              </label>
+              <label className="field">
+                <span>Adres spotkania</span>
+                <input
+                  type="text"
+                  value={adres}
+                  onChange={(event) => setAdres(event.target.value)}
+                  placeholder="ulica, dzielnica, miasto"
+                />
+              </label>
+              <label className="field">
+                <span>Notatka (opcjonalnie)</span>
+                <textarea value={uwaga} onChange={(event) => setUwaga(event.target.value)} rows={2} />
+              </label>
+              <div className="actions">
+                <button
+                  className="primary"
+                  disabled={pending === item.leadId || !termin}
+                  onClick={() => umow(item)}
+                >
+                  Umów spotkanie
+                </button>
+                <button className="secondary" onClick={() => setUmawiany(null)}>
+                  Anuluj
+                </button>
+              </div>
+            </div>
+          )}
         </article>
       ))}
     </>
