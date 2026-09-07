@@ -85,6 +85,7 @@ class OtodomAdapter:
     def __init__(self, fetcher=None) -> None:
         self._fetcher = fetcher
         self.pages_fetched = 0
+        self.skip_phone_for: set[str] = set()
 
     def search(self, cfg: SearchConfig) -> Iterator[RawListing]:
         fetcher = self._fetcher or BrowserFetcher(cfg.user_agent, cfg.delay_seconds, anchor=None)
@@ -94,7 +95,11 @@ class OtodomAdapter:
             for deal_type in cfg.deal_types:
                 for city in cfg.cities:
                     for raw in self._search_city(fetcher, cfg, deal_type, city, seen):
-                        if cfg.fetch_phones and not raw.phone_raw:
+                        if (
+                            cfg.fetch_phones
+                            and not raw.phone_raw
+                            and raw.source_id not in self.skip_phone_for
+                        ):
                             self._read_phone(fetcher, raw)
                         yield raw
         finally:

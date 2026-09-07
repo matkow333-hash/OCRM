@@ -59,6 +59,8 @@ def scan_source(conn: sqlite3.Connection, cfg: Config, source: str) -> ScanResul
         return ScanResult(source=source, status="cooldown", detail=f"karencja do {cooldown}")
 
     adapter = get_adapter(source)
+    if hasattr(adapter, "skip_phone_for"):
+        adapter.skip_phone_for = db.source_ids_with_phone(conn, source)
     scan_id = db.start_scan(conn, source)
     search_cfg = cfg.search_config()
     found = 0

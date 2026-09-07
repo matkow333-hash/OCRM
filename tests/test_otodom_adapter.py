@@ -203,3 +203,20 @@ def test_broken_page_yields_nothing_instead_of_raising():
 
     assert listings == []
     assert total_pages == 0
+
+
+def test_known_listings_do_not_trigger_a_second_offer_page_visit():
+    """Numer raz opublikowany sie nie zmienia, a kazde wejscie na oferte kosztuje pelna
+    przerwe miedzy zapytaniami. Bez tego przebieg co 45 minut trwalby tyle, co pierwsze
+    napelnienie bazy - okolo pol godziny zamiast minuty."""
+    cfg = make_config(fetch_phones=True).search_config()
+    fetcher = FakeFetcher(fixture("otodom_search.html"), fixture("otodom_offer.html"))
+    adapter = OtodomAdapter(fetcher=fetcher)
+    znane, _ = parse_search_page(fixture("otodom_search.html"), "sale")
+    adapter.skip_phone_for = {item.source_id for item in znane}
+
+    listings = list(adapter.search(replace(cfg, cities=["Gdańsk"])))
+
+    assert listings
+    assert all(item.phone_raw is None for item in listings)
+    assert not [url for url in fetcher.adresy if "/pl/oferta/" in url]

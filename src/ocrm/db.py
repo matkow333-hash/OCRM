@@ -191,6 +191,20 @@ def upsert_listing(conn: sqlite3.Connection, listing: Listing) -> tuple[int, boo
     return int(existing["id"]), False
 
 
+def source_ids_with_phone(conn: sqlite3.Connection, source: str) -> set[str]:
+    """Identyfikatory ogloszen tego zrodla, ktore maja juz zapisany numer telefonu.
+
+    Sluzy do pomijania ponownego wchodzenia na strone oferty. Numer raz opublikowany
+    w ogloszeniu sie nie zmienia, a jedno wejscie kosztuje pelna przerwe miedzy
+    zapytaniami - bez tego przebieg co 45 minut odpytywalby portal o wszystko
+    od nowa i trwal tyle samo, co pierwsze napelnienie bazy."""
+    rows = conn.execute(
+        "SELECT source_id FROM listings WHERE source = ? AND phone_e164 IS NOT NULL",
+        (source,),
+    ).fetchall()
+    return {str(row["source_id"]) for row in rows}
+
+
 def start_scan(conn: sqlite3.Connection, source: str) -> int:
     cursor = conn.execute(
         "INSERT INTO scan_log (source, started_at, status) VALUES (?, ?, 'running')",
